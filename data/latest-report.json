@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-06-24T23:19:45+00:00",
+  "summary": {
+    "headline": "Best opportunity today: a productized AI automation service for UK local businesses that miss leads and waste admin time.",
+    "best_opportunity": "AI lead-capture + follow-up + admin automation service for local service businesses",
+    "why_now": "UK SMEs are actively adopting AI and digital tools, while many local operators still leak revenue through missed calls, slow quote response, weak follow-up, and manual admin. That creates a fast-to-sell, recurring service opportunity with low setup cost and obvious ROI."
+  },
+  "top_opportunities": [
+    {
+      "name": "AI lead-capture and follow-up automation for local service businesses",
+      "description": "Sell a productized monthly service that captures missed calls and web leads, replies instantly by SMS/email/WhatsApp, books callbacks, chases quotes, and reports pipeline value.",
+      "why_now": "Government and industry research show UK businesses are increasing AI adoption, while many service SMEs still have poor response times and fragmented systems. Fast ROI makes this easier to sell than speculative software.",
+      "buyer": "Trades firms, clinics, salons, gyms, recruiters, estate/lettings firms, accountants",
+      "startup_cost": "£200–£1,500",
+      "speed_to_revenue": "7–21 days",
+      "recurring_revenue": "High — monthly retainers plus setup fees",
+      "founder_fit": "Excellent for a solo technical founder because you can assemble and customize existing tools quickly before building software",
+      "risks": [
+        "Requires outbound selling and proof of ROI",
+        "Clients may want hand-holding early on",
+        "Retention depends on measurable lead improvement"
+      ],
+      "scores": {
+        "demand": "9/10",
+        "competition": "6/10",
+        "startup_ease": "8/10",
+        "speed_to_cash": "9/10",
+        "recurring_revenue": "9/10",
+        "founder_fit": "9/10"
+      },
+      "verdict": "Best blend of fast cash and scalable upside"
+    },
+    {
+      "name": "Trades lead-gen websites + quote funnel service",
+      "description": "Build high-converting websites, landing pages, call tracking, quote forms, and local SEO/ads funnels for plumbers, electricians, roofers, HVAC and similar trades.",
+      "why_now": "UK trades remain highly fragmented and competition for local jobs is intense. Many firms still run outdated sites or depend too heavily on paid lead platforms, creating demand for owned lead funnels.",
+      "buyer": "Independent trades firms and small multi-crew operators",
+      "startup_cost": "£300–£1,200",
+      "speed_to_revenue": "7–30 days",
+      "recurring_revenue": "Medium to high — hosting, SEO, ads management, lead tracking, maintenance",
+      "founder_fit": "Strong if you are comfortable with websites, conversion tracking, and local sales outreach",
+      "risks": [
+        "Competition from low-cost freelancers and agencies",
+        "Can become service-heavy without productization",
+        "Need niche-specific proof and case studies"
+      ],
+      "scores": {
+        "demand": "8/10",
+        "competition": "5/10",
+        "startup_ease": "8/10",
+        "speed_to_cash": "8/10",
+        "recurring_revenue": "7/10",
+        "founder_fit": "8/10"
+      },
+      "verdict": "Very practical if you niche down and productize"
+    },
+    {
+      "name": "Review, reactivation, and retention automation for appointment businesses",
+      "description": "Offer an automated system for salons, clinics, med-spas, dentists, physios, and gyms that requests reviews, reactivates old customers, fills cancellations, and drives repeat bookings.",
+      "why_now": "Appointment-led businesses need repeat bookings and online reputation to stay competitive. Booking-system demand is visible across UK software directories, and most operators still underuse CRM and reactivation workflows.",
+      "buyer": "Salons, clinics, dental practices, physios, med-spas, gyms",
+      "startup_cost": "£200–£1,000",
+      "speed_to_revenue": "7–21 days",
+      "recurring_revenue": "High — monthly retention/reputation subscription",
+      "founder_fit": "Good because the value proposition is simple and results are measurable in bookings and reviews",
+      "risks": [
+        "Some businesses already have booking software but use it poorly",
+        "Need careful messaging around compliance and customer data",
+        "Can overlap with generic CRM offerings"
+      ],
+      "scores": {
+        "demand": "8/10",
+        "competition": "6/10",
+        "startup_ease": "8/10",
+        "speed_to_cash": "8/10",
+        "recurring_revenue": "8/10",
+        "founder_fit": "8/10"
+      },
+      "verdict": "Strong recurring service with easy before/after metrics"
+    },
+    {
+      "name": "Bookkeeping and finance-ops automation for small agencies and SMEs",
+      "description": "Sell automation that cleans up invoicing, expense capture, payment chasing, reporting, and handoff into accounting workflows using existing finance tools plus custom glue.",
+      "why_now": "UK businesses continue looking for automation in bookkeeping and back-office tasks. Finance admin is painful, frequent, and easy to quantify, making it a good niche service or wedge into a later SaaS product.",
+      "buyer": "Agencies, consultancies, ecommerce operators, small service SMEs, bookkeeping firms",
+      "startup_cost": "£200–£1,000",
+      "speed_to_revenue": "14–30 days",
+      "recurring_revenue": "High — monthly support/automation retainers",
+      "founder_fit": "Good if you enjoy workflow automation and structured data more than design-heavy work",
+      "risks": [
+        "Requires trust because finance processes feel sensitive",
+        "Buyers may expect accounting expertise as well as automation",
+        "Longer sales cycle than basic lead-gen services"
+      ],
+      "scores": {
+        "demand": "7/10",
+        "competition": "6/10",
+        "startup_ease": "7/10",
+        "speed_to_cash": "6/10",
+        "recurring_revenue": "8/10",
+        "founder_fit": "8/10"
+      },
+      "verdict": "A solid niche if you want stickier clients and process depth"
+    },
+    {
+      "name": "Compliance/admin micro-SaaS or service for care, property, or regulated SMEs",
+      "description": "Start with a service layer that reduces admin in a niche such as care homes, home care, lettings, or compliance-heavy service businesses, then convert repeat needs into a lightweight SaaS product.",
+      "why_now": "UK digital-transformation efforts are pushing admin-heavy sectors toward better tooling, but many still rely on messy spreadsheets, email, and disconnected systems. Vertical pain can support premium pricing once you find the right wedge.",
+      "buyer": "Care homes, home-care operators, property managers, lettings firms, regulated small operators",
+      "startup_cost": "£500–£2,000",
+      "speed_to_revenue": "21–60 days",
+      "recurring_revenue": "High if you find a real workflow wedge",
+      "founder_fit": "Moderate to strong for a technical founder willing to learn one vertical deeply",
+      "risks": [
+        "Needs deeper domain discovery before selling confidently",
+        "Sales cycle can be slower in regulated sectors",
+        "Risk of building too much product too early"
+      ],
+      "scores": {
+        "demand": "7/10",
+        "competition": "7/10",
+        "startup_ease": "5/10",
+        "speed_to_cash": "5/10",
+        "recurring_revenue": "9/10",
+        "founder_fit": "7/10"
+      },
+      "verdict": "Higher upside later, but not the fastest first-cash play"
+    }
+  ],
+  "best_pick": {
+    "name": "AI lead-capture and follow-up automation for local service businesses",
+    "why_it_wins": "It is the strongest immediate-cashflow opportunity because you can sell a concrete outcome — more booked jobs and fewer missed leads — without building a full product first. It fits a £2k budget, can be run part-time, can start as a service, and can later evolve into a niche SaaS or repeatable productized offer.",
+    "validation_plan": [
+      "Choose one niche only: e.g. plumbers, dentists, physios, or letting agents.",
+      "Define one offer with one promise: missed-call recovery, quote follow-up, or instant lead response.",
+      "Build a simple landing page showing the outcome, process, and monthly price.",
+      "Create a demo workflow using test leads, auto-replies, calendar booking, and weekly reporting.",
+      "Make a list of 50 target businesses in one UK area or niche and contact them with a short ROI-led message.",
+      "Offer a paid setup plus monthly retainer, or a 14-day pilot with clear success metrics.",
+      "Review objections, close the first client, and tighten the niche offer around what sells fastest."
+    ],
+    "first_offer": "We recover missed leads and follow up every enquiry automatically so you book more jobs without hiring admin. £299–£750 setup plus £150–£500/month depending on niche and volume.",
+    "mvp": "A lightweight service stack using forms, call tracking, SMS/email automation, calendar booking, quote reminders, and a simple client dashboard/report. Build custom glue only where needed after first sales.",
+    "customer_types": [
+      "Independent plumbers",
+      "Electricians",
+      "Roofers",
+      "HVAC engineers",
+      "Dental clinics",
+      "Physiotherapy clinics",
+      "Aesthetic clinics",
+      "Small gyms",
+      "Letting agents",
+      "Accountancy practices"
+    ],
+    "do_today": "Pick one niche, write a one-sentence ROI offer, build a demo, and message the first 20 prospects before improving anything else."
+  },
+  "meta": {
+    "audience": "UK-based solo software engineer",
+    "constraints": {
+      "budget_gbp": 2000,
+      "time_model": "part-time",
+      "team_size": "solo_or_duo",
+      "cashflow_priority": "immediate",
+      "recurring_revenue": true,
+      "tech_preferred": true
+    },
+    "status": "ok"
+  }
+}

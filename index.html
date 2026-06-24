@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UK Business Opportunity Agent</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: rgba(18, 25, 49, 0.88);
+      --panel-2: rgba(24, 34, 65, 0.92);
+      --border: rgba(255,255,255,0.08);
+      --text: #ebf2ff;
+      --muted: #9eb0d1;
+      --accent: #7c9cff;
+      --accent-2: #3ee0b8;
+      --warn: #ffcc66;
+      --danger: #ff7b7b;
+      --shadow: 0 20px 60px rgba(0,0,0,0.35);
+      --radius: 22px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(124,156,255,0.22), transparent 30%),
+        radial-gradient(circle at top right, rgba(62,224,184,0.12), transparent 28%),
+        linear-gradient(180deg, #08101f 0%, #0f1730 100%);
+      min-height: 100vh;
+    }
+    .shell {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+    .hero-main {
+      padding: 28px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--accent-2);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      font-weight: 700;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(34px, 5vw, 56px);
+      line-height: 0.96;
+      letter-spacing: -0.03em;
+    }
+    .subtitle {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.6;
+      color: var(--muted);
+      max-width: 64ch;
+    }
+    .hero-side {
+      padding: 24px;
+      display: grid;
+      gap: 14px;
+      align-content: start;
+    }
+    .metric {
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 16px;
+    }
+    .metric-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .metric-value {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 18px 0 24px;
+    }
+    .btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 12px 16px;
+      font-weight: 700;
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--accent), #98adff);
+      color: #08101f;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn.secondary {
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.25fr 0.95fr;
+      gap: 18px;
+    }
+    .section {
+      padding: 24px;
+    }
+    .section h2 {
+      margin: 0 0 14px;
+      font-size: 24px;
+      letter-spacing: -0.02em;
+    }
+    .section-intro {
+      margin: 0 0 18px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .rank-list {
+      display: grid;
+      gap: 14px;
+    }
+    .opportunity-card {
+      padding: 18px;
+      border-radius: 18px;
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+    }
+    .rank-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+    .rank-title {
+      font-size: 20px;
+      margin: 0;
+    }
+    .rank-chip {
+      white-space: nowrap;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(124,156,255,0.15);
+      color: #cbd8ff;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .muted { color: var(--muted); }
+    .desc {
+      margin: 0 0 12px;
+      line-height: 1.6;
+      color: #dbe5ff;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin: 14px 0;
+    }
+    .meta-item {
+      background: rgba(255,255,255,0.03);
+      border-radius: 14px;
+      padding: 10px 12px;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    .meta-item strong,
+    .score strong {
+      display: block;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .scores {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin: 12px 0 14px;
+    }
+    .score {
+      background: rgba(62,224,184,0.07);
+      border: 1px solid rgba(62,224,184,0.13);
+      border-radius: 14px;
+      padding: 10px 12px;
+      text-align: center;
+    }
+    .score-value {
+      font-size: 22px;
+      font-weight: 800;
+    }
+    .list {
+      margin: 10px 0 0;
+      padding-left: 18px;
+      color: #dbe5ff;
+      line-height: 1.7;
+    }
+    .list li + li { margin-top: 6px; }
+    .best-pick {
+      display: grid;
+      gap: 16px;
+    }
+    .callout {
+      border-radius: 18px;
+      padding: 18px;
+      background: linear-gradient(135deg, rgba(124,156,255,0.14), rgba(62,224,184,0.10));
+      border: 1px solid rgba(124,156,255,0.18);
+    }
+    .callout h3 {
+      margin: 0 0 8px;
+      font-size: 22px;
+    }
+    .status {
+      padding: 14px 16px;
+      border-radius: 16px;
+      background: rgba(255, 204, 102, 0.08);
+      border: 1px solid rgba(255, 204, 102, 0.18);
+      color: #ffe4a6;
+      margin-bottom: 18px;
+    }
+    .footer-note {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+    .empty {
+      padding: 16px;
+      border-radius: 16px;
+      border: 1px dashed rgba(255,255,255,0.15);
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    @media (max-width: 980px) {
+      .hero, .grid { grid-template-columns: 1fr; }
+      .scores { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    }
+    @media (max-width: 640px) {
+      .shell { padding: 18px 14px 44px; }
+      .hero-main, .hero-side, .section { padding: 18px; }
+      .meta, .scores { grid-template-columns: 1fr; }
+      h1 { line-height: 1.02; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div class="hero">
+      <section class="panel hero-main">
+        <div class="eyebrow">● UK market scanner</div>
+        <h1 id="headline">Loading today’s best business opportunity…</h1>
+        <p class="subtitle" id="why-now">This page updates from a daily research agent focused on UK business ideas and services with fast cashflow, recurring revenue, and strong tech leverage.</p>
+        <div class="controls">
+          <button class="btn" onclick="loadReport()">Refresh data</button>
+          <a class="btn secondary" href="./data/latest-report.json" target="_blank" rel="noopener">Open raw JSON</a>
+        </div>
+      </section>
+
+      <aside class="panel hero-side">
+        <div class="metric">
+          <div class="metric-label">Best opportunity today</div>
+          <div class="metric-value" id="best-opportunity">Loading…</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Last generated</div>
+          <div class="metric-value" id="generated-at">Waiting for first run</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">Founder filter</div>
+          <div class="metric-value">Solo/duo • Part-time • £2k budget • Fast cash • Recurring revenue • Tech preferred</div>
+        </div>
+      </aside>
+    </div>
+
+    <div id="status" class="status">Loading report…</div>
+
+    <div class="grid">
+      <section class="panel section">
+        <h2>Top opportunities</h2>
+        <p class="section-intro">Ranked for practical upside in the UK right now, with a bias toward tech-enabled offers you can start quickly.</p>
+        <div id="opportunity-list" class="rank-list"></div>
+      </section>
+
+      <section class="panel section">
+        <h2>Best pick + action plan</h2>
+        <p class="section-intro">The single strongest opportunity right now, plus what to validate and sell first.</p>
+        <div id="best-pick" class="best-pick"></div>
+      </section>
+    </div>
+
+    <div class="footer-note">Built for Nav’s UK business opportunity agent. Refresh any time to view the latest research run.</div>
+  </div>
+
+  <script>
+    async function loadReport() {
+      const status = document.getElementById('status');
+      try {
+        status.textContent = 'Loading latest report…';
+        const res = await fetch('./data/latest-report.json?ts=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error('Could not load report file');
+        const data = await res.json();
+        renderReport(data);
+      } catch (err) {
+        status.textContent = 'Failed to load report: ' + err.message;
+        status.style.background = 'rgba(255,123,123,0.08)';
+        status.style.borderColor = 'rgba(255,123,123,0.18)';
+        status.style.color = '#ffd0d0';
+      }
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function fmtDate(value) {
+      if (!value) return 'Waiting for first run';
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value;
+      return date.toLocaleString('en-GB', {
+        day: '2-digit', month: 'short', year: 'numeric',
+        hour: '2-digit', minute: '2-digit'
+      });
+    }
+
+    function renderReport(data) {
+      const summary = data.summary || {};
+      const best = data.best_pick || {};
+      const opportunities = Array.isArray(data.top_opportunities) ? data.top_opportunities : [];
+      const meta = data.meta || {};
+      const isWaiting = meta.status === 'waiting_for_first_run' || !opportunities.length;
+
+      document.getElementById('headline').textContent = summary.headline || 'UK business opportunity report';
+      document.getElementById('why-now').textContent = summary.why_now || 'No summary yet.';
+      document.getElementById('best-opportunity').textContent = summary.best_opportunity || 'Pending';
+      document.getElementById('generated-at').textContent = fmtDate(data.generated_at);
+
+      const status = document.getElementById('status');
+      status.textContent = isWaiting
+        ? 'Dashboard is ready. Waiting for the first live-research run to populate the report.'
+        : 'Latest report loaded successfully.';
+      status.style.background = isWaiting ? 'rgba(255, 204, 102, 0.08)' : 'rgba(62,224,184,0.08)';
+      status.style.borderColor = isWaiting ? 'rgba(255, 204, 102, 0.18)' : 'rgba(62,224,184,0.18)';
+      status.style.color = isWaiting ? '#ffe4a6' : '#baf3e7';
+
+      const list = document.getElementById('opportunity-list');
+      list.innerHTML = opportunities.length ? opportunities.map((item, idx) => renderOpportunity(item, idx + 1)).join('') : '<div class="empty">No ranked opportunities yet. Once the scheduled agent completes its first run, the top 5 will appear here with scores, risks, and verdicts.</div>';
+
+      const pick = document.getElementById('best-pick');
+      pick.innerHTML = renderBestPick(best, isWaiting);
+    }
+
+    function renderOpportunity(item, rank) {
+      const scores = item.scores || {};
+      const scoreCards = [
+        ['Demand', scores.demand],
+        ['Competition', scores.competition],
+        ['Startup ease', scores.startup_ease],
+        ['Speed to cash', scores.speed_to_cash],
+        ['Recurring revenue', scores.recurring_revenue],
+        ['Founder fit', scores.founder_fit]
+      ].map(([label, value]) => `
+        <div class="score">
+          <strong>${escapeHtml(label)}</strong>
+          <div class="score-value">${escapeHtml(value ?? '—')}</div>
+        </div>
+      `).join('');
+
+      const risks = Array.isArray(item.risks) && item.risks.length
+        ? `<ul class="list">${item.risks.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul>`
+        : '<div class="muted">No explicit risks listed.</div>';
+
+      return `
+        <article class="opportunity-card">
+          <div class="rank-header">
+            <div>
+              <div class="eyebrow" style="margin-bottom:8px;color:#cbd8ff;">Rank #${rank}</div>
+              <h3 class="rank-title">${escapeHtml(item.name || 'Untitled opportunity')}</h3>
+            </div>
+            <div class="rank-chip">${escapeHtml(item.verdict || 'Review')}</div>
+          </div>
+          <p class="desc">${escapeHtml(item.description || '')}</p>
+          <div class="meta">
+            <div class="meta-item"><strong>Buyer</strong>${escapeHtml(item.buyer || '—')}</div>
+            <div class="meta-item"><strong>Why UK now</strong>${escapeHtml(item.why_now || '—')}</div>
+            <div class="meta-item"><strong>Startup cost</strong>${escapeHtml(item.startup_cost || '—')}</div>
+            <div class="meta-item"><strong>Speed to revenue</strong>${escapeHtml(item.speed_to_revenue || '—')}</div>
+            <div class="meta-item"><strong>Recurring revenue</strong>${escapeHtml(item.recurring_revenue || '—')}</div>
+            <div class="meta-item"><strong>Solo / part-time fit</strong>${escapeHtml(item.founder_fit || '—')}</div>
+          </div>
+          <div class="scores">${scoreCards}</div>
+          <div class="meta-item"><strong>Main risks / drawbacks</strong>${risks}</div>
+        </article>
+      `;
+    }
+
+    function renderBestPick(best, isWaiting) {
+      const plan = Array.isArray(best.validation_plan) && best.validation_plan.length
+        ? `<ul class="list">${best.validation_plan.map(step => `<li>${escapeHtml(step)}</li>`).join('')}</ul>`
+        : '<div class="empty">Validation plan will appear after the first run.</div>';
+      const customers = Array.isArray(best.customer_types) && best.customer_types.length
+        ? `<ul class="list">${best.customer_types.map(type => `<li>${escapeHtml(type)}</li>`).join('')}</ul>`
+        : '<div class="empty">First customer types will appear here.</div>';
+
+      return `
+        <div class="callout">
+          <div class="eyebrow">Best pick</div>
+          <h3>${escapeHtml(best.name || 'Pending first run')}</h3>
+          <p class="desc">${escapeHtml(best.why_it_wins || 'A researched winner will appear here shortly.')}</p>
+        </div>
+        <div class="meta-item"><strong>First offer to sell</strong>${escapeHtml(best.first_offer || (isWaiting ? 'Waiting for first live report.' : '—'))}</div>
+        <div class="meta-item"><strong>Simple MVP / product angle</strong>${escapeHtml(best.mvp || (isWaiting ? 'Waiting for first live report.' : '—'))}</div>
+        <div class="meta-item"><strong>What to do today</strong>${escapeHtml(best.do_today || '—')}</div>
+        <div>
+          <h3 style="margin:0 0 10px; font-size:18px;">7-day validation plan</h3>
+          ${plan}
+        </div>
+        <div>
+          <h3 style="margin:0 0 10px; font-size:18px;">First customer types to contact</h3>
+          ${customers}
+        </div>
+      `;
+    }
+
+    loadReport();
+    setInterval(loadReport, 300000);
+  </script>
+</body>
+</html>
