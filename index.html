@@ -6,333 +6,442 @@
   <title>UK Business Opportunity Agent</title>
   <style>
     :root {
-      --bg: #0b1020;
-      --panel: rgba(18, 25, 49, 0.88);
-      --panel-2: rgba(24, 34, 65, 0.92);
-      --border: rgba(255,255,255,0.08);
-      --text: #ebf2ff;
-      --muted: #9eb0d1;
-      --accent: #7c9cff;
-      --accent-2: #3ee0b8;
-      --warn: #ffcc66;
-      --danger: #ff7b7b;
-      --shadow: 0 20px 60px rgba(0,0,0,0.35);
-      --radius: 22px;
+      --bg: #f6f7f9;
+      --surface: #ffffff;
+      --surface-soft: #fafbfc;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #111827;
+      --accent-soft: #eef2ff;
+      --success-bg: #ecfdf5;
+      --success-text: #166534;
+      --warning-bg: #fffbeb;
+      --warning-text: #92400e;
+      --danger-bg: #fef2f2;
+      --danger-text: #b91c1c;
+      --shadow: 0 12px 30px rgba(17, 24, 39, 0.06);
+      --radius: 18px;
+      --max-width: 1120px;
     }
+
     * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
     body {
       margin: 0;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
       color: var(--text);
-      background:
-        radial-gradient(circle at top left, rgba(124,156,255,0.22), transparent 30%),
-        radial-gradient(circle at top right, rgba(62,224,184,0.12), transparent 28%),
-        linear-gradient(180deg, #08101f 0%, #0f1730 100%);
-      min-height: 100vh;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
     }
-    .shell {
-      max-width: 1240px;
+
+    a { color: inherit; }
+
+    .page {
+      max-width: var(--max-width);
       margin: 0 auto;
-      padding: 32px 20px 56px;
+      padding: 32px 18px 64px;
     }
+
     .hero {
-      display: grid;
-      grid-template-columns: 1.6fr 1fr;
-      gap: 18px;
-      margin-bottom: 18px;
-    }
-    .panel {
-      background: var(--panel);
+      background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: var(--radius);
+      border-radius: 26px;
       box-shadow: var(--shadow);
-      backdrop-filter: blur(10px);
+      padding: 32px;
+      margin-bottom: 20px;
     }
-    .hero-main {
-      padding: 28px;
-    }
+
     .eyebrow {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      font-size: 13px;
-      color: var(--accent-2);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      margin-bottom: 16px;
-      font-weight: 700;
-    }
-    h1 {
-      margin: 0 0 12px;
-      font-size: clamp(34px, 5vw, 56px);
-      line-height: 0.96;
-      letter-spacing: -0.03em;
-    }
-    .subtitle {
-      margin: 0;
-      font-size: 18px;
-      line-height: 1.6;
-      color: var(--muted);
-      max-width: 64ch;
-    }
-    .hero-side {
-      padding: 24px;
-      display: grid;
-      gap: 14px;
-      align-content: start;
-    }
-    .metric {
-      background: var(--panel-2);
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--surface-soft);
       border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 16px;
-    }
-    .metric-label {
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
       color: var(--muted);
-      margin-bottom: 8px;
-    }
-    .metric-value {
-      font-size: 18px;
+      font-size: 12px;
       font-weight: 700;
-      line-height: 1.35;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
     }
-    .controls {
+
+    h1, h2, h3, h4, p { margin-top: 0; }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 1.03;
+      letter-spacing: -0.04em;
+      margin-bottom: 14px;
+      max-width: 16ch;
+      text-wrap: balance;
+    }
+
+    .intro {
+      max-width: 70ch;
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 26px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.65fr) minmax(280px, 0.9fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .button-row {
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
-      margin: 18px 0 24px;
     }
+
     .btn {
-      border: 0;
+      appearance: none;
+      border: 1px solid var(--border);
       border-radius: 999px;
       padding: 12px 16px;
+      background: var(--accent);
+      color: #fff;
+      font: inherit;
       font-weight: 700;
-      cursor: pointer;
-      background: linear-gradient(135deg, var(--accent), #98adff);
-      color: #08101f;
       text-decoration: none;
+      cursor: pointer;
+      min-height: 44px;
       display: inline-flex;
       align-items: center;
-      gap: 8px;
+      justify-content: center;
     }
+
     .btn.secondary {
-      background: rgba(255,255,255,0.06);
+      background: var(--surface);
       color: var(--text);
+    }
+
+    .summary-card {
+      background: var(--surface-soft);
       border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 20px;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: 1.25fr 0.95fr;
-      gap: 18px;
+
+    .summary-card h3 {
+      font-size: 0.95rem;
+      letter-spacing: 0.01em;
+      margin-bottom: 12px;
     }
-    .section {
-      padding: 24px;
-    }
-    .section h2 {
-      margin: 0 0 14px;
-      font-size: 24px;
-      letter-spacing: -0.02em;
-    }
-    .section-intro {
-      margin: 0 0 18px;
-      color: var(--muted);
-      line-height: 1.6;
-    }
-    .rank-list {
+
+    .summary-list {
       display: grid;
       gap: 14px;
     }
-    .opportunity-card {
-      padding: 18px;
-      border-radius: 18px;
-      background: var(--panel-2);
-      border: 1px solid var(--border);
+
+    .summary-item {
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
     }
-    .rank-header {
+
+    .summary-item:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
+    .label {
+      display: block;
+      font-size: 0.77rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .value {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .status {
+      margin: 20px 0;
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: var(--warning-bg);
+      color: var(--warning-text);
+      font-weight: 600;
+    }
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.9fr);
+      gap: 20px;
+      align-items: start;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      padding: 26px;
+    }
+
+    .card h2 {
+      font-size: 1.45rem;
+      letter-spacing: -0.03em;
+      margin-bottom: 8px;
+    }
+
+    .section-intro {
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .opportunity-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .opportunity {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      background: var(--surface-soft);
+    }
+
+    .opportunity-top {
       display: flex;
-      justify-content: space-between;
       gap: 12px;
+      justify-content: space-between;
       align-items: flex-start;
       margin-bottom: 10px;
     }
-    .rank-title {
-      font-size: 20px;
-      margin: 0;
+
+    .opportunity h3 {
+      font-size: 1.1rem;
+      line-height: 1.3;
+      margin-bottom: 0;
     }
-    .rank-chip {
-      white-space: nowrap;
-      padding: 8px 12px;
+
+    .rank-pill {
+      flex-shrink: 0;
+      padding: 7px 10px;
       border-radius: 999px;
-      background: rgba(124,156,255,0.15);
-      color: #cbd8ff;
-      font-size: 12px;
+      background: var(--accent-soft);
+      border: 1px solid #dbe4ff;
+      font-size: 0.75rem;
       font-weight: 800;
-      letter-spacing: 0.06em;
+      color: #374151;
+      letter-spacing: 0.04em;
       text-transform: uppercase;
     }
-    .muted { color: var(--muted); }
-    .desc {
-      margin: 0 0 12px;
-      line-height: 1.6;
-      color: #dbe5ff;
+
+    .opportunity p {
+      margin-bottom: 12px;
+      color: #374151;
     }
-    .meta {
+
+    .key-facts {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 10px;
       margin: 14px 0;
     }
-    .meta-item {
-      background: rgba(255,255,255,0.03);
+
+    .fact {
+      background: #fff;
+      border: 1px solid var(--border);
       border-radius: 14px;
-      padding: 10px 12px;
-      border: 1px solid rgba(255,255,255,0.05);
+      padding: 12px;
     }
-    .meta-item strong,
-    .score strong {
-      display: block;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--muted);
+
+    .fact .label,
+    .score .label {
       margin-bottom: 4px;
     }
+
+    .fact .value {
+      font-size: 0.96rem;
+      font-weight: 600;
+    }
+
     .scores {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 10px;
-      margin: 12px 0 14px;
+      margin: 14px 0;
     }
+
     .score {
-      background: rgba(62,224,184,0.07);
-      border: 1px solid rgba(62,224,184,0.13);
+      background: #fff;
+      border: 1px solid var(--border);
       border-radius: 14px;
-      padding: 10px 12px;
+      padding: 12px;
       text-align: center;
     }
-    .score-value {
-      font-size: 22px;
-      font-weight: 800;
+
+    .score .value {
+      font-size: 1.05rem;
     }
-    .list {
-      margin: 10px 0 0;
-      padding-left: 18px;
-      color: #dbe5ff;
-      line-height: 1.7;
+
+    .verdict {
+      margin-top: 12px;
+      font-weight: 700;
     }
-    .list li + li { margin-top: 6px; }
+
+    .muted {
+      color: var(--muted);
+    }
+
     .best-pick {
       display: grid;
-      gap: 16px;
+      gap: 14px;
     }
-    .callout {
+
+    .spotlight {
+      background: var(--surface-soft);
+      border: 1px solid var(--border);
       border-radius: 18px;
       padding: 18px;
-      background: linear-gradient(135deg, rgba(124,156,255,0.14), rgba(62,224,184,0.10));
-      border: 1px solid rgba(124,156,255,0.18);
     }
-    .callout h3 {
-      margin: 0 0 8px;
-      font-size: 22px;
+
+    .spotlight h3 {
+      margin-bottom: 8px;
+      font-size: 1.15rem;
     }
-    .status {
-      padding: 14px 16px;
-      border-radius: 16px;
-      background: rgba(255, 204, 102, 0.08);
-      border: 1px solid rgba(255, 204, 102, 0.18);
-      color: #ffe4a6;
-      margin-bottom: 18px;
+
+    .list {
+      margin: 0;
+      padding-left: 18px;
     }
-    .footer-note {
-      margin-top: 18px;
-      color: var(--muted);
-      font-size: 14px;
-      text-align: center;
+
+    .list li + li {
+      margin-top: 8px;
     }
+
     .empty {
-      padding: 16px;
+      border: 1px dashed #d1d5db;
       border-radius: 16px;
-      border: 1px dashed rgba(255,255,255,0.15);
+      padding: 18px;
       color: var(--muted);
-      line-height: 1.6;
+      background: #fff;
     }
-    @media (max-width: 980px) {
-      .hero, .grid { grid-template-columns: 1fr; }
-      .scores { grid-template-columns: repeat(2, minmax(0,1fr)); }
+
+    .footer-note {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-top: 20px;
     }
+
+    @media (max-width: 960px) {
+      .hero-grid,
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
     @media (max-width: 640px) {
-      .shell { padding: 18px 14px 44px; }
-      .hero-main, .hero-side, .section { padding: 18px; }
-      .meta, .scores { grid-template-columns: 1fr; }
-      h1 { line-height: 1.02; }
+      .page {
+        padding: 16px 12px 44px;
+      }
+
+      .hero,
+      .card {
+        padding: 20px;
+        border-radius: 20px;
+      }
+
+      .key-facts,
+      .scores {
+        grid-template-columns: 1fr;
+      }
+
+      .opportunity-top {
+        flex-direction: column;
+      }
+
+      h1 {
+        max-width: none;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
     }
   </style>
 </head>
 <body>
-  <div class="shell">
-    <div class="hero">
-      <section class="panel hero-main">
-        <div class="eyebrow">● UK market scanner</div>
-        <h1 id="headline">Loading today’s best business opportunity…</h1>
-        <p class="subtitle" id="why-now">This page updates from a daily research agent focused on UK business ideas and services with fast cashflow, recurring revenue, and strong tech leverage.</p>
-        <div class="controls">
-          <button class="btn" onclick="loadReport()">Refresh data</button>
-          <a class="btn secondary" href="./data/latest-report.json" target="_blank" rel="noopener">Open raw JSON</a>
+  <main class="page">
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">UK business opportunity agent</div>
+          <h1 id="headline">Loading today’s best business opportunity…</h1>
+          <p class="intro" id="why-now">This page updates from a daily research agent focused on UK business ideas with fast cash flow, recurring revenue, and strong tech leverage.</p>
+          <div class="button-row">
+            <button class="btn" onclick="loadReport()">Refresh report</button>
+            <a class="btn secondary" href="./data/latest-report.json" target="_blank" rel="noopener">Open raw data</a>
+          </div>
         </div>
-      </section>
 
-      <aside class="panel hero-side">
-        <div class="metric">
-          <div class="metric-label">Best opportunity today</div>
-          <div class="metric-value" id="best-opportunity">Loading…</div>
-        </div>
-        <div class="metric">
-          <div class="metric-label">Last generated</div>
-          <div class="metric-value" id="generated-at">Waiting for first run</div>
-        </div>
-        <div class="metric">
-          <div class="metric-label">Founder filter</div>
-          <div class="metric-value">Solo/duo • Part-time • £2k budget • Fast cash • Recurring revenue • Tech preferred</div>
-        </div>
-      </aside>
-    </div>
+        <aside class="summary-card" aria-label="Report summary">
+          <h3>At a glance</h3>
+          <div class="summary-list">
+            <div class="summary-item">
+              <span class="label">Best opportunity</span>
+              <div class="value" id="best-opportunity">Loading…</div>
+            </div>
+            <div class="summary-item">
+              <span class="label">Last updated</span>
+              <div class="value" id="generated-at">Waiting for first run</div>
+            </div>
+            <div class="summary-item">
+              <span class="label">Founder filter</span>
+              <div class="value">Solo/duo • Part-time • ~£2k budget • Fast cash • Recurring revenue • Tech-enabled</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
     <div id="status" class="status">Loading report…</div>
 
-    <div class="grid">
-      <section class="panel section">
+    <section class="content-grid">
+      <section class="card">
         <h2>Top opportunities</h2>
-        <p class="section-intro">Ranked for practical upside in the UK right now, with a bias toward tech-enabled offers you can start quickly.</p>
-        <div id="opportunity-list" class="rank-list"></div>
+        <p class="section-intro">Ranked for practical upside in the UK right now, with a bias toward opportunities you can start quickly and sell clearly.</p>
+        <div id="opportunity-list" class="opportunity-list"></div>
       </section>
 
-      <section class="panel section">
+      <aside class="card">
         <h2>Best pick + action plan</h2>
-        <p class="section-intro">The single strongest opportunity right now, plus what to validate and sell first.</p>
+        <p class="section-intro">The strongest option right now, plus what to validate and what to do next.</p>
         <div id="best-pick" class="best-pick"></div>
-      </section>
-    </div>
+      </aside>
+    </section>
 
-    <div class="footer-note">Built for Nav’s UK business opportunity agent. Refresh any time to view the latest research run.</div>
-  </div>
+    <p class="footer-note">Built for Nav’s UK business opportunity agent. Refresh any time to load the latest daily research.</p>
+  </main>
 
   <script>
     async function loadReport() {
       const status = document.getElementById('status');
       try {
-        status.textContent = 'Loading latest report…';
+        setStatus('Loading latest report…', 'warning');
         const res = await fetch('./data/latest-report.json?ts=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error('Could not load report file');
         const data = await res.json();
         renderReport(data);
       } catch (err) {
-        status.textContent = 'Failed to load report: ' + err.message;
-        status.style.background = 'rgba(255,123,123,0.08)';
-        status.style.borderColor = 'rgba(255,123,123,0.18)';
-        status.style.color = '#ffd0d0';
+        setStatus('Failed to load report: ' + err.message, 'error');
       }
     }
 
@@ -355,6 +464,22 @@
       });
     }
 
+    function setStatus(message, tone) {
+      const status = document.getElementById('status');
+      status.textContent = message;
+
+      const tones = {
+        success: { background: 'var(--success-bg)', color: 'var(--success-text)', border: 'var(--border)' },
+        warning: { background: 'var(--warning-bg)', color: 'var(--warning-text)', border: 'var(--border)' },
+        error: { background: 'var(--danger-bg)', color: 'var(--danger-text)', border: 'var(--border)' }
+      };
+
+      const style = tones[tone] || tones.warning;
+      status.style.background = style.background;
+      status.style.color = style.color;
+      status.style.borderColor = style.border;
+    }
+
     function renderReport(data) {
       const summary = data.summary || {};
       const best = data.best_pick || {};
@@ -367,19 +492,19 @@
       document.getElementById('best-opportunity').textContent = summary.best_opportunity || 'Pending';
       document.getElementById('generated-at').textContent = fmtDate(data.generated_at);
 
-      const status = document.getElementById('status');
-      status.textContent = isWaiting
-        ? 'Dashboard is ready. Waiting for the first live-research run to populate the report.'
-        : 'Latest report loaded successfully.';
-      status.style.background = isWaiting ? 'rgba(255, 204, 102, 0.08)' : 'rgba(62,224,184,0.08)';
-      status.style.borderColor = isWaiting ? 'rgba(255, 204, 102, 0.18)' : 'rgba(62,224,184,0.18)';
-      status.style.color = isWaiting ? '#ffe4a6' : '#baf3e7';
+      setStatus(
+        isWaiting
+          ? 'Dashboard is ready. Waiting for the first live research run to populate the report.'
+          : 'Latest report loaded successfully.',
+        isWaiting ? 'warning' : 'success'
+      );
 
       const list = document.getElementById('opportunity-list');
-      list.innerHTML = opportunities.length ? opportunities.map((item, idx) => renderOpportunity(item, idx + 1)).join('') : '<div class="empty">No ranked opportunities yet. Once the scheduled agent completes its first run, the top 5 will appear here with scores, risks, and verdicts.</div>';
+      list.innerHTML = opportunities.length
+        ? opportunities.map((item, index) => renderOpportunity(item, index + 1)).join('')
+        : '<div class="empty">No ranked opportunities yet. Once the scheduled agent completes its first run, the top opportunities will appear here with scores, risks, and verdicts.</div>';
 
-      const pick = document.getElementById('best-pick');
-      pick.innerHTML = renderBestPick(best, isWaiting);
+      document.getElementById('best-pick').innerHTML = renderBestPick(best, isWaiting);
     }
 
     function renderOpportunity(item, rank) {
@@ -393,69 +518,94 @@
         ['Founder fit', scores.founder_fit]
       ].map(([label, value]) => `
         <div class="score">
-          <strong>${escapeHtml(label)}</strong>
-          <div class="score-value">${escapeHtml(value ?? '—')}</div>
+          <span class="label">${escapeHtml(label)}</span>
+          <div class="value">${escapeHtml(value ?? '—')}</div>
+        </div>
+      `).join('');
+
+      const facts = [
+        ['Buyer', item.buyer],
+        ['Startup cost', item.startup_cost],
+        ['Speed to revenue', item.speed_to_revenue],
+        ['Recurring revenue', item.recurring_revenue]
+      ].map(([label, value]) => `
+        <div class="fact">
+          <span class="label">${escapeHtml(label)}</span>
+          <div class="value">${escapeHtml(value ?? '—')}</div>
         </div>
       `).join('');
 
       const risks = Array.isArray(item.risks) && item.risks.length
-        ? `<ul class="list">${item.risks.map(r => `<li>${escapeHtml(r)}</li>`).join('')}</ul>`
-        : '<div class="muted">No explicit risks listed.</div>';
+        ? `<ul class="list">${item.risks.map(risk => `<li>${escapeHtml(risk)}</li>`).join('')}</ul>`
+        : '<p class="muted">No major risks listed.</p>';
 
       return `
-        <article class="opportunity-card">
-          <div class="rank-header">
-            <div>
-              <div class="eyebrow" style="margin-bottom:8px;color:#cbd8ff;">Rank #${rank}</div>
-              <h3 class="rank-title">${escapeHtml(item.name || 'Untitled opportunity')}</h3>
-            </div>
-            <div class="rank-chip">${escapeHtml(item.verdict || 'Review')}</div>
+        <article class="opportunity">
+          <div class="opportunity-top">
+            <h3>${rank}. ${escapeHtml(item.name || 'Untitled opportunity')}</h3>
+            <div class="rank-pill">${escapeHtml(item.verdict || 'Ranked idea')}</div>
           </div>
-          <p class="desc">${escapeHtml(item.description || '')}</p>
-          <div class="meta">
-            <div class="meta-item"><strong>Buyer</strong>${escapeHtml(item.buyer || '—')}</div>
-            <div class="meta-item"><strong>Why UK now</strong>${escapeHtml(item.why_now || '—')}</div>
-            <div class="meta-item"><strong>Startup cost</strong>${escapeHtml(item.startup_cost || '—')}</div>
-            <div class="meta-item"><strong>Speed to revenue</strong>${escapeHtml(item.speed_to_revenue || '—')}</div>
-            <div class="meta-item"><strong>Recurring revenue</strong>${escapeHtml(item.recurring_revenue || '—')}</div>
-            <div class="meta-item"><strong>Solo / part-time fit</strong>${escapeHtml(item.founder_fit || '—')}</div>
-          </div>
+          <p>${escapeHtml(item.description || 'No description provided.')}</p>
+          <div class="key-facts">${facts}</div>
           <div class="scores">${scoreCards}</div>
-          <div class="meta-item"><strong>Main risks / drawbacks</strong>${risks}</div>
+          <p><strong>Why now:</strong> ${escapeHtml(item.why_now || 'No context provided.')}</p>
+          <p><strong>Founder fit:</strong> ${escapeHtml(item.founder_fit || 'No fit summary provided.')}</p>
+          <div>
+            <span class="label">Main risks</span>
+            ${risks}
+          </div>
         </article>
       `;
     }
 
     function renderBestPick(best, isWaiting) {
-      const plan = Array.isArray(best.validation_plan) && best.validation_plan.length
-        ? `<ul class="list">${best.validation_plan.map(step => `<li>${escapeHtml(step)}</li>`).join('')}</ul>`
-        : '<div class="empty">Validation plan will appear after the first run.</div>';
-      const customers = Array.isArray(best.customer_types) && best.customer_types.length
+      if (isWaiting) {
+        return '<div class="empty">The best-pick breakdown will appear here after the live research report is generated.</div>';
+      }
+
+      const validationPlan = Array.isArray(best.validation_plan) && best.validation_plan.length
+        ? `<ol class="list">${best.validation_plan.map(step => `<li>${escapeHtml(step)}</li>`).join('')}</ol>`
+        : '<p class="muted">No validation plan yet.</p>';
+
+      const customerTypes = Array.isArray(best.customer_types) && best.customer_types.length
         ? `<ul class="list">${best.customer_types.map(type => `<li>${escapeHtml(type)}</li>`).join('')}</ul>`
-        : '<div class="empty">First customer types will appear here.</div>';
+        : '<p class="muted">No customer targets listed.</p>';
 
       return `
-        <div class="callout">
-          <div class="eyebrow">Best pick</div>
-          <h3>${escapeHtml(best.name || 'Pending first run')}</h3>
-          <p class="desc">${escapeHtml(best.why_it_wins || 'A researched winner will appear here shortly.')}</p>
-        </div>
-        <div class="meta-item"><strong>First offer to sell</strong>${escapeHtml(best.first_offer || (isWaiting ? 'Waiting for first live report.' : '—'))}</div>
-        <div class="meta-item"><strong>Simple MVP / product angle</strong>${escapeHtml(best.mvp || (isWaiting ? 'Waiting for first live report.' : '—'))}</div>
-        <div class="meta-item"><strong>What to do today</strong>${escapeHtml(best.do_today || '—')}</div>
-        <div>
-          <h3 style="margin:0 0 10px; font-size:18px;">7-day validation plan</h3>
-          ${plan}
-        </div>
-        <div>
-          <h3 style="margin:0 0 10px; font-size:18px;">First customer types to contact</h3>
-          ${customers}
-        </div>
+        <section class="spotlight">
+          <span class="label">Best pick</span>
+          <h3>${escapeHtml(best.name || 'No best pick yet')}</h3>
+          <p>${escapeHtml(best.why_it_wins || 'No explanation yet.')}</p>
+        </section>
+
+        <section class="spotlight">
+          <span class="label">First offer</span>
+          <p>${escapeHtml(best.first_offer || 'No first offer defined.')}</p>
+        </section>
+
+        <section class="spotlight">
+          <span class="label">MVP angle</span>
+          <p>${escapeHtml(best.mvp || 'No MVP plan defined.')}</p>
+        </section>
+
+        <section class="spotlight">
+          <span class="label">Validation plan</span>
+          ${validationPlan}
+        </section>
+
+        <section class="spotlight">
+          <span class="label">Best customer types</span>
+          ${customerTypes}
+        </section>
+
+        <section class="spotlight">
+          <span class="label">Do this today</span>
+          <p>${escapeHtml(best.do_today || 'No immediate action listed.')}</p>
+        </section>
       `;
     }
 
     loadReport();
-    setInterval(loadReport, 300000);
   </script>
 </body>
 </html>
