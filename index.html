@@ -3,139 +3,152 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>UK Business Opportunity Agent</title>
+  <title>Opportunity OS</title>
   <style>
     :root {
-      --bg: #f6f7f9;
-      --surface: #ffffff;
-      --surface-soft: #fafbfc;
-      --text: #111827;
-      --muted: #6b7280;
-      --border: #e5e7eb;
-      --accent: #111827;
-      --accent-soft: #eef2ff;
-      --success-bg: #ecfdf5;
-      --success-text: #166534;
-      --warning-bg: #fffbeb;
-      --warning-text: #92400e;
-      --danger-bg: #fef2f2;
-      --danger-text: #b91c1c;
-      --shadow: 0 12px 30px rgba(17, 24, 39, 0.06);
-      --radius: 18px;
-      --max-width: 1120px;
+      --bg: #0b1020;
+      --surface: #131a2e;
+      --surface-soft: #1a233c;
+      --surface-alt: #0f172a;
+      --text: #edf2ff;
+      --muted: #9aa7c7;
+      --border: rgba(154, 167, 199, 0.18);
+      --accent: #7c9cff;
+      --accent-strong: #5f83ff;
+      --success: #22c55e;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --shadow: 0 20px 40px rgba(0, 0, 0, 0.28);
+      --radius: 22px;
+      --max-width: 1440px;
     }
 
     * { box-sizing: border-box; }
-
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg);
+      background:
+        radial-gradient(circle at top left, rgba(124, 156, 255, 0.18), transparent 30%),
+        radial-gradient(circle at top right, rgba(34, 197, 94, 0.10), transparent 24%),
+        linear-gradient(180deg, #08101f 0%, #0b1020 100%);
       color: var(--text);
-      line-height: 1.6;
-      -webkit-font-smoothing: antialiased;
-      text-rendering: optimizeLegibility;
+      line-height: 1.55;
+      min-height: 100vh;
     }
 
     a { color: inherit; }
+    button, input, textarea, select { font: inherit; }
 
     .page {
       max-width: var(--max-width);
       margin: 0 auto;
-      padding: 32px 18px 64px;
+      padding: 28px 18px 48px;
+    }
+
+    .hero,
+    .panel,
+    .card,
+    .stage-column,
+    .drawer {
+      background: rgba(19, 26, 46, 0.92);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
     }
 
     .hero {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 26px;
-      box-shadow: var(--shadow);
-      padding: 32px;
-      margin-bottom: 20px;
+      border-radius: 30px;
+      padding: 30px;
+      margin-bottom: 18px;
     }
 
     .eyebrow {
       display: inline-flex;
-      align-items: center;
       gap: 8px;
+      align-items: center;
       padding: 8px 12px;
       border-radius: 999px;
-      background: var(--surface-soft);
-      border: 1px solid var(--border);
-      color: var(--muted);
+      background: rgba(124, 156, 255, 0.12);
+      border: 1px solid rgba(124, 156, 255, 0.2);
+      color: #c9d6ff;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
       font-size: 12px;
       font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      margin-bottom: 18px;
+      margin-bottom: 16px;
     }
 
     h1, h2, h3, h4, p { margin-top: 0; }
 
     h1 {
-      font-size: clamp(2rem, 4vw, 3.4rem);
-      line-height: 1.03;
-      letter-spacing: -0.04em;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 1.02;
+      letter-spacing: -0.05em;
+      max-width: 12ch;
       margin-bottom: 14px;
-      max-width: 16ch;
-      text-wrap: balance;
-    }
-
-    .intro {
-      max-width: 70ch;
-      color: var(--muted);
-      font-size: 1.05rem;
-      margin-bottom: 26px;
     }
 
     .hero-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1.65fr) minmax(280px, 0.9fr);
-      gap: 18px;
+      grid-template-columns: minmax(0, 1.4fr) minmax(320px, 0.95fr);
+      gap: 20px;
       align-items: start;
+    }
+
+    .intro {
+      color: var(--muted);
+      max-width: 68ch;
+      font-size: 1.03rem;
+      margin-bottom: 20px;
     }
 
     .button-row {
       display: flex;
       flex-wrap: wrap;
-      gap: 12px;
+      gap: 10px;
+      margin-top: 14px;
     }
 
     .btn {
       appearance: none;
-      border: 1px solid var(--border);
+      border: 1px solid transparent;
       border-radius: 999px;
-      padding: 12px 16px;
+      padding: 11px 15px;
+      min-height: 42px;
       background: var(--accent);
       color: #fff;
-      font: inherit;
       font-weight: 700;
       text-decoration: none;
       cursor: pointer;
-      min-height: 44px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
     }
 
+    .btn:hover { transform: translateY(-1px); }
     .btn.secondary {
-      background: var(--surface);
+      background: rgba(255,255,255,0.04);
+      border-color: var(--border);
       color: var(--text);
+    }
+    .btn.ghost {
+      background: transparent;
+      border-color: var(--border);
+      color: var(--muted);
+    }
+    .btn.small {
+      min-height: 34px;
+      padding: 8px 12px;
+      font-size: 0.92rem;
     }
 
     .summary-card {
-      background: var(--surface-soft);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 20px;
-    }
-
-    .summary-card h3 {
-      font-size: 0.95rem;
-      letter-spacing: 0.01em;
-      margin-bottom: 12px;
+      padding: 22px;
+      border-radius: 24px;
+      background: linear-gradient(180deg, rgba(124, 156, 255, 0.12), rgba(255,255,255,0.04));
+      border: 1px solid rgba(124, 156, 255, 0.18);
     }
 
     .summary-list {
@@ -147,7 +160,6 @@
       padding-bottom: 14px;
       border-bottom: 1px solid var(--border);
     }
-
     .summary-item:last-child {
       padding-bottom: 0;
       border-bottom: 0;
@@ -155,9 +167,9 @@
 
     .label {
       display: block;
-      font-size: 0.77rem;
-      letter-spacing: 0.08em;
+      font-size: 0.76rem;
       text-transform: uppercase;
+      letter-spacing: 0.08em;
       color: var(--muted);
       font-weight: 700;
       margin-bottom: 6px;
@@ -169,212 +181,284 @@
     }
 
     .status {
-      margin: 20px 0;
+      margin: 18px 0;
       padding: 14px 16px;
       border-radius: 16px;
       border: 1px solid var(--border);
-      background: var(--warning-bg);
-      color: var(--warning-text);
+      background: rgba(245, 158, 11, 0.12);
+      color: #f9d48d;
       font-weight: 600;
     }
 
-    .content-grid {
+    .stats-grid,
+    .workspace {
       display: grid;
-      grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.9fr);
-      gap: 20px;
-      align-items: start;
+      gap: 16px;
     }
 
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 22px;
-      box-shadow: var(--shadow);
-      padding: 26px;
+    .stats-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      margin-bottom: 16px;
     }
 
-    .card h2 {
-      font-size: 1.45rem;
-      letter-spacing: -0.03em;
-      margin-bottom: 8px;
+    .panel,
+    .card,
+    .stage-column,
+    .drawer {
+      border-radius: 24px;
     }
 
-    .section-intro {
-      color: var(--muted);
-      margin-bottom: 18px;
+    .panel,
+    .card,
+    .drawer {
+      padding: 22px;
     }
 
-    .opportunity-list {
-      display: grid;
-      gap: 14px;
-    }
-
-    .opportunity {
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 18px;
-      background: var(--surface-soft);
-    }
-
-    .opportunity-top {
-      display: flex;
-      gap: 12px;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 10px;
-    }
-
-    .opportunity h3 {
-      font-size: 1.1rem;
-      line-height: 1.3;
-      margin-bottom: 0;
-    }
-
-    .rank-pill {
-      flex-shrink: 0;
-      padding: 7px 10px;
-      border-radius: 999px;
-      background: var(--accent-soft);
-      border: 1px solid #dbe4ff;
-      font-size: 0.75rem;
+    .stat-card .big-number {
+      font-size: 1.9rem;
       font-weight: 800;
-      color: #374151;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
+      letter-spacing: -0.04em;
+      margin-bottom: 6px;
     }
 
-    .opportunity p {
-      margin-bottom: 12px;
-      color: #374151;
-    }
-
-    .key-facts {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 10px;
-      margin: 14px 0;
-    }
-
-    .fact {
-      background: #fff;
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 12px;
-    }
-
-    .fact .label,
-    .score .label {
-      margin-bottom: 4px;
-    }
-
-    .fact .value {
-      font-size: 0.96rem;
-      font-weight: 600;
-    }
-
-    .scores {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 10px;
-      margin: 14px 0;
-    }
-
-    .score {
-      background: #fff;
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 12px;
-      text-align: center;
-    }
-
-    .score .value {
-      font-size: 1.05rem;
-    }
-
-    .verdict {
-      margin-top: 12px;
-      font-weight: 700;
-    }
-
+    .stat-card p,
     .muted {
       color: var(--muted);
     }
 
-    .best-pick {
+    .workspace {
+      grid-template-columns: minmax(360px, 430px) minmax(0, 1fr);
+      align-items: start;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .section-head h2,
+    .section-head h3 { margin-bottom: 0; }
+
+    .stack {
       display: grid;
       gap: 14px;
     }
 
-    .spotlight {
-      background: var(--surface-soft);
+    .feed-card,
+    .lead-card {
       border: 1px solid var(--border);
       border-radius: 18px;
-      padding: 18px;
+      padding: 16px;
+      background: rgba(255,255,255,0.03);
     }
 
-    .spotlight h3 {
+    .feed-card.active,
+    .lead-card.active {
+      border-color: rgba(124, 156, 255, 0.6);
+      box-shadow: inset 0 0 0 1px rgba(124, 156, 255, 0.24);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 800;
+      white-space: nowrap;
+      border: 1px solid transparent;
+    }
+
+    .stage-inbox { background: rgba(148, 163, 184, 0.16); color: #dbe4f0; border-color: rgba(148, 163, 184, 0.24); }
+    .stage-researching { background: rgba(96, 165, 250, 0.14); color: #b9dcff; border-color: rgba(96, 165, 250, 0.25); }
+    .stage-outreach { background: rgba(245, 158, 11, 0.16); color: #fde2a7; border-color: rgba(245, 158, 11, 0.25); }
+    .stage-validating { background: rgba(168, 85, 247, 0.16); color: #e9ccff; border-color: rgba(168, 85, 247, 0.24); }
+    .stage-offer-ready { background: rgba(45, 212, 191, 0.15); color: #c3fff8; border-color: rgba(45, 212, 191, 0.24); }
+    .stage-building { background: rgba(34, 197, 94, 0.16); color: #c7f9d7; border-color: rgba(34, 197, 94, 0.24); }
+    .stage-won { background: rgba(16, 185, 129, 0.18); color: #c7ffe8; border-color: rgba(16, 185, 129, 0.28); }
+    .stage-parked { background: rgba(239, 68, 68, 0.16); color: #ffc6c6; border-color: rgba(239, 68, 68, 0.22); }
+
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin: 12px 0;
+    }
+
+    .fact {
+      border-radius: 14px;
+      padding: 11px 12px;
+      background: rgba(8, 16, 31, 0.68);
+      border: 1px solid var(--border);
+    }
+
+    .fact .value { font-size: 0.94rem; }
+
+    .mini-actions,
+    .lead-actions,
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .toolbar {
+      margin-top: 14px;
+      align-items: center;
+    }
+
+    .toolbar input,
+    .toolbar select,
+    .toolbar textarea,
+    .lead-form input,
+    .lead-form select,
+    .lead-form textarea {
+      width: 100%;
+      background: rgba(8, 16, 31, 0.9);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 11px 12px;
+      outline: none;
+    }
+
+    textarea { min-height: 92px; resize: vertical; }
+
+    .lead-form {
+      display: grid;
+      gap: 12px;
+    }
+
+    .lead-form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .feed-list {
+      max-height: 950px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .board-wrap {
+      overflow-x: auto;
+      padding-bottom: 6px;
+    }
+
+    .board {
+      display: grid;
+      grid-template-columns: repeat(8, minmax(260px, 1fr));
+      gap: 14px;
+      align-items: start;
+      min-width: 2160px;
+    }
+
+    .stage-column {
+      padding: 14px;
+      min-height: 420px;
+      background: rgba(9, 14, 26, 0.74);
+    }
+
+    .stage-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 12px;
+      position: sticky;
+      top: 0;
+      padding-bottom: 6px;
+      background: linear-gradient(180deg, rgba(9,14,26,0.96), rgba(9,14,26,0.8));
+    }
+
+    .stage-count {
+      color: var(--muted);
+      font-size: 0.84rem;
+      font-weight: 700;
+    }
+
+    .column-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .lead-card h4,
+    .feed-card h3 {
       margin-bottom: 8px;
-      font-size: 1.15rem;
+      line-height: 1.25;
     }
 
-    .list {
-      margin: 0;
-      padding-left: 18px;
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 10px 0 12px;
     }
 
-    .list li + li {
-      margin-top: 8px;
+    .meta-chip {
+      font-size: 0.82rem;
+      color: var(--muted);
+      padding: 6px 9px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
     }
 
     .empty {
-      border: 1px dashed #d1d5db;
-      border-radius: 16px;
-      padding: 18px;
+      border: 1px dashed rgba(154, 167, 199, 0.32);
       color: var(--muted);
-      background: #fff;
+      padding: 16px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.02);
+    }
+
+    .drawer {
+      margin-top: 16px;
     }
 
     .footer-note {
       text-align: center;
+      margin-top: 18px;
       color: var(--muted);
       font-size: 0.92rem;
-      margin-top: 20px;
     }
 
-    @media (max-width: 960px) {
+    .hidden-input { display: none; }
+
+    @media (max-width: 1180px) {
       .hero-grid,
-      .content-grid {
+      .workspace,
+      .stats-grid {
         grid-template-columns: 1fr;
       }
+      .board { min-width: 1800px; }
     }
 
-    @media (max-width: 640px) {
-      .page {
-        padding: 16px 12px 44px;
-      }
-
-      .hero,
-      .card {
-        padding: 20px;
-        border-radius: 20px;
-      }
-
-      .key-facts,
-      .scores {
-        grid-template-columns: 1fr;
-      }
-
-      .opportunity-top {
-        flex-direction: column;
-      }
-
-      h1 {
-        max-width: none;
-      }
+    @media (max-width: 680px) {
+      .page { padding: 14px 10px 36px; }
+      .hero, .panel, .card, .drawer { padding: 18px; }
+      .facts, .lead-form-grid { grid-template-columns: 1fr; }
+      h1 { max-width: none; }
     }
 
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
+      .btn { transition: none; }
     }
   </style>
 </head>
@@ -383,75 +467,194 @@
     <section class="hero">
       <div class="hero-grid">
         <div>
-          <div class="eyebrow">UK business opportunity agent</div>
-          <h1 id="headline">Loading today’s best business opportunity…</h1>
-          <p class="intro" id="why-now">This page updates from a daily research agent focused on UK business ideas with fast cash flow, recurring revenue, and strong tech leverage.</p>
+          <div class="eyebrow">Opportunity OS • Lead pipeline</div>
+          <h1 id="headline">Loading your best opportunities…</h1>
+          <p class="intro" id="why-now">This workspace turns daily AI-generated opportunities into a simple pipeline you can review, advance, validate, and convert into offers.</p>
           <div class="button-row">
-            <button class="btn" onclick="loadReport()">Refresh report</button>
-            <a class="btn secondary" href="./data/latest-report.json" target="_blank" rel="noopener">Open raw data</a>
+            <button class="btn" onclick="loadReport(true)">Refresh research</button>
+            <button class="btn secondary" onclick="exportState()">Export pipeline</button>
+            <button class="btn secondary" onclick="document.getElementById('import-file').click()">Import pipeline</button>
+            <button class="btn ghost" onclick="resetState()">Reset local state</button>
+            <a class="btn ghost" href="./data/latest-report.json" target="_blank" rel="noopener">Open raw report</a>
           </div>
+          <div class="toolbar">
+            <input id="search-input" type="search" placeholder="Search opportunities, buyers, notes, next steps…" oninput="renderApp()" />
+          </div>
+          <input id="import-file" class="hidden-input" type="file" accept="application/json" onchange="importState(event)" />
         </div>
 
         <aside class="summary-card" aria-label="Report summary">
           <h3>At a glance</h3>
           <div class="summary-list">
             <div class="summary-item">
-              <span class="label">Best opportunity</span>
+              <span class="label">Top opportunity</span>
               <div class="value" id="best-opportunity">Loading…</div>
             </div>
             <div class="summary-item">
-              <span class="label">Last updated</span>
-              <div class="value" id="generated-at">Waiting for first run</div>
+              <span class="label">Last research update</span>
+              <div class="value" id="generated-at">Waiting for report</div>
             </div>
             <div class="summary-item">
               <span class="label">Founder filter</span>
               <div class="value">Solo/duo • Part-time • ~£2k budget • Fast cash • Recurring revenue • Tech-enabled</div>
+            </div>
+            <div class="summary-item">
+              <span class="label">How this works</span>
+              <div class="value">Research lands in Inbox → you move it through stages → notes and next actions persist in-browser.</div>
             </div>
           </div>
         </aside>
       </div>
     </section>
 
-    <div id="status" class="status">Loading report…</div>
+    <div id="status" class="status">Loading latest report…</div>
 
-    <section class="content-grid">
+    <section class="stats-grid" id="stats-grid"></section>
+
+    <section class="workspace">
+      <div class="stack">
+        <section class="panel">
+          <div class="section-head">
+            <div>
+              <h2>Research feed</h2>
+              <p class="muted">Fresh opportunities from the AI research report. Promote any idea into your pipeline or use it as a starting thesis.</p>
+            </div>
+          </div>
+          <div id="feed-list" class="stack feed-list"></div>
+        </section>
+
+        <section class="drawer">
+          <div class="section-head">
+            <div>
+              <h3>Selected opportunity</h3>
+              <p class="muted">Capture your angle, next action, and notes so each idea moves forward cleanly.</p>
+            </div>
+          </div>
+          <form class="lead-form" onsubmit="saveLeadDetails(event)">
+            <input type="hidden" id="form-lead-id" />
+            <div>
+              <label class="label" for="form-name">Opportunity name</label>
+              <input id="form-name" type="text" placeholder="Select a lead from the feed or board" />
+            </div>
+            <div class="lead-form-grid">
+              <div>
+                <label class="label" for="form-stage">Stage</label>
+                <select id="form-stage"></select>
+              </div>
+              <div>
+                <label class="label" for="form-score">Conviction score /10</label>
+                <input id="form-score" type="number" min="1" max="10" step="1" placeholder="8" />
+              </div>
+            </div>
+            <div>
+              <label class="label" for="form-buyer">Best buyer</label>
+              <input id="form-buyer" type="text" placeholder="e.g. trades firms, accountants, clinics" />
+            </div>
+            <div>
+              <label class="label" for="form-next-step">Next action</label>
+              <input id="form-next-step" type="text" placeholder="e.g. message 10 local accountants" />
+            </div>
+            <div>
+              <label class="label" for="form-thesis">Your angle / offer thesis</label>
+              <textarea id="form-thesis" placeholder="How would we package or validate this? What makes it different?"></textarea>
+            </div>
+            <div>
+              <label class="label" for="form-notes">Notes</label>
+              <textarea id="form-notes" placeholder="Keep call notes, objections, ideas, proof points, or experiments here."></textarea>
+            </div>
+            <div class="lead-actions">
+              <button class="btn" type="submit">Save details</button>
+              <button class="btn secondary" type="button" onclick="moveLead(-1)">Move left</button>
+              <button class="btn secondary" type="button" onclick="moveLead(1)">Move right</button>
+            </div>
+          </form>
+        </section>
+      </div>
+
       <section class="card">
-        <h2>Top opportunities</h2>
-        <p class="section-intro">Ranked for practical upside in the UK right now, with a bias toward opportunities you can start quickly and sell clearly.</p>
-        <div id="opportunity-list" class="opportunity-list"></div>
+        <div class="section-head">
+          <div>
+            <h2>Pipeline board</h2>
+            <p class="muted">Track what is worth researching, who to contact, what is being validated, and which offers are ready to sell.</p>
+          </div>
+        </div>
+        <div class="board-wrap">
+          <div id="board" class="board"></div>
+        </div>
       </section>
-
-      <aside class="card">
-        <h2>Best pick + action plan</h2>
-        <p class="section-intro">The strongest option right now, plus what to validate and what to do next.</p>
-        <div id="best-pick" class="best-pick"></div>
-      </aside>
     </section>
 
-    <p class="footer-note">Built for Nav’s UK business opportunity agent. Refresh any time to load the latest daily research.</p>
+    <p class="footer-note">This version is deployable as a static page anywhere. Pipeline changes persist in your browser, and export/import lets you move your state between devices until you add a synced backend.</p>
   </main>
 
   <script>
-    async function loadReport() {
-      const status = document.getElementById('status');
+    const REPORT_URL = './data/latest-report.json';
+    const STORAGE_KEY = 'opportunity-os-state-v1';
+    const STAGES = [
+      { id: 'inbox', name: 'Inbox' },
+      { id: 'researching', name: 'Researching' },
+      { id: 'outreach', name: 'Outreach' },
+      { id: 'validating', name: 'Validating' },
+      { id: 'offer-ready', name: 'Offer ready' },
+      { id: 'building', name: 'Building' },
+      { id: 'won', name: 'Won' },
+      { id: 'parked', name: 'Parked' }
+    ];
+
+    const appState = {
+      report: null,
+      leads: {},
+      selectedLeadId: null
+    };
+
+    document.getElementById('form-stage').innerHTML = STAGES
+      .map(stage => `<option value="${stage.id}">${stage.name}</option>`)
+      .join('');
+
+    async function loadReport(showRefreshMessage = false) {
       try {
-        setStatus('Loading latest report…', 'warning');
-        const res = await fetch('./data/latest-report.json?ts=' + Date.now(), { cache: 'no-store' });
+        setStatus(showRefreshMessage ? 'Refreshing research…' : 'Loading latest report…', 'warning');
+        const res = await fetch(REPORT_URL + '?ts=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error('Could not load report file');
-        const data = await res.json();
-        renderReport(data);
+        const report = await res.json();
+        appState.report = report;
+        hydrateLeadsFromStorage();
+        mergeReportIntoLeads(report);
+        renderHeader(report);
+        renderApp();
+        setStatus('Latest research loaded successfully.', 'success');
       } catch (err) {
+        hydrateLeadsFromStorage();
+        renderApp();
         setStatus('Failed to load report: ' + err.message, 'error');
       }
     }
 
-    function escapeHtml(value) {
-      return String(value ?? '')
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#39;');
+    function hydrateLeadsFromStorage() {
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (!saved) return;
+        const parsed = JSON.parse(saved);
+        appState.leads = parsed.leads || {};
+        appState.selectedLeadId = parsed.selectedLeadId || null;
+      } catch (err) {
+        console.warn('Failed to read saved state', err);
+      }
+    }
+
+    function persistState() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        leads: appState.leads,
+        selectedLeadId: appState.selectedLeadId
+      }));
+    }
+
+    function slugify(value) {
+      return String(value || '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '')
+        .slice(0, 90);
     }
 
     function fmtDate(value) {
@@ -464,145 +667,368 @@
       });
     }
 
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
     function setStatus(message, tone) {
       const status = document.getElementById('status');
       status.textContent = message;
-
-      const tones = {
-        success: { background: 'var(--success-bg)', color: 'var(--success-text)', border: 'var(--border)' },
-        warning: { background: 'var(--warning-bg)', color: 'var(--warning-text)', border: 'var(--border)' },
-        error: { background: 'var(--danger-bg)', color: 'var(--danger-text)', border: 'var(--border)' }
+      const map = {
+        success: { bg: 'rgba(34, 197, 94, 0.14)', fg: '#b6f7ca' },
+        warning: { bg: 'rgba(245, 158, 11, 0.12)', fg: '#f9d48d' },
+        error: { bg: 'rgba(239, 68, 68, 0.16)', fg: '#ffc4c4' }
       };
-
-      const style = tones[tone] || tones.warning;
-      status.style.background = style.background;
-      status.style.color = style.color;
-      status.style.borderColor = style.border;
+      const style = map[tone] || map.warning;
+      status.style.background = style.bg;
+      status.style.color = style.fg;
     }
 
-    function renderReport(data) {
-      const summary = data.summary || {};
-      const best = data.best_pick || {};
-      const opportunities = Array.isArray(data.top_opportunities) ? data.top_opportunities : [];
-      const meta = data.meta || {};
-      const isWaiting = meta.status === 'waiting_for_first_run' || !opportunities.length;
-
-      document.getElementById('headline').textContent = summary.headline || 'UK business opportunity report';
-      document.getElementById('why-now').textContent = summary.why_now || 'No summary yet.';
+    function renderHeader(report) {
+      const summary = report?.summary || {};
+      document.getElementById('headline').textContent = summary.headline || 'Opportunity OS';
+      document.getElementById('why-now').textContent = summary.why_now || 'Use this board to turn research into action.';
       document.getElementById('best-opportunity').textContent = summary.best_opportunity || 'Pending';
-      document.getElementById('generated-at').textContent = fmtDate(data.generated_at);
-
-      setStatus(
-        isWaiting
-          ? 'Dashboard is ready. Waiting for the first live research run to populate the report.'
-          : 'Latest report loaded successfully.',
-        isWaiting ? 'warning' : 'success'
-      );
-
-      const list = document.getElementById('opportunity-list');
-      list.innerHTML = opportunities.length
-        ? opportunities.map((item, index) => renderOpportunity(item, index + 1)).join('')
-        : '<div class="empty">No ranked opportunities yet. Once the scheduled agent completes its first run, the top opportunities will appear here with scores, risks, and verdicts.</div>';
-
-      document.getElementById('best-pick').innerHTML = renderBestPick(best, isWaiting);
+      document.getElementById('generated-at').textContent = fmtDate(report?.generated_at);
     }
 
-    function renderOpportunity(item, rank) {
-      const scores = item.scores || {};
-      const scoreCards = [
-        ['Demand', scores.demand],
-        ['Competition', scores.competition],
-        ['Startup ease', scores.startup_ease],
-        ['Speed to cash', scores.speed_to_cash],
-        ['Recurring revenue', scores.recurring_revenue],
-        ['Founder fit', scores.founder_fit]
-      ].map(([label, value]) => `
-        <div class="score">
-          <span class="label">${escapeHtml(label)}</span>
-          <div class="value">${escapeHtml(value ?? '—')}</div>
-        </div>
+    function baseLeadFromOpportunity(item, index) {
+      const id = 'report-' + slugify(item.name || 'opportunity') + '-' + index;
+      return {
+        id,
+        source: 'daily-report',
+        reportRank: index + 1,
+        name: item.name || 'Untitled opportunity',
+        description: item.description || '',
+        whyNow: item.why_now || '',
+        buyer: item.buyer || '',
+        startupCost: item.startup_cost || '',
+        speedToRevenue: item.speed_to_revenue || '',
+        recurringRevenue: item.recurring_revenue || '',
+        founderFit: item.founder_fit || '',
+        verdict: item.verdict || '',
+        risks: Array.isArray(item.risks) ? item.risks : [],
+        scores: item.scores || {},
+        stage: 'inbox',
+        convictionScore: '',
+        nextStep: 'Decide whether to validate this opportunity this week.',
+        thesis: '',
+        notes: '',
+        touchedAt: new Date().toISOString(),
+        createdAt: new Date().toISOString()
+      };
+    }
+
+    function mergeReportIntoLeads(report) {
+      const opportunities = Array.isArray(report?.top_opportunities) ? report.top_opportunities : [];
+      opportunities.forEach((item, index) => {
+        const seed = baseLeadFromOpportunity(item, index);
+        const existing = appState.leads[seed.id];
+        appState.leads[seed.id] = existing
+          ? {
+              ...seed,
+              ...existing,
+              id: seed.id,
+              source: existing.source || seed.source,
+              reportRank: seed.reportRank,
+              touchedAt: existing.touchedAt || seed.touchedAt,
+              createdAt: existing.createdAt || seed.createdAt
+            }
+          : seed;
+      });
+
+      if (!appState.selectedLeadId) {
+        const first = Object.values(appState.leads).sort(sortLeads)[0];
+        appState.selectedLeadId = first?.id || null;
+      }
+      persistState();
+    }
+
+    function sortLeads(a, b) {
+      const stageIndexDiff = STAGES.findIndex(s => s.id === a.stage) - STAGES.findIndex(s => s.id === b.stage);
+      if (stageIndexDiff !== 0) return stageIndexDiff;
+      if ((a.reportRank ?? 99) !== (b.reportRank ?? 99)) return (a.reportRank ?? 99) - (b.reportRank ?? 99);
+      return new Date(b.touchedAt || 0) - new Date(a.touchedAt || 0);
+    }
+
+    function getAllLeads() {
+      return Object.values(appState.leads).sort(sortLeads);
+    }
+
+    function getFilteredLeads() {
+      const query = document.getElementById('search-input').value.trim().toLowerCase();
+      if (!query) return getAllLeads();
+      return getAllLeads().filter(lead => [
+        lead.name,
+        lead.description,
+        lead.buyer,
+        lead.whyNow,
+        lead.nextStep,
+        lead.notes,
+        lead.thesis,
+        lead.stage
+      ].join(' ').toLowerCase().includes(query));
+    }
+
+    function renderApp() {
+      renderStats();
+      renderFeed();
+      renderBoard();
+      fillSelectedLeadForm();
+      persistState();
+    }
+
+    function renderStats() {
+      const leads = getAllLeads();
+      const active = leads.filter(lead => !['won', 'parked'].includes(lead.stage));
+      const validating = leads.filter(lead => ['outreach', 'validating', 'offer-ready'].includes(lead.stage));
+      const top = leads.find(lead => lead.reportRank === 1) || leads[0];
+      const stats = [
+        {
+          title: 'Tracked opportunities',
+          number: leads.length,
+          body: 'Everything currently in your opportunity operating system.'
+        },
+        {
+          title: 'Active pipeline',
+          number: active.length,
+          body: 'Ideas not yet won or parked.'
+        },
+        {
+          title: 'In motion',
+          number: validating.length,
+          body: 'Ideas currently being contacted, validated, or shaped into an offer.'
+        },
+        {
+          title: 'Current best bet',
+          number: top ? '#' + (top.reportRank || '—') : '—',
+          body: top ? escapeHtml(top.name) : 'No opportunity loaded yet.'
+        }
+      ];
+
+      document.getElementById('stats-grid').innerHTML = stats.map(item => `
+        <section class="panel stat-card">
+          <span class="label">${item.title}</span>
+          <div class="big-number">${item.number}</div>
+          <p>${item.body}</p>
+        </section>
       `).join('');
+    }
 
-      const facts = [
-        ['Buyer', item.buyer],
-        ['Startup cost', item.startup_cost],
-        ['Speed to revenue', item.speed_to_revenue],
-        ['Recurring revenue', item.recurring_revenue]
-      ].map(([label, value]) => `
-        <div class="fact">
-          <span class="label">${escapeHtml(label)}</span>
-          <div class="value">${escapeHtml(value ?? '—')}</div>
-        </div>
-      `).join('');
+    function renderFeed() {
+      const feed = getFilteredLeads();
+      const root = document.getElementById('feed-list');
+      if (!feed.length) {
+        root.innerHTML = '<div class="empty">No opportunities match your search.</div>';
+        return;
+      }
 
-      const risks = Array.isArray(item.risks) && item.risks.length
-        ? `<ul class="list">${item.risks.map(risk => `<li>${escapeHtml(risk)}</li>`).join('')}</ul>`
-        : '<p class="muted">No major risks listed.</p>';
-
-      return `
-        <article class="opportunity">
-          <div class="opportunity-top">
-            <h3>${rank}. ${escapeHtml(item.name || 'Untitled opportunity')}</h3>
-            <div class="rank-pill">${escapeHtml(item.verdict || 'Ranked idea')}</div>
+      root.innerHTML = feed.map(lead => `
+        <article class="feed-card ${lead.id === appState.selectedLeadId ? 'active' : ''}">
+          <div class="card-top">
+            <div>
+              <h3>${escapeHtml(lead.name)}</h3>
+              <div class="meta-row">
+                <span class="pill stage-${escapeHtml(lead.stage)}">${escapeHtml(stageName(lead.stage))}</span>
+                ${lead.reportRank ? `<span class="meta-chip">Rank #${escapeHtml(lead.reportRank)}</span>` : ''}
+                ${lead.convictionScore ? `<span class="meta-chip">Conviction ${escapeHtml(lead.convictionScore)}/10</span>` : ''}
+              </div>
+            </div>
           </div>
-          <p>${escapeHtml(item.description || 'No description provided.')}</p>
-          <div class="key-facts">${facts}</div>
-          <div class="scores">${scoreCards}</div>
-          <p><strong>Why now:</strong> ${escapeHtml(item.why_now || 'No context provided.')}</p>
-          <p><strong>Founder fit:</strong> ${escapeHtml(item.founder_fit || 'No fit summary provided.')}</p>
-          <div>
-            <span class="label">Main risks</span>
-            ${risks}
+          <p>${escapeHtml(lead.description || 'No description provided.')}</p>
+          <div class="facts">
+            <div class="fact"><span class="label">Buyer</span><div class="value">${escapeHtml(lead.buyer || '—')}</div></div>
+            <div class="fact"><span class="label">Speed to revenue</span><div class="value">${escapeHtml(lead.speedToRevenue || '—')}</div></div>
+            <div class="fact"><span class="label">Startup cost</span><div class="value">${escapeHtml(lead.startupCost || '—')}</div></div>
+            <div class="fact"><span class="label">Recurring revenue</span><div class="value">${escapeHtml(lead.recurringRevenue || '—')}</div></div>
+          </div>
+          <p><strong>Next action:</strong> ${escapeHtml(lead.nextStep || 'No next step set yet.')}</p>
+          <div class="mini-actions">
+            <button class="btn small" onclick="selectLead('${lead.id}')">Open</button>
+            <button class="btn small secondary" onclick="advanceToNextStage('${lead.id}')">Advance stage</button>
+            <button class="btn small ghost" onclick="parkLead('${lead.id}')">Park</button>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function renderBoard() {
+      const leads = getFilteredLeads();
+      const grouped = Object.fromEntries(STAGES.map(stage => [stage.id, []]));
+      leads.forEach(lead => {
+        if (!grouped[lead.stage]) grouped[lead.stage] = [];
+        grouped[lead.stage].push(lead);
+      });
+
+      document.getElementById('board').innerHTML = STAGES.map(stage => `
+        <section class="stage-column">
+          <div class="stage-head">
+            <div>
+              <h3>${escapeHtml(stage.name)}</h3>
+              <div class="stage-count">${(grouped[stage.id] || []).length} item(s)</div>
+            </div>
+            <span class="pill stage-${escapeHtml(stage.id)}">${escapeHtml(stage.id.replace('-', ' '))}</span>
+          </div>
+          <div class="column-list">
+            ${(grouped[stage.id] || []).length ? grouped[stage.id].map(renderLeadCard).join('') : '<div class="empty">Nothing here yet.</div>'}
+          </div>
+        </section>
+      `).join('');
+    }
+
+    function renderLeadCard(lead) {
+      return `
+        <article class="lead-card ${lead.id === appState.selectedLeadId ? 'active' : ''}">
+          <div class="card-top">
+            <h4>${escapeHtml(lead.name)}</h4>
+            ${lead.convictionScore ? `<span class="meta-chip">${escapeHtml(lead.convictionScore)}/10</span>` : ''}
+          </div>
+          <p>${escapeHtml(lead.thesis || lead.description || 'No notes yet.')}</p>
+          <div class="meta-row">
+            ${lead.reportRank ? `<span class="meta-chip">Rank #${escapeHtml(lead.reportRank)}</span>` : ''}
+            ${lead.buyer ? `<span class="meta-chip">${escapeHtml(lead.buyer)}</span>` : ''}
+          </div>
+          <p><strong>Next:</strong> ${escapeHtml(lead.nextStep || 'No next step set')}</p>
+          <div class="lead-actions">
+            <button class="btn small" onclick="selectLead('${lead.id}')">Edit</button>
+            <button class="btn small secondary" onclick="shiftStage('${lead.id}', -1)">←</button>
+            <button class="btn small secondary" onclick="shiftStage('${lead.id}', 1)">→</button>
           </div>
         </article>
       `;
     }
 
-    function renderBestPick(best, isWaiting) {
-      if (isWaiting) {
-        return '<div class="empty">The best-pick breakdown will appear here after the live research report is generated.</div>';
+    function stageName(stageId) {
+      return STAGES.find(stage => stage.id === stageId)?.name || stageId;
+    }
+
+    function selectLead(leadId) {
+      appState.selectedLeadId = leadId;
+      fillSelectedLeadForm();
+      renderApp();
+    }
+
+    function fillSelectedLeadForm() {
+      const lead = appState.leads[appState.selectedLeadId] || {};
+      document.getElementById('form-lead-id').value = lead.id || '';
+      document.getElementById('form-name').value = lead.name || '';
+      document.getElementById('form-stage').value = lead.stage || 'inbox';
+      document.getElementById('form-score').value = lead.convictionScore || '';
+      document.getElementById('form-buyer').value = lead.buyer || '';
+      document.getElementById('form-next-step').value = lead.nextStep || '';
+      document.getElementById('form-thesis').value = lead.thesis || '';
+      document.getElementById('form-notes').value = lead.notes || '';
+    }
+
+    function saveLeadDetails(event) {
+      event.preventDefault();
+      const leadId = document.getElementById('form-lead-id').value;
+      if (!leadId || !appState.leads[leadId]) {
+        setStatus('Select an opportunity first before saving details.', 'warning');
+        return;
       }
 
-      const validationPlan = Array.isArray(best.validation_plan) && best.validation_plan.length
-        ? `<ol class="list">${best.validation_plan.map(step => `<li>${escapeHtml(step)}</li>`).join('')}</ol>`
-        : '<p class="muted">No validation plan yet.</p>';
+      appState.leads[leadId] = {
+        ...appState.leads[leadId],
+        name: document.getElementById('form-name').value.trim() || appState.leads[leadId].name,
+        stage: document.getElementById('form-stage').value,
+        convictionScore: document.getElementById('form-score').value.trim(),
+        buyer: document.getElementById('form-buyer').value.trim(),
+        nextStep: document.getElementById('form-next-step').value.trim(),
+        thesis: document.getElementById('form-thesis').value.trim(),
+        notes: document.getElementById('form-notes').value.trim(),
+        touchedAt: new Date().toISOString()
+      };
 
-      const customerTypes = Array.isArray(best.customer_types) && best.customer_types.length
-        ? `<ul class="list">${best.customer_types.map(type => `<li>${escapeHtml(type)}</li>`).join('')}</ul>`
-        : '<p class="muted">No customer targets listed.</p>';
+      setStatus('Opportunity updated.', 'success');
+      renderApp();
+    }
 
-      return `
-        <section class="spotlight">
-          <span class="label">Best pick</span>
-          <h3>${escapeHtml(best.name || 'No best pick yet')}</h3>
-          <p>${escapeHtml(best.why_it_wins || 'No explanation yet.')}</p>
-        </section>
+    function shiftStage(leadId, direction) {
+      const lead = appState.leads[leadId];
+      if (!lead) return;
+      const index = STAGES.findIndex(stage => stage.id === lead.stage);
+      const nextIndex = Math.max(0, Math.min(STAGES.length - 1, index + direction));
+      lead.stage = STAGES[nextIndex].id;
+      lead.touchedAt = new Date().toISOString();
+      appState.selectedLeadId = leadId;
+      setStatus(`Moved to ${stageName(lead.stage)}.`, 'success');
+      renderApp();
+    }
 
-        <section class="spotlight">
-          <span class="label">First offer</span>
-          <p>${escapeHtml(best.first_offer || 'No first offer defined.')}</p>
-        </section>
+    function moveLead(direction) {
+      const leadId = document.getElementById('form-lead-id').value;
+      if (!leadId) {
+        setStatus('Select an opportunity first.', 'warning');
+        return;
+      }
+      shiftStage(leadId, direction);
+    }
 
-        <section class="spotlight">
-          <span class="label">MVP angle</span>
-          <p>${escapeHtml(best.mvp || 'No MVP plan defined.')}</p>
-        </section>
+    function advanceToNextStage(leadId) {
+      shiftStage(leadId, 1);
+    }
 
-        <section class="spotlight">
-          <span class="label">Validation plan</span>
-          ${validationPlan}
-        </section>
+    function parkLead(leadId) {
+      const lead = appState.leads[leadId];
+      if (!lead) return;
+      lead.stage = 'parked';
+      lead.touchedAt = new Date().toISOString();
+      appState.selectedLeadId = leadId;
+      setStatus('Opportunity parked.', 'success');
+      renderApp();
+    }
 
-        <section class="spotlight">
-          <span class="label">Best customer types</span>
-          ${customerTypes}
-        </section>
+    function exportState() {
+      const blob = new Blob([JSON.stringify({
+        exportedAt: new Date().toISOString(),
+        leads: appState.leads,
+        selectedLeadId: appState.selectedLeadId
+      }, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement('a');
+      anchor.href = url;
+      anchor.download = 'opportunity-os-export.json';
+      anchor.click();
+      URL.revokeObjectURL(url);
+      setStatus('Pipeline exported as JSON.', 'success');
+    }
 
-        <section class="spotlight">
-          <span class="label">Do this today</span>
-          <p>${escapeHtml(best.do_today || 'No immediate action listed.')}</p>
-        </section>
-      `;
+    function importState(event) {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const parsed = JSON.parse(reader.result);
+          appState.leads = parsed.leads || {};
+          appState.selectedLeadId = parsed.selectedLeadId || Object.keys(appState.leads)[0] || null;
+          if (appState.report) mergeReportIntoLeads(appState.report);
+          setStatus('Imported pipeline JSON.', 'success');
+          renderApp();
+        } catch (err) {
+          setStatus('Import failed: invalid JSON file.', 'error');
+        }
+      };
+      reader.readAsText(file);
+      event.target.value = '';
+    }
+
+    function resetState() {
+      if (!confirm('Reset all locally saved stage, note, and next-step data for this browser?')) return;
+      localStorage.removeItem(STORAGE_KEY);
+      appState.leads = {};
+      appState.selectedLeadId = null;
+      if (appState.report) {
+        mergeReportIntoLeads(appState.report);
+        renderApp();
+      }
+      setStatus('Local pipeline state reset.', 'success');
     }
 
     loadReport();
