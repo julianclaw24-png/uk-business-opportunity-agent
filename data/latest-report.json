@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-02T08:05:38+00:00",
+  "generated_at": "2026-07-03T08:06:38+00:00",
   "summary": {
-    "headline": "Best opportunity today: MTD rollout support still leads, with late-payment automation a close second as UK policy pressure rises.",
+    "headline": "Best UK opportunity today: MTD onboarding still leads, with late-payment automation the best cashflow-focused second bet.",
     "best_opportunity": "Making Tax Digital onboarding, cleanup and quarterly-support automation for sole traders, landlords and small accountancy firms",
-    "why_now": "HMRC's live guidance says Making Tax Digital for Income Tax became mandatory from 6 April 2026 for qualifying income above £50,000, expanding to £30,000 from 6 April 2027 and £20,000 from 6 April 2028. That creates immediate setup work now and recurring quarterly support next."
+    "why_now": "HMRC live guidance says MTD for Income Tax started from 6 April 2026 for qualifying income above \u00a350,000, expands to \u00a330,000 from 6 April 2027 and \u00a320,000 from 6 April 2028. That creates immediate setup work now and recurring quarterly admin support after launch."
   },
   "top_opportunities": [
     {
       "name": "Making Tax Digital onboarding and quarterly-support automation",
-      "description": "Sell a fixed-scope package that checks eligibility, cleans records, connects bookkeeping software, sets reminder workflows and gives quarterly update support for MTD for Income Tax.",
-      "why_now": "Evidence is strong. GOV.UK guidance says MTD for Income Tax is mandatory from 6 April 2026 for qualifying income above £50,000, then £30,000 from 6 April 2027 and £20,000 from 6 April 2028. HMRC's February 2026 news page also said more than 860,000 sole traders and landlords needed to start using digital reporting, so this is active compliance demand rather than a speculative trend.",
-      "buyer": "Sole traders, portfolio landlords, independent bookkeepers and small accountancy practices",
-      "startup_cost": "£200-£1,200",
+      "description": "Sell a fixed-scope package that checks eligibility, cleans records, connects bookkeeping software, installs reminder workflows and supports quarterly updates for MTD for Income Tax.",
+      "why_now": "Evidence is strong. GOV.UK says qualifying income above \u00a350,000 for the 2024 to 2025 tax year must use MTD from 6 April 2026, then \u00a330,000 from 6 April 2027 and \u00a320,000 from 6 April 2028. This is active compliance demand, not a speculative trend.",
+      "buyer": "Sole traders, landlords, independent bookkeepers and small accountancy practices",
+      "startup_cost": "\u00a3200-\u00a31,200",
       "speed_to_revenue": "7-21 days",
       "recurring_revenue": "High - setup fee plus monthly or quarterly support",
-      "founder_fit": "Excellent for a solo engineer because the first offer is migration, workflow setup and dashboarding, not building a full accounting platform.",
+      "founder_fit": "Excellent for a solo engineer because the first offer is migration, workflow setup and admin reduction, not building a full accounting product.",
       "risks": [
-        "Accounting software vendors already own the core ledger, so the wedge must be onboarding, cleanup and admin reduction",
-        "Stay away from regulated tax advice and position the offer as implementation and process automation"
+        "Accounting software vendors already own the core ledger, so the wedge must be onboarding, cleanup and reporting admin",
+        "Avoid regulated tax advice and position the offer as implementation and workflow support"
       ],
       "scores": {
         "demand": "9/10",
@@ -27,19 +27,19 @@
         "recurring_revenue": "9/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Best overall because the trigger is real, time-bounded and service-first, with a clean path into recurring support."
+      "verdict": "Best overall because the trigger is real, current and service-first, with a clean path into recurring support."
     },
     {
       "name": "Invoice chasing and e-invoicing automation for UK SMEs",
       "description": "Build a productized service or lightweight SaaS that issues cleaner invoices, automates reminders, tracks promises to pay and gives owners a simple overdue-cash dashboard.",
-      "why_now": "Evidence is strong. A March 2026 GOV.UK announcement said late payments cost the UK economy £11 billion per year, 38 businesses close every day because they are not paid on time, and government plans include a 60-day cap on payment terms for large firms plus mandatory late-payment interest. The Small Business Commissioner's e-invoicing guidance also says moving to e-invoicing can reduce invoicing costs by 60 to 80 percent and speed payment.",
+      "why_now": "Evidence is strong. GOV.UK says the late-payment crackdown is aimed at unlocking growth for 5.5 million small firms, and the Small Business Commissioner says moving to e-invoicing reduces invoicing costs by 60-80 percent. The buyer pain is immediate cashflow, so the ROI story is easy to pitch.",
       "buyer": "Micro businesses, agencies, consultancies, trades firms and other B2B service SMEs",
-      "startup_cost": "£150-£1,000",
+      "startup_cost": "\u00a3150-\u00a31,000",
       "speed_to_revenue": "7-14 days",
       "recurring_revenue": "High - monthly subscription or managed receivables retainer",
-      "founder_fit": "Very strong for a solo engineer because this is mainly reminders, integrations, workflow logic and reporting.",
+      "founder_fit": "Very strong for a solo engineer because this is mostly reminders, integrations, workflow logic and reporting.",
       "risks": [
-        "Some buyers will assume their accounting package already solves this unless you frame the pitch around debtor days and cash collection",
+        "Some buyers will assume their accounting package already solves this unless you frame the pitch around debtor days and collected cash",
         "Messy data across Xero, QuickBooks and spreadsheet-led workflows can slow onboarding"
       ],
       "scores": {
@@ -50,20 +50,20 @@
         "recurring_revenue": "8/10",
         "founder_fit": "9/10"
       },
-      "verdict": "One of the best immediate-cash opportunities because owners feel the pain now and the ROI story is obvious."
+      "verdict": "One of the best fast-cash opportunities because owners feel the pain now and value can be proven in weeks."
     },
     {
       "name": "AI lead-response and admin automation for trades and local service firms",
-      "description": "Productize missed-call text-back, instant form replies, quote follow-up, booking handoff and a simple pipeline dashboard for firms that lose jobs through slow response times.",
-      "why_now": "Evidence is solid but less direct than compliance or invoicing. The government's AI Opportunities Action Plan explicitly says it wants to ramp up AI adoption across the UK to boost growth and productivity, which supports practical automation offers. The opportunity is strongest when sold as faster lead handling and fewer admin hours, not generic AI consulting.",
+      "description": "Productize missed-call text-back, instant web-form replies, quote follow-up, booking handoff and a simple pipeline dashboard for firms that lose work through slow response times.",
+      "why_now": "Evidence is directionally strong but weaker than tax or payments. The UK AI Opportunities Action Plan says government is ramping up AI adoption across the UK to boost growth, and that supports practical workflow automation offers. The opportunity is strongest when sold as faster lead handling and fewer admin hours, not generic AI consulting.",
       "buyer": "Plumbers, electricians, HVAC firms, clinics, salons, cleaning firms and other local service operators",
-      "startup_cost": "£250-£1,500",
+      "startup_cost": "\u00a3250-\u00a31,500",
       "speed_to_revenue": "7-21 days",
       "recurring_revenue": "High - setup plus monthly retainer",
       "founder_fit": "Strong for a solo engineer because the stack is mostly messaging, CRM glue, forms, scheduling and reporting.",
       "risks": [
         "Competition is visible, so a narrow niche and hard ROI framing are essential",
-        "Some local firms lack clean lead data, which makes proof of value harder until tracking is installed"
+        "Evidence for urgency is less direct than compliance or payment pain, so the offer needs strong before-and-after metrics"
       ],
       "scores": {
         "demand": "8/10",
@@ -77,13 +77,13 @@
     },
     {
       "name": "Tender monitoring and bid-drafting assistant for SME suppliers",
-      "description": "Create a niche service or tool that monitors relevant tenders, scores fit, drafts first-pass answers and stores reusable evidence for small suppliers selling to government.",
-      "why_now": "Evidence is credible. GOV.UK says the Procurement Act 2023 has been in force since 24 February 2025, with nearly £400 billion of yearly public spend, simpler bidding processes, more standardisation and streamlining, and greater access for small businesses. That creates room for a focused monitoring and drafting layer, though sales cycles can be slower than tax or cashflow services.",
+      "description": "Create a focused service or tool that monitors relevant tenders, scores fit, drafts first-pass answers and stores reusable case-study and compliance evidence.",
+      "why_now": "Evidence is credible. GOV.UK says measures around the Procurement Act will speed up and simplify processes in a public sector market where \u00a3400 billion is spent each year on goods and services. That creates room for a narrow monitoring and drafting layer, though sales cycles are slower than tax or cashflow services.",
       "buyer": "Small consultancies, digital agencies, specialist service firms and compliance-heavy B2B suppliers",
-      "startup_cost": "£300-£1,500",
+      "startup_cost": "\u00a3300-\u00a31,500",
       "speed_to_revenue": "14-30 days",
       "recurring_revenue": "Medium to high - retainer, seat fee or managed bid support",
-      "founder_fit": "Good for an engineer who can combine tender scraping, search, document generation and workflow tooling into a narrow offer.",
+      "founder_fit": "Good for an engineer who can combine tender search, document generation and workflow tooling into a narrow offer.",
       "risks": [
         "Tendering is episodic, so revenue can be lumpier than in compliance services",
         "Bid-writing agencies already exist, so you need automation leverage or a tight vertical niche"
@@ -100,13 +100,13 @@
     },
     {
       "name": "Cyber Essentials readiness and small-business security workflow automation",
-      "description": "Offer a fixed-scope package covering backups, MFA, account hygiene, device checks, phishing prompts and evidence collection for small organisations that need a better baseline.",
-      "why_now": "Evidence is real but slightly softer on fastest buying urgency. The NCSC small-organisations guide says there are 5.5 million UK small organisations with 0 to 49 employees, that 1 in 2 small businesses suffer a cyber incident every year, and that many protective steps can be done quickly. That supports a checklist-driven, productized offer rather than bespoke security consulting.",
+      "description": "Offer a fixed-scope package covering MFA, backups, account hygiene, device checks, phishing guidance and evidence collection for small organisations that need a better baseline.",
+      "why_now": "Evidence is real but the buying trigger is softer than tax or cashflow. The NCSC actively maintains a small and medium-sized organisations guidance hub, and its Cyber Essentials overview says the scheme is aligned to five technical controls designed to prevent the most common internet-based threats. That supports a checklist-driven, productized offer rather than bespoke security consulting.",
       "buyer": "Small professional firms, charities, clinics, agencies and B2B service SMEs",
-      "startup_cost": "£300-£1,500",
+      "startup_cost": "\u00a3300-\u00a31,500",
       "speed_to_revenue": "14-30 days",
       "recurring_revenue": "Medium to high - monitoring, policy reviews and periodic checks",
-      "founder_fit": "Good if you prefer structured technical delivery and can keep the service standardized.",
+      "founder_fit": "Good if you prefer structured technical delivery and keep the service standardized.",
       "risks": [
         "Trust matters in security work, so some buyers will prefer established specialists",
         "If the offer becomes too bespoke, part-time solo delivery gets much harder"
@@ -127,11 +127,11 @@
     "why_it_wins": "It has the clearest live trigger, fits a solo engineer on a low budget, can be sold as a service before any software build-out, and naturally converts into recurring quarterly support or bookkeeping-adjacent admin retainers.",
     "validation_plan": [
       "Pick one wedge first: landlords with simple property records or small accountancy firms that need extra MTD onboarding capacity.",
-      "Build a tiny demo showing record capture, reminder workflows and a client-status dashboard on top of off-the-shelf accounting software.",
+      "Build a tiny demo showing record capture, reminder workflows and a client-status dashboard on top of off-the-shelf bookkeeping software.",
       "Publish a fixed-price MTD readiness package with clear scope, turnaround time and a monthly or quarterly support option.",
       "Contact 30 to 50 local accountants, bookkeepers and landlord-focused businesses before writing custom software beyond dashboards and automation."
     ],
-    "first_offer": "MTD readiness setup for sole traders and landlords: records cleanup, software connection, reminder workflows and first-quarter support. Charge roughly £299 to £799 setup plus £39 to £149 per month depending on complexity.",
+    "first_offer": "MTD readiness setup for sole traders and landlords: records cleanup, software connection, reminder workflows and first-quarter support. Charge roughly \u00a3299 to \u00a3799 setup plus \u00a339 to \u00a3149 per month depending on complexity.",
     "mvp": "A thin internal tool plus off-the-shelf bookkeeping software, document capture, reminder automation and a simple dashboard for onboarding status and quarterly check-ins.",
     "customer_types": [
       "Sole traders above the current MTD threshold",
