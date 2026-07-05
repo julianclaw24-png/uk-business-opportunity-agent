@@ -1,92 +1,92 @@
 {
-  "generated_at": "2026-07-04T08:03:14+00:00",
+  "generated_at": "2026-07-05T08:03:31+00:00",
   "summary": {
-    "headline": "Best UK opportunity today: MTD implementation still leads, with e-invoicing and cash-collection automation the strongest commercial second bet.",
-    "best_opportunity": "Making Tax Digital onboarding, cleanup and quarterly-support automation for sole traders, landlords and small accountancy firms",
-    "why_now": "Live GOV.UK guidance updated in March 2026 says MTD for Income Tax starts from 6 April 2026 for qualifying income above £50,000, expands to £30,000 from 6 April 2027 and £20,000 from 6 April 2028. That creates immediate setup demand now plus recurring quarterly workflow support after onboarding."
+    "headline": "Best UK opportunity today: receivables and e-invoicing automation for SMEs, with MTD onboarding still a close second.",
+    "best_opportunity": "E-invoicing rollout and cash-collection automation for UK SMEs",
+    "why_now": "Live GOV.UK signals are unusually strong: the e-invoicing consultation response says 80% of SMEs still mainly use PDF or email invoices and cites 60% to 80% lower invoicing costs plus 20% fewer late payments from adoption, while a 19 May 2026 government announcement says late payments cost the UK economy £11 billion a year. That creates immediate ROI-led sales angles and recurring support revenue."
   },
   "top_opportunities": [
     {
+      "name": "E-invoicing rollout and receivables automation for SMEs",
+      "description": "Sell a fixed-scope setup that standardises invoice creation, automates reminders, tracks disputes and promises to pay, and gives owners a simple overdue-cash dashboard across Xero, QuickBooks or spreadsheet-led workflows.",
+      "why_now": "Evidence is strong. The GOV.UK e-invoicing consultation response says 80% of SMEs still mainly send PDF or email invoices and cites 60% to 80% lower invoicing costs, 20% fewer late payments and about £11,300 annual savings for small firms. Separately, a 19 May 2026 GOV.UK announcement says late payments cost the UK economy £11 billion a year.",
+      "buyer": "Micro and small B2B service firms, agencies, consultancies, trades businesses and wholesalers",
+      "startup_cost": "£150-£1,200",
+      "speed_to_revenue": "7-14 days",
+      "recurring_revenue": "High - setup fee plus monthly monitoring, reminder automation and reporting",
+      "founder_fit": "Excellent for a solo engineer because the wedge is integration, workflow logic and dashboards rather than building a full accounting system.",
+      "risks": [
+        "Some buyers will assume their accounting package already solves invoicing unless the pitch is framed around debtor days and collected cash",
+        "Messy billing data and inconsistent internal processes can slow onboarding"
+      ],
+      "scores": {
+        "demand": "9/10",
+        "competition": "6/10",
+        "startup_ease": "8/10",
+        "speed_to_cash": "9/10",
+        "recurring_revenue": "9/10",
+        "founder_fit": "9/10"
+      },
+      "verdict": "Best overall today because the pain is immediate cashflow, the ROI is easy to quantify, and the service can start manually before any software build-out."
+    },
+    {
       "name": "Making Tax Digital onboarding and quarterly-support automation",
-      "description": "Sell a fixed-scope implementation package that checks MTD eligibility, cleans records, connects bookkeeping software, sets reminder workflows and supports quarterly updates for sole traders, landlords and small firms.",
-      "why_now": "Evidence is strong. GOV.UK says qualifying income above £50,000 for the 2024 to 2025 tax year must use MTD from 6 April 2026, then £30,000 from 6 April 2027 and £20,000 from 6 April 2028. This is live compliance demand with a direct service wedge.",
+      "description": "Offer a productized package that checks MTD eligibility, cleans records, connects bookkeeping software, sets reminder workflows and handles quarterly support for sole traders, landlords and small accountancy firms.",
+      "why_now": "Evidence is strong. Current GOV.UK guidance says qualifying income above £50,000 for the 2024 to 2025 tax year must use MTD for Income Tax from 6 April 2026, above £30,000 from 6 April 2027 and above £20,000 from 6 April 2028. That means live migration work now and recurring support afterwards.",
       "buyer": "Sole traders, landlords, independent bookkeepers and small accountancy practices",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "7-21 days",
-      "recurring_revenue": "High - setup fee plus monthly or quarterly support",
-      "founder_fit": "Excellent for a solo engineer because the first sale is migration, workflow setup and admin reduction rather than building a full accounting platform.",
+      "recurring_revenue": "High - onboarding fee plus monthly or quarterly support",
+      "founder_fit": "Excellent for a solo engineer because the first sale is implementation and admin reduction, not a full accounting product.",
       "risks": [
-        "Accounting software vendors already own the ledger, so the wedge must be onboarding, cleanup and reporting admin",
-        "Avoid regulated tax advice and position the offer as implementation and workflow support"
+        "Accounting software vendors already own the ledger, so the wedge must be onboarding, cleanup and workflow support",
+        "Avoid crossing into regulated tax advice and stay positioned as implementation and process support"
       ],
       "scores": {
         "demand": "9/10",
         "competition": "7/10",
         "startup_ease": "8/10",
-        "speed_to_cash": "9/10",
+        "speed_to_cash": "8/10",
         "recurring_revenue": "9/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Best overall because the trigger is current, the offer can be sold immediately as a service, and recurring support is built in."
+      "verdict": "Still one of the best UK solo opportunities because the trigger is live, the budget is low and recurring support is built in."
     },
     {
-      "name": "E-invoicing rollout and receivables automation for SMEs",
-      "description": "Offer a productized service or lightweight SaaS that standardises invoice creation, automates reminders, tracks promises to pay and gives owners a simple overdue-cash dashboard.",
-      "why_now": "Evidence is strong. A March 2026 GOV.UK study says 80% of SMEs still mainly send PDF or email invoices, so adoption headroom is real. The November 2025 government consultation response says e-invoicing can cut invoicing costs by 60% to 80%, reduce late payments by 20% and save small firms about £11,300 annually. A May 2026 GOV.UK announcement also says late payments cost the UK economy £11 billion every year.",
-      "buyer": "Micro businesses, agencies, consultancies, trades firms and other B2B service SMEs",
-      "startup_cost": "£150-£1,200",
-      "speed_to_revenue": "7-14 days",
-      "recurring_revenue": "High - monthly subscription or managed receivables retainer",
-      "founder_fit": "Very strong for a solo engineer because the work is mainly integrations, workflow rules, reminder logic and reporting.",
+      "name": "AI document drafting and workflow automation for small professional firms",
+      "description": "Build narrow automations that turn calls, forms and notes into first-draft reports, letters, summaries and internal checklists for firms that produce structured documents all day.",
+      "why_now": "Evidence is good but less direct than the top two. The current GOV.UK AI Opportunities Action Plan says AI assistants can free up to 20% of an employee's time and that drafting structured reports and forms can cut final document production times by 20% to 80% in professional services. That supports ROI-led offers for document-heavy SMEs.",
+      "buyer": "Accountants, mortgage brokers, planning consultants, surveyors, recruiters and compliance-heavy niche agencies",
+      "startup_cost": "£150-£1,500",
+      "speed_to_revenue": "7-21 days",
+      "recurring_revenue": "High - setup plus monthly usage, maintenance and prompt/workflow tuning",
+      "founder_fit": "Very strong for a solo engineer who can package LLM workflows, document templates and approval steps into one managed service.",
       "risks": [
-        "Some buyers will assume their accounting package already solves this unless the pitch is framed around debtor days and collected cash",
-        "Messy source data across Xero, QuickBooks and spreadsheet-led workflows can slow onboarding"
-      ],
-      "scores": {
-        "demand": "9/10",
-        "competition": "6/10",
-        "startup_ease": "8/10",
-        "speed_to_cash": "9/10",
-        "recurring_revenue": "9/10",
-        "founder_fit": "9/10"
-      },
-      "verdict": "Probably the best non-compliance opportunity because the pain is immediate cashflow and the ROI is easy to demonstrate fast."
-    },
-    {
-      "name": "Tender monitoring and bid-drafting assistant for SME suppliers",
-      "description": "Create a focused tool or managed service that monitors relevant tenders, scores fit, drafts first-pass answers and stores reusable case-study, pricing and compliance evidence.",
-      "why_now": "Evidence is good. Procurement Act guidance updated in 2026 says contracting authorities must have regard to barriers faced by SMEs, and Procurement Policy Note 001 says the reforms are intended to make it easier for small businesses to access public sector supply chains with greater visibility of upcoming opportunities. That creates room for a narrow monitoring and drafting layer.",
-      "buyer": "Small consultancies, digital agencies, specialist service firms and compliance-heavy B2B suppliers",
-      "startup_cost": "£300-£1,500",
-      "speed_to_revenue": "14-30 days",
-      "recurring_revenue": "Medium to high - retainer, seat fee or managed bid support",
-      "founder_fit": "Good for an engineer who can combine data collection, document generation and workflow tooling into one narrow offer.",
-      "risks": [
-        "Tender demand is episodic, so revenue can be lumpier than tax or payment services",
-        "Bid-writing agencies already exist, so the offer needs automation leverage or a tight niche"
+        "Buying urgency is weaker than compliance or late-payment pain, so demos and measured time savings matter",
+        "Hallucination and data-handling concerns mean human review must stay in the loop"
       ],
       "scores": {
         "demand": "7/10",
         "competition": "6/10",
-        "startup_ease": "7/10",
-        "speed_to_cash": "6/10",
+        "startup_ease": "8/10",
+        "speed_to_cash": "8/10",
         "recurring_revenue": "8/10",
-        "founder_fit": "8/10"
+        "founder_fit": "9/10"
       },
-      "verdict": "A credible niche B2B play if aimed at one supplier category instead of the whole procurement market."
+      "verdict": "Best AI-native option if sold as a narrow workflow product for one document-heavy niche rather than generic AI consulting."
     },
     {
       "name": "Cyber Essentials readiness and evidence-collection automation",
-      "description": "Offer a fixed-scope package covering MFA, backups, account hygiene, device checks, phishing guidance and evidence collection for small organisations that need a stronger baseline or want to bid for contracts.",
-      "why_now": "Evidence is solid. GOV.UK updated its Cyber Essentials overview in March 2026 and says over 215,000 certificates have been awarded, including 49,248 in the past 12 months. It also says an up-to-date certificate enables a business to bid for government contracts where financial or personal data is involved. That supports a checklist-driven, productized service.",
-      "buyer": "Small professional firms, charities, clinics, agencies and B2B service SMEs",
+      "description": "Sell a standard package covering MFA, device checks, access hygiene, backup checks, staff guidance and evidence collection so small organisations can reach or renew Cyber Essentials faster.",
+      "why_now": "Evidence is solid. The current GOV.UK Cyber Essentials overview says over 215,000 certificates have been awarded, including 49,248 in the past 12 months, and says an up-to-date certificate enables a business to bid for government contracts where financial or personal data is involved. That supports a checklist-driven recurring service.",
+      "buyer": "Small professional firms, agencies, clinics, charities and B2B suppliers handling sensitive data",
       "startup_cost": "£300-£1,500",
       "speed_to_revenue": "14-30 days",
-      "recurring_revenue": "Medium to high - monitoring, policy reviews and periodic checks",
-      "founder_fit": "Good if you prefer structured technical delivery and keep the service standardized.",
+      "recurring_revenue": "Medium to high - annual renewals, monitoring and periodic checks",
+      "founder_fit": "Good if you prefer technical delivery and keep the offer tightly standardised.",
       "risks": [
         "Trust matters in security work, so some buyers will prefer established specialists",
-        "If the service becomes too bespoke, part-time solo delivery gets much harder"
+        "Bespoke security consulting can quickly break the part-time solo model"
       ],
       "scores": {
         "demand": "7/10",
@@ -96,50 +96,50 @@
         "recurring_revenue": "8/10",
         "founder_fit": "7/10"
       },
-      "verdict": "Viable as a standardized technical service, especially where certification unlocks contracts or supply-chain access."
+      "verdict": "A credible productized service if you keep scope narrow and sell speed-to-certification rather than broad cybersecurity consulting."
     },
     {
-      "name": "AI lead-response and admin automation for local service firms",
-      "description": "Productize missed-call text-back, instant web-form replies, quote follow-up, booking handoff and a basic pipeline dashboard for firms that lose work through slow response times.",
-      "why_now": "Evidence is more directional than the top four. The AI Opportunities Action Plan still frames AI as a growth and productivity priority for the UK, which helps sales conversations, but that is not the same as a hard buying trigger. This opportunity is strongest when sold as recovered leads and fewer admin hours, not as generic AI consulting.",
-      "buyer": "Plumbers, electricians, HVAC firms, clinics, salons, cleaning firms and other local service operators",
-      "startup_cost": "£250-£1,500",
-      "speed_to_revenue": "7-21 days",
-      "recurring_revenue": "High - setup plus monthly retainer",
-      "founder_fit": "Strong for a solo engineer because the stack is mostly messaging, CRM glue, forms, scheduling and reporting.",
+      "name": "Tender monitoring and bid-drafting assistant for SME suppliers",
+      "description": "Create a focused tool or managed service that monitors relevant tenders, flags fit, drafts first-pass answers and stores reusable evidence, pricing and compliance content.",
+      "why_now": "Evidence is decent. The Procurement Act 2023 learning materials on GOV.UK say the Act contains benefits for SMEs and VCSEs, aims to remove barriers to new entrants and improve transparency and visibility of opportunities. That makes a narrow tender-monitoring and bid-support layer plausible, though demand is less immediate than payment or tax pain.",
+      "buyer": "Small consultancies, agencies, specialist service firms and compliance-heavy B2B suppliers",
+      "startup_cost": "£300-£1,500",
+      "speed_to_revenue": "14-30 days",
+      "recurring_revenue": "Medium to high - retainer, seat fee or managed bid support",
+      "founder_fit": "Good for an engineer who can combine scraping, matching, document generation and workflow management into one narrow offer.",
       "risks": [
-        "Competition is visible, so a narrow niche and hard ROI framing are essential",
-        "Evidence for urgency is weaker than compliance or payment pain, so proof with before-and-after metrics matters"
+        "Tender demand is episodic, so revenue can be lumpier than invoicing or compliance services",
+        "The evidence for urgency is real but weaker than the top opportunities, so niche positioning is important"
       ],
       "scores": {
         "demand": "7/10",
         "competition": "6/10",
-        "startup_ease": "8/10",
-        "speed_to_cash": "8/10",
-        "recurring_revenue": "9/10",
-        "founder_fit": "9/10"
+        "startup_ease": "7/10",
+        "speed_to_cash": "6/10",
+        "recurring_revenue": "8/10",
+        "founder_fit": "8/10"
       },
-      "verdict": "Still attractive, but only if packaged as a narrow, ROI-led automation service rather than a broad AI agency offer."
+      "verdict": "Worth pursuing only with a tight niche, such as one supplier category or framework type, not the whole procurement market."
     }
   ],
   "best_pick": {
-    "name": "Making Tax Digital onboarding and quarterly-support automation",
-    "why_it_wins": "It has the clearest live trigger, fits a solo engineer on a low budget, can be sold as a service before any software build-out, and naturally converts into recurring quarterly support or bookkeeping-adjacent admin retainers.",
+    "name": "E-invoicing rollout and receivables automation for SMEs",
+    "why_it_wins": "It hits the user's core constraints best: it can be sold fast as a service, starts with low tooling cost, addresses immediate pain tied to cash collection, and naturally expands into monthly recurring monitoring and workflow support. The live UK evidence is stronger than for most generic AI offers.",
     "validation_plan": [
-      "Pick one wedge first: landlords with simple property records or small accountancy firms that need extra MTD onboarding capacity.",
-      "Build a tiny demo showing record capture, reminder workflows and a client-status dashboard on top of off-the-shelf bookkeeping software.",
-      "Publish a fixed-price MTD readiness package with clear scope, turnaround time and a monthly or quarterly support option.",
-      "Contact 30 to 50 local accountants, bookkeepers and landlord-focused businesses before building anything beyond dashboards and automation glue."
+      "Pick one buyer segment first, such as agencies, trades firms or small consultancies, and map their current invoice-to-cash process in detail.",
+      "Build a tiny demo that shows invoice creation, automated reminders, dispute tracking and an overdue-cash dashboard using existing accounting tools and lightweight automation.",
+      "Offer a fixed-price pilot to 10 local firms with a promise to reduce overdue invoices or admin hours within 30 days.",
+      "Track before-and-after metrics on debtor days, time spent chasing invoices and percentage of invoices paid on time."
     ],
-    "first_offer": "MTD readiness setup for sole traders and landlords: records cleanup, software connection, reminder workflows and first-quarter support. Charge roughly £299 to £799 setup plus £39 to £149 per month depending on complexity.",
-    "mvp": "A thin internal tool plus off-the-shelf bookkeeping software, document capture, reminder automation and a simple dashboard for onboarding status and quarterly check-ins.",
+    "first_offer": "Invoice-to-cash automation setup: connect invoicing source, create reminder sequences, add dispute tracking and deliver a weekly cash-collection dashboard. Charge roughly £299 to £999 setup plus £49 to £199 per month.",
+    "mvp": "A thin internal tool plus Zapier or Make, email templates, webhook-driven reminders and a simple owner dashboard pulling invoice status from one accounting platform.",
     "customer_types": [
-      "Sole traders above the current MTD threshold",
-      "Portfolio landlords with simple record-keeping",
-      "Small accountancy practices",
-      "Independent bookkeepers"
+      "Small B2B consultancies",
+      "Agencies and studios",
+      "Trades and field service firms",
+      "Other UK SMEs with recurring invoicing and overdue debtor pain"
     ],
-    "do_today": "Create a one-page MTD readiness offer, build a dashboard mock-up and start direct outreach to local accountants and landlord-facing businesses today."
+    "do_today": "Build one vertical landing page, wire up a demo flow on sample invoice data and start direct outreach to 30 UK firms that visibly invoice other businesses."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
