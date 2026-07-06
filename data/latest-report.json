@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-05T08:03:31+00:00",
+  "generated_at": "2026-07-06T08:00:42.914388+00:00",
   "summary": {
-    "headline": "Best UK opportunity today: receivables and e-invoicing automation for SMEs, with MTD onboarding still a close second.",
-    "best_opportunity": "E-invoicing rollout and cash-collection automation for UK SMEs",
-    "why_now": "Live GOV.UK signals are unusually strong: the e-invoicing consultation response says 80% of SMEs still mainly use PDF or email invoices and cites 60% to 80% lower invoicing costs plus 20% fewer late payments from adoption, while a 19 May 2026 government announcement says late payments cost the UK economy £11 billion a year. That creates immediate ROI-led sales angles and recurring support revenue."
+    "headline": "Best UK opportunity today: e-invoicing and cash-collection automation for SMEs, with MTD onboarding still a close second.",
+    "best_opportunity": "E-invoicing rollout and receivables automation for UK SMEs",
+    "why_now": "Current GOV.UK signals remain unusually strong: the e-invoicing consultation response says e-invoicing can cut invoicing costs by 60% to 80%, reduce late payments by 20% and save small firms about £11,300 a year, while current late-payment messaging says the problem costs the UK economy £11 billion annually. That gives a solo engineer a direct ROI-led service sale with recurring support potential."
   },
   "top_opportunities": [
     {
       "name": "E-invoicing rollout and receivables automation for SMEs",
       "description": "Sell a fixed-scope setup that standardises invoice creation, automates reminders, tracks disputes and promises to pay, and gives owners a simple overdue-cash dashboard across Xero, QuickBooks or spreadsheet-led workflows.",
-      "why_now": "Evidence is strong. The GOV.UK e-invoicing consultation response says 80% of SMEs still mainly send PDF or email invoices and cites 60% to 80% lower invoicing costs, 20% fewer late payments and about £11,300 annual savings for small firms. Separately, a 19 May 2026 GOV.UK announcement says late payments cost the UK economy £11 billion a year.",
+      "why_now": "Evidence is strong. The current GOV.UK consultation response says e-invoicing can cut invoicing costs by 60% to 80%, reduce late payments by 20% and save small firms around £11,300 a year. Separate current government late-payment messaging says late payments cost the UK economy £11 billion every year.",
       "buyer": "Micro and small B2B service firms, agencies, consultancies, trades businesses and wholesalers",
       "startup_cost": "£150-£1,200",
       "speed_to_revenue": "7-14 days",
       "recurring_revenue": "High - setup fee plus monthly monitoring, reminder automation and reporting",
-      "founder_fit": "Excellent for a solo engineer because the wedge is integration, workflow logic and dashboards rather than building a full accounting system.",
+      "founder_fit": "Excellent for a solo engineer because the wedge is integration, workflow logic and dashboards rather than building a full accounting product.",
       "risks": [
-        "Some buyers will assume their accounting package already solves invoicing unless the pitch is framed around debtor days and collected cash",
+        "Some buyers will assume their accounting package already covers invoicing unless the pitch is framed around debtor days and collected cash",
         "Messy billing data and inconsistent internal processes can slow onboarding"
       ],
       "scores": {
@@ -27,12 +27,12 @@
         "recurring_revenue": "9/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Best overall today because the pain is immediate cashflow, the ROI is easy to quantify, and the service can start manually before any software build-out."
+      "verdict": "Best overall today because the pain is immediate cashflow, the ROI is easy to quantify, and the offer can start as a service before any custom software build-out."
     },
     {
       "name": "Making Tax Digital onboarding and quarterly-support automation",
       "description": "Offer a productized package that checks MTD eligibility, cleans records, connects bookkeeping software, sets reminder workflows and handles quarterly support for sole traders, landlords and small accountancy firms.",
-      "why_now": "Evidence is strong. Current GOV.UK guidance says qualifying income above £50,000 for the 2024 to 2025 tax year must use MTD for Income Tax from 6 April 2026, above £30,000 from 6 April 2027 and above £20,000 from 6 April 2028. That means live migration work now and recurring support afterwards.",
+      "why_now": "Evidence is strong. Current GOV.UK guidance says qualifying income above £50,000 for the 2024 to 2025 tax year must use MTD for Income Tax from 6 April 2026, above £30,000 for the 2025 to 2026 tax year from 6 April 2027, and above £20,000 for the 2026 to 2027 tax year from 6 April 2028. That keeps migration demand live now and support demand recurring afterwards.",
       "buyer": "Sole traders, landlords, independent bookkeepers and small accountancy practices",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "7-21 days",
@@ -55,14 +55,14 @@
     {
       "name": "AI document drafting and workflow automation for small professional firms",
       "description": "Build narrow automations that turn calls, forms and notes into first-draft reports, letters, summaries and internal checklists for firms that produce structured documents all day.",
-      "why_now": "Evidence is good but less direct than the top two. The current GOV.UK AI Opportunities Action Plan says AI assistants can free up to 20% of an employee's time and that drafting structured reports and forms can cut final document production times by 20% to 80% in professional services. That supports ROI-led offers for document-heavy SMEs.",
+      "why_now": "Evidence is good but slightly softer than the top two. The current GOV.UK AI Opportunities Action Plan says AI assistants can free up to 20% of an employee's time and that drafting structured reports and forms can cut final document production times by 20% to 80% in professional services. That supports ROI-led offers for document-heavy SMEs.",
       "buyer": "Accountants, mortgage brokers, planning consultants, surveyors, recruiters and compliance-heavy niche agencies",
       "startup_cost": "£150-£1,500",
       "speed_to_revenue": "7-21 days",
-      "recurring_revenue": "High - setup plus monthly usage, maintenance and prompt/workflow tuning",
+      "recurring_revenue": "High - setup plus monthly usage, maintenance and prompt or workflow tuning",
       "founder_fit": "Very strong for a solo engineer who can package LLM workflows, document templates and approval steps into one managed service.",
       "risks": [
-        "Buying urgency is weaker than compliance or late-payment pain, so demos and measured time savings matter",
+        "Buying urgency is weaker than compliance or late-payment pain, so measured time-savings demos matter",
         "Hallucination and data-handling concerns mean human review must stay in the loop"
       ],
       "scores": {
@@ -78,7 +78,7 @@
     {
       "name": "Cyber Essentials readiness and evidence-collection automation",
       "description": "Sell a standard package covering MFA, device checks, access hygiene, backup checks, staff guidance and evidence collection so small organisations can reach or renew Cyber Essentials faster.",
-      "why_now": "Evidence is solid. The current GOV.UK Cyber Essentials overview says over 215,000 certificates have been awarded, including 49,248 in the past 12 months, and says an up-to-date certificate enables a business to bid for government contracts where financial or personal data is involved. That supports a checklist-driven recurring service.",
+      "why_now": "Evidence is solid. The current GOV.UK Cyber Essentials overview says over 215,000 certificates have been awarded, including 49,248 in the past 12 months. That is strong proof of an active, repeatable market, especially for SMEs that need basic security hygiene or want to qualify for contracts.",
       "buyer": "Small professional firms, agencies, clinics, charities and B2B suppliers handling sensitive data",
       "startup_cost": "£300-£1,500",
       "speed_to_revenue": "14-30 days",
@@ -96,12 +96,12 @@
         "recurring_revenue": "8/10",
         "founder_fit": "7/10"
       },
-      "verdict": "A credible productized service if you keep scope narrow and sell speed-to-certification rather than broad cybersecurity consulting."
+      "verdict": "A credible productized service if you keep scope narrow and sell speed-to-readiness rather than broad cybersecurity consulting."
     },
     {
       "name": "Tender monitoring and bid-drafting assistant for SME suppliers",
       "description": "Create a focused tool or managed service that monitors relevant tenders, flags fit, drafts first-pass answers and stores reusable evidence, pricing and compliance content.",
-      "why_now": "Evidence is decent. The Procurement Act 2023 learning materials on GOV.UK say the Act contains benefits for SMEs and VCSEs, aims to remove barriers to new entrants and improve transparency and visibility of opportunities. That makes a narrow tender-monitoring and bid-support layer plausible, though demand is less immediate than payment or tax pain.",
+      "why_now": "Evidence is decent but weaker than the top four. Current GOV.UK procurement guidance and knowledge-drop materials explicitly target SMEs and VCSEs and emphasise a more transparent pipeline of opportunities under the Procurement Act framework. That makes a narrow tender-support layer plausible, though urgency varies by niche.",
       "buyer": "Small consultancies, agencies, specialist service firms and compliance-heavy B2B suppliers",
       "startup_cost": "£300-£1,500",
       "speed_to_revenue": "14-30 days",
@@ -109,7 +109,7 @@
       "founder_fit": "Good for an engineer who can combine scraping, matching, document generation and workflow management into one narrow offer.",
       "risks": [
         "Tender demand is episodic, so revenue can be lumpier than invoicing or compliance services",
-        "The evidence for urgency is real but weaker than the top opportunities, so niche positioning is important"
+        "The policy tailwind is real, but proof of immediate urgency depends heavily on niche selection"
       ],
       "scores": {
         "demand": "7/10",
@@ -124,7 +124,7 @@
   ],
   "best_pick": {
     "name": "E-invoicing rollout and receivables automation for SMEs",
-    "why_it_wins": "It hits the user's core constraints best: it can be sold fast as a service, starts with low tooling cost, addresses immediate pain tied to cash collection, and naturally expands into monthly recurring monitoring and workflow support. The live UK evidence is stronger than for most generic AI offers.",
+    "why_it_wins": "It matches the constraints best: low setup cost, immediate buyer pain, easy ROI story, and a natural path from one-off setup into recurring monitoring and collections support. The live UK evidence is stronger and more cashflow-linked than for most generic AI offers.",
     "validation_plan": [
       "Pick one buyer segment first, such as agencies, trades firms or small consultancies, and map their current invoice-to-cash process in detail.",
       "Build a tiny demo that shows invoice creation, automated reminders, dispute tracking and an overdue-cash dashboard using existing accounting tools and lightweight automation.",
