@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-11T08:00:35+00:00",
+  "generated_at": "2026-07-12T08:02:30+00:00",
   "summary": {
-    "headline": "Best UK opportunity today: compliance-led workflow services still beat broader software bets for a solo engineer who wants fast cash flow.",
-    "best_opportunity": "Making Tax Digital onboarding and recurring workflow support for small accountants, bookkeepers, sole traders and landlords",
-    "why_now": "Live GOV.UK guidance says MTD for Income Tax starts from 6 April 2026 above £50,000, expands from 6 April 2027 above £30,000 and from 6 April 2028 above £20,000. That creates immediate implementation work with a clear service-first path to recurring revenue."
+    "headline": "Best UK opportunity today: compliance-led workflow automation still beats pure SaaS bets for a solo engineer who wants fast cash flow.",
+    "best_opportunity": "Making Tax Digital onboarding and recurring workflow support for accountants, bookkeepers, sole traders and landlords",
+    "why_now": "Live GOV.UK guidance says Making Tax Digital for Income Tax starts from 6 April 2026 above £50,000, expands from 6 April 2027 above £30,000 and from 6 April 2028 above £20,000. That creates immediate setup and support demand with a service-first path to recurring revenue."
   },
   "top_opportunities": [
     {
       "name": "Making Tax Digital onboarding and recurring workflow support",
       "description": "Sell a fixed-scope setup and support service for small accountancy firms, bookkeepers, sole traders and landlords: eligibility checks, ledger cleanup, software setup, reminder flows, quarterly submission ops and exception tracking.",
-      "why_now": "GOV.UK currently states that qualifying income above £50,000 triggers MTD for Income Tax from 6 April 2026, above £30,000 from 6 April 2027 and above £20,000 from 6 April 2028. That is near-term, deadline-driven pain and is easier to sell than a speculative SaaS build.",
+      "why_now": "GOV.UK currently says qualifying income over £50,000 for the 2024 to 2025 tax year means using the service from 6 April 2026, over £30,000 for 2025 to 2026 means from 6 April 2027, and over £20,000 for 2026 to 2027 means from 6 April 2028. That is near-term, deadline-driven pain and easier to sell than speculative software.",
       "buyer": "Small accountancy practices, bookkeepers, sole traders and landlords affected by MTD for Income Tax",
       "startup_cost": "£150-£1,000",
       "speed_to_revenue": "7-14 days",
@@ -27,12 +27,12 @@
         "recurring_revenue": "9/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Best overall because the trigger is live, the pain is urgent and the first revenue can come from service work immediately."
+      "verdict": "Best overall because the trigger is live, the pain is urgent and first revenue can come from service work immediately."
     },
     {
       "name": "Companies House identity-verification workflow service",
       "description": "Package director and PSC identity-verification onboarding, reminder flows, evidence collection, status tracking and admin dashboards for small accountancy, formation and company-secretarial firms.",
-      "why_now": "GOV.UK says Companies House identity verification begins on 18 November 2025 and is being phased in over 12 months, with existing directors confirming verification alongside their next confirmation statement. That creates operational workload for firms managing multiple entities.",
+      "why_now": "Companies House confirmed that mandatory identity verification starts on 18 November 2025 and is being phased in over 12 months. Existing directors need to confirm verification alongside their next confirmation statement, creating real admin workload for firms managing multiple entities.",
       "buyer": "Small accountants, company secretarial providers, incorporation agents and corporate-services firms",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "7-21 days",
@@ -55,7 +55,7 @@
     {
       "name": "AI back-office automation for professional-service SMEs",
       "description": "Productize one narrow workflow per niche, such as turning emails, forms and calls into draft reports, CRM updates, checklists and follow-up tasks for accountants, brokers, recruiters or surveyors.",
-      "why_now": "The latest GOV.UK AI Adoption Research says 16% of UK businesses already use at least one AI technology, 85% of AI adopters use natural language processing or text generation, 65% cite efficiency or productivity as the main reason, and 59% plan to embed AI into existing tools or systems. That supports practical workflow automation more than broad chatbot pitches.",
+      "why_now": "Current GOV.UK AI Adoption Research says around 1 in 6 UK businesses already use at least one AI technology, 85% of AI adopters use natural language processing or text generation, 65% cite efficiency or productivity as the main reason, and 59% want AI embedded into existing tools or systems. That supports practical workflow automation more than broad chatbot pitches.",
       "buyer": "Small professional-service firms with repetitive admin, inbox work and document-heavy operations",
       "startup_cost": "£150-£1,500",
       "speed_to_revenue": "7-21 days",
@@ -78,7 +78,7 @@
     {
       "name": "Tender monitoring and bid-drafting assistant for SME suppliers",
       "description": "Build a focused tool or managed service that monitors public tenders, filters by fit, drafts first-pass responses and stores reusable answers for one supplier niche.",
-      "why_now": "Find a Tender currently presents itself as the place where UK public sector buyers publish notices about procurement opportunities and contracts, and it notes that from 24 February 2025 both above- and below-threshold notices about new UK procurements are published there. That makes monitoring, summarisation and alerting more useful than before.",
+      "why_now": "Find a Tender says it is where UK public sector buyers publish procurement opportunities and contracts, and from 24 February 2025 both above- and below-threshold notices about new UK procurements are published there, except below threshold in Scotland. That makes monitoring, summarisation and alerting more useful than before.",
       "buyer": "Small consultancies, agencies and specialist B2B suppliers that want public-sector revenue without a full bid team",
       "startup_cost": "£300-£1,500",
       "speed_to_revenue": "14-30 days",
@@ -101,7 +101,7 @@
     {
       "name": "Cyber Essentials readiness automation for SMEs",
       "description": "Offer a readiness package that maps devices, users and patch status, collects evidence, generates remediation checklists and keeps a lightweight recurring dashboard for Cyber Essentials preparation.",
-      "why_now": "The NCSC says Cyber Essentials is the minimum cyber security standard recommended by government for organisations of all sizes and is aligned to five technical controls. GOV.UK also says the UK started 2025 with 5.64 million small businesses and 4.3 million of them had no employees besides the owners, which supports a large market for a simple, productized readiness service.",
+      "why_now": "The NCSC says Cyber Essentials is the minimum cyber security standard recommended by government for organisations of all sizes and is aligned to five technical controls. DBT's 2025 business population release says the UK had 5.7 million private sector businesses at the start of 2025 and 4.3 million had no employees besides the owners, which supports a large market for a simple productized readiness service.",
       "buyer": "Small UK firms needing baseline cyber hygiene or certification readiness",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "7-21 days",
