@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-17T08:05:27+00:00",
+  "generated_at": "2026-07-18T08:04:49+00:00",
   "summary": {
-    "headline": "Best UK opportunity today: niche AI workflow automation for admin-heavy SMEs still leads, with tax and Companies House compliance services close behind for faster deadline-driven cash flow.",
+    "headline": "Best UK opportunity today: productized AI and ops automation for admin-heavy SMEs, with compliance-triggered services close behind for faster first cash.",
     "best_opportunity": "AI back-office automation for UK professional-service SMEs",
-    "why_now": "Live GOV.UK AI Adoption Research says only 16% of UK businesses currently use AI, while 65% of current or prospective adopters want efficiency or productivity gains, 59% plan to embed AI into existing tools or systems, and 70% use or plan to use AI for administrative and support work. That favours narrow workflow automation sold into existing SME operations over broad AI consulting or a long-build standalone app."
+    "why_now": "Live GOV.UK AI Adoption Research updated in 2026 says AI use is still only around 1 in 6 UK businesses, but current and prospective adopters mainly want efficiency gains, admin support and AI embedded into existing systems. That favours narrow workflow automation sold as a service over a long-build standalone SaaS."
   },
   "top_opportunities": [
     {
       "name": "AI back-office automation for UK professional-service SMEs",
-      "description": "Sell one tightly scoped automation outcome for a niche such as accountants, recruiters, brokers or surveyors: inbox-to-CRM, document intake, call-summary-to-task creation, compliance reminders, or draft-report generation.",
-      "why_now": "Live GOV.UK AI Adoption Research says 16% of UK businesses currently use AI, 65% of current or prospective adopters are motivated by efficiency or productivity, 59% plan to embed AI into existing tools or systems, 70% use or plan to use AI for administrative and support work, and 47% for automation. That makes narrow workflow automation more credible right now than speculative greenfield SaaS.",
+      "description": "Sell one tightly scoped outcome for a niche such as accountants, recruiters, brokers or surveyors: inbox-to-CRM, document intake, call-summary-to-task creation, compliance reminders or draft-report generation.",
+      "why_now": "Live GOV.UK AI Adoption Research says 16% of UK businesses currently use at least one AI technology, 65% of current or prospective adopters want efficiency or productivity gains, and 59% plan to embed AI into existing tools or systems. That makes narrow workflow automation more believable right now than speculative greenfield SaaS.",
       "buyer": "Small UK accountancy firms, recruiters, mortgage or insurance brokers, surveyors and other admin-heavy professional-service SMEs",
       "startup_cost": "£150-£1,500",
       "speed_to_revenue": "7-21 days",
       "recurring_revenue": "High - setup fees plus monthly monitoring, exception handling, prompt tuning, support and usage retainers",
-      "founder_fit": "Excellent for a solo engineer because it can start service-first with existing APIs and later harden into templates or micro-SaaS.",
+      "founder_fit": "Excellent for a solo engineer because it can start service-first with existing APIs and later harden into reusable templates or micro-SaaS.",
       "risks": [
         "AI automation is crowded, so the offer must be one niche and one workflow rather than generic AI help",
         "Regulated or client-facing outputs still need human review and careful scope control"
@@ -32,8 +32,8 @@
     {
       "name": "Making Tax Digital onboarding and recurring workflow support",
       "description": "Offer fixed-scope setup and ongoing support for sole traders, landlords, bookkeepers and small accountancy firms: software setup, data cleanup, reminder workflows, quarterly update operations and simple integrations.",
-      "why_now": "A live HMRC guidance page says businesses with over £50,000 of qualifying income from self-employment and property must use Making Tax Digital for Income Tax from 6 April 2026, with the threshold dropping to over £30,000 from 6 April 2027 and over £20,000 from 6 April 2028. That creates deadline-led setup demand plus recurring operational support revenue.",
-      "buyer": "Small accountancy practices, bookkeepers, sole traders and landlords above the current or near-term thresholds",
+      "why_now": "Live HMRC guidance updated on 16 July 2026 says sole traders and landlords must use Making Tax Digital for Income Tax from 6 April 2026 if annual qualifying income from self-employment and property is over £50,000. That creates deadline-led setup demand plus recurring operational support revenue.",
+      "buyer": "Small accountancy practices, bookkeepers, sole traders and landlords above the current threshold",
       "startup_cost": "£150-£1,000",
       "speed_to_revenue": "7-14 days",
       "recurring_revenue": "High - setup fees plus monthly or quarterly support retainers",
@@ -77,13 +77,13 @@
     },
     {
       "name": "Missed-call recovery and booking automation for local service firms",
-      "description": "Build or resell a lightweight system that texts back missed callers, captures the enquiry, qualifies urgency, and routes the lead into booking, CRM or WhatsApp follow-up.",
-      "why_now": "Live vendor pages show active UK spend in this category right now: Call2SMS advertises missed-call text-back for UK businesses from £37 per month. This is competitor evidence rather than neutral market research, so confidence is lower than the GOV.UK-led ideas, but it still signals a simple ROI problem that local businesses already pay to solve.",
+      "description": "Build or resell a lightweight system that texts back missed callers, captures the enquiry, qualifies urgency and routes the lead into booking, CRM or WhatsApp follow-up.",
+      "why_now": "Live competitor evidence from Call2SMS shows active UK spend in this category now, with a missed-call text-back offer from £37 per month and clear messaging around lost enquiries for trades, salons, garages and clinics. This is weaker evidence than the GOV.UK-led ideas, but it still points to a simple ROI problem local businesses already pay to solve.",
       "buyer": "Trades, garages, salons, dental clinics, estate agents and other owner-managed service businesses that depend on inbound calls",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "5-14 days",
       "recurring_revenue": "High - monthly subscription or managed-service retainer plus messaging usage",
-      "founder_fit": "Very good for a solo engineer because the problem is easy to explain, has direct revenue impact, and can be sold part-time to one vertical at a time.",
+      "founder_fit": "Very good for a solo engineer because the problem is easy to explain, has direct revenue impact and can be sold part-time to one vertical at a time.",
       "risks": [
         "Evidence here is mainly competitor-page evidence, so direct niche validation still matters",
         "Horizontal competition exists, so differentiation by vertical, region or bundled booking workflow is important"
@@ -99,27 +99,27 @@
       "verdict": "One of the quickest recurring-revenue opportunities if sold to a specific local-business niche instead of as a generic telecom tool."
     },
     {
-      "name": "Tender monitoring and bid-drafting assistant for SME suppliers",
-      "description": "Create a focused tool or managed service that watches public-sector notices, filters for fit, drafts first-pass responses and stores reusable answers for one supplier niche.",
-      "why_now": "The live Find a Tender service says that from 24 February 2025 both above-threshold and below-threshold notices about new UK procurements are published there, except below-threshold notices in Scotland. That improves data coverage for monitoring, summarisation and alerting, although the path to cash is slower than local-service or compliance offers.",
-      "buyer": "Small consultancies, agencies and specialist B2B suppliers that want public-sector work without a full bid team",
+      "name": "Quoting, scheduling and admin automation for cost-pressured field-service SMEs",
+      "description": "Sell a productized stack for trades and local service firms that improves lead capture, quote turnaround, scheduling, reminders and follow-up without replacing their whole job-management system.",
+      "why_now": "Live GOV.UK Small Business Survey 2024 data says 65% of SME employers now use technologies or web-based software to manage the business, up from 54% in 2023 and 45% in 2022. The same release says 57% of growth-minded SMEs had plans affected by rising costs. That supports practical software-and-automation upgrades that save owner time and reduce missed revenue.",
+      "buyer": "Electricians, plumbers, HVAC firms, cleaning companies, pest control, locksmiths and similar local service SMEs",
       "startup_cost": "£300-£1,500",
-      "speed_to_revenue": "14-30 days",
-      "recurring_revenue": "Medium to high - monthly monitoring plus optional bid-support retainers",
-      "founder_fit": "Good if you prefer search, alerting and workflow tooling over high-touch local sales.",
+      "speed_to_revenue": "7-21 days",
+      "recurring_revenue": "High - setup fees plus monthly support, hosting, messaging and reporting retainers",
+      "founder_fit": "Good for a solo engineer because it can be delivered as a repeatable service layer on top of existing forms, calendars and CRM tools.",
       "risks": [
-        "Immediate cash flow is weaker because procurement buying cycles are slower",
-        "The idea is much stronger when narrowed to one supplier niche instead of all SMEs"
+        "This works best when narrowed to one field-service niche with a repeatable workflow",
+        "Some buyers already have software, so the pitch should be faster quoting and fewer missed jobs rather than a full replacement"
       ],
       "scores": {
-        "demand": "7/10",
+        "demand": "8/10",
         "competition": "6/10",
-        "startup_ease": "7/10",
-        "speed_to_cash": "6/10",
+        "startup_ease": "8/10",
+        "speed_to_cash": "8/10",
         "recurring_revenue": "8/10",
         "founder_fit": "8/10"
       },
-      "verdict": "Best treated as a niche B2B assistant or managed alerting service, not a broad procurement platform from day one."
+      "verdict": "A strong practical option because cost pressure and rising software use make ops upgrades easier to justify than brand-new platforms."
     }
   ],
   "best_pick": {
@@ -139,7 +139,7 @@
       "Mortgage or insurance brokers",
       "Surveyors and compliance-heavy consultancies"
     ],
-    "do_today": "Pick one niche, build one three-minute demo around a real workflow, and start outreach to 30 UK firms whose websites clearly show manual intake or admin-heavy delivery."
+    "do_today": "Pick one niche, build one three-minute demo around a real workflow and start outreach to 30 UK firms whose websites clearly show manual intake or admin-heavy delivery."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
