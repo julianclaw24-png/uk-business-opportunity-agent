@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-19T08:01:21+00:00",
+  "generated_at": "2026-07-20T08:07:04+00:00",
   "summary": {
-    "headline": "Best UK opportunity today: niche AI and workflow automation services for admin-heavy SMEs, with tax and Companies House compliance support close behind for fastest first cash.",
+    "headline": "Best UK opportunity today: niche AI workflow automation sold as a productized service, with tax and compliance workflow support close behind for fastest cash.",
     "best_opportunity": "AI back-office automation for UK professional-service SMEs",
-    "why_now": "Live GOV.UK AI Adoption Research says around 1 in 6 UK businesses already use AI, 65% of current or prospective adopters want efficiency or productivity gains, and 59% plan to embed AI into existing tools or systems. That favours narrow workflow automation sold as a productized service over a long-build standalone SaaS."
+    "why_now": "Live GOV.UK AI Adoption Research says UK AI use is still only around 1 in 6 businesses, but among adopters and near-adopters 65% want efficiency or productivity gains, 65% plan off-the-shelf AI applications and 59% plan AI embedded into existing tools or systems. That points to narrow workflow automation offers that can close faster than building a full standalone SaaS first."
   },
   "top_opportunities": [
     {
       "name": "AI back-office automation for UK professional-service SMEs",
-      "description": "Sell one tightly scoped workflow outcome for a niche such as accountants, recruiters, brokers or surveyors: inbox-to-CRM, document intake, call-summary-to-task creation, compliance reminders or draft-report generation.",
-      "why_now": "Live GOV.UK AI Adoption Research shows UK business AI use is still only around 16%, but the strongest near-term demand is practical: 65% of current or prospective adopters cite efficiency or productivity gains, 65% plan off-the-shelf AI applications, and 59% plan to embed AI into existing tools or systems. Marketing, administration and IT are the most active areas, which fits service-led workflow automation.",
+      "description": "Sell one repeatable workflow outcome for a niche such as accountants, recruiters, brokers or surveyors: inbox-to-CRM, document intake, call-summary-to-task creation, compliance reminders or draft-report generation.",
+      "why_now": "GOV.UK's AI Adoption Research page, live today, says adoption is still modest at 16%, but the strongest demand among users and prospective users is practical: 65% want efficiency or productivity gains, 65% plan off-the-shelf AI applications and 59% plan to embed AI into existing tools or systems. The same report says marketing, administration and IT are the most common business areas using AI, which fits service-led workflow automation.",
       "buyer": "Small UK accountancy firms, recruiters, mortgage or insurance brokers, surveyors and other admin-heavy professional-service SMEs",
       "startup_cost": "£150-£1,500",
       "speed_to_revenue": "7-21 days",
       "recurring_revenue": "High - setup fees plus monthly monitoring, exception handling, prompt tuning, support and usage retainers",
-      "founder_fit": "Excellent for a solo engineer because it can start service-first with existing APIs and later harden into reusable templates or micro-SaaS.",
+      "founder_fit": "Excellent for a solo engineer because it can start service-first with existing APIs and later become templates or micro-SaaS.",
       "risks": [
         "AI automation is crowded, so the offer must be one niche and one workflow rather than generic AI help",
         "Regulated or client-facing outputs still need human review and careful scope control"
@@ -27,13 +27,13 @@
         "recurring_revenue": "9/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Best overall because the strongest live UK signal is AI being embedded into existing workflows, and a productized service can close faster than a fresh SaaS build."
+      "verdict": "Best overall because live UK evidence favors AI embedded into existing workflows, and a productized service is faster to sell than a fresh software platform."
     },
     {
       "name": "Making Tax Digital onboarding and recurring workflow support",
       "description": "Offer fixed-scope setup and ongoing support for sole traders, landlords, bookkeepers and small accountancy firms: software setup, record-keeping workflows, reminders, quarterly update operations and simple integrations.",
-      "why_now": "Live HMRC guidance updated 16 July 2026 says sole traders or landlords with qualifying income over £50,000 for tax year 2024 to 2025 must use Making Tax Digital for Income Tax from 6 April 2026, with £30,000 following from 6 April 2027. That creates deadline-led setup demand plus recurring operational support revenue now.",
-      "buyer": "Small accountancy practices, bookkeepers, sole traders and landlords above the current thresholds",
+      "why_now": "HMRC's live Making Tax Digital campaign page says businesses above £50,000 turnover should already have signed up, and the next rollout phase starts 6 April 2027 for turnover above £30,000. HMRC is also still running a communications campaign for the April 2026 launch. That creates deadline-led setup demand plus recurring operational support now.",
+      "buyer": "Small accountancy practices, bookkeepers, sole traders and landlords above current thresholds",
       "startup_cost": "£150-£1,000",
       "speed_to_revenue": "7-14 days",
       "recurring_revenue": "High - setup fees plus monthly or quarterly support retainers",
@@ -50,12 +50,12 @@
         "recurring_revenue": "9/10",
         "founder_fit": "8/10"
       },
-      "verdict": "Very strong for immediate cash flow because the trigger is a live UK compliance deadline, not a nice-to-have efficiency pitch."
+      "verdict": "Very strong for immediate cash flow because the trigger is a live compliance deadline, not a speculative efficiency pitch."
     },
     {
       "name": "Companies House identity-verification workflow service",
       "description": "Package identity-verification onboarding, reminders, document collection, status tracking and lightweight client portals for accountants, company-secretarial firms and incorporation agents.",
-      "why_now": "A live GOV.UK Companies House release says the voluntary period is already open and more than 6 million individuals will need to comply in the 12 months after identity verification becomes a legal requirement. That creates immediate admin pressure for firms handling many directors, PSCs and filings.",
+      "why_now": "A live GOV.UK Companies House release says the voluntary period for identity verification is open and more than 6 million individuals will need to comply in the 12 months after it becomes a legal requirement. That creates immediate admin pressure for firms handling many directors, PSCs and filings.",
       "buyer": "Small accountants, authorised corporate service providers, company-secretarial firms and incorporation service providers",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "7-21 days",
@@ -78,12 +78,12 @@
     {
       "name": "Missed-call recovery and booking automation for local service firms",
       "description": "Build or resell a lightweight system that texts back missed callers, captures the enquiry, qualifies urgency and routes the lead into booking, CRM or WhatsApp follow-up.",
-      "why_now": "Live market evidence is weaker than the GOV.UK-led ideas, but it is still real: Call2SMS is actively selling in the UK right now with missed-call text-back from £37 per month and direct messaging about lost leads for small businesses. That suggests a simple ROI problem local service firms already pay to solve.",
+      "why_now": "Live market evidence is weaker than the GOV.UK-led ideas, but it is still real: UK vendors such as CallMate and Call2SMS are actively selling missed-call text-back right now, with messaging like 'Turn missed calls into new customers' and pricing from £37 per month. That suggests a simple ROI problem local service firms already pay to solve.",
       "buyer": "Trades, garages, salons, dental clinics, estate agents and other owner-managed service businesses that depend on inbound calls",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "5-14 days",
       "recurring_revenue": "High - monthly subscription or managed-service retainer plus messaging usage",
-      "founder_fit": "Very good for a solo engineer because the problem is easy to explain, has direct revenue impact and can be sold part-time to one vertical at a time.",
+      "founder_fit": "Very good for a solo engineer because the problem is easy to explain, has direct revenue impact and can be sold one vertical at a time.",
       "risks": [
         "Evidence here is mainly competitor-page evidence, so direct niche validation still matters",
         "Horizontal competition exists, so differentiation by vertical, region or bundled booking workflow is important"
@@ -101,25 +101,25 @@
     {
       "name": "Quoting, scheduling and admin automation for field-service SMEs",
       "description": "Sell a productized stack for trades and local service firms that improves lead capture, quote turnaround, scheduling, reminders and follow-up without replacing their whole job-management system.",
-      "why_now": "Live GOV.UK Small Business Survey 2024 data says SME employers using technologies or web-based software to sell to customers or manage the business reached 69% in 2024, and use specifically for managing the business rose to 65% from 54% in 2023 and 45% in 2022. The same release says 57% of growth-minded SME employers had plans affected by rising costs. That supports practical workflow upgrades that save owner time and reduce missed revenue.",
+      "why_now": "Current live evidence is practical rather than official-demand data: CompareSoft's UK field-service software page says 8,961 field teams have used it to shortlist tools and explicitly pitches replacing spreadsheets, whiteboards and paper job sheets, with value framed around shorter quote-to-cash cycles. That supports a service-layer opportunity around implementation and automation rather than building another full FSM product.",
       "buyer": "Electricians, plumbers, HVAC firms, cleaning companies, pest control, locksmiths and similar local service SMEs",
       "startup_cost": "£300-£1,500",
       "speed_to_revenue": "7-21 days",
       "recurring_revenue": "High - setup fees plus monthly support, hosting, messaging and reporting retainers",
-      "founder_fit": "Good for a solo engineer because it can be delivered as a repeatable service layer on top of existing forms, calendars and CRM tools.",
+      "founder_fit": "Good for a solo engineer because it can be delivered as a repeatable service layer on top of forms, calendars, CRM and telephony tools.",
       "risks": [
         "This works best when narrowed to one field-service niche with a repeatable workflow",
         "Some buyers already have software, so the pitch should be faster quoting and fewer missed jobs rather than a full replacement"
       ],
       "scores": {
-        "demand": "8/10",
+        "demand": "7/10",
         "competition": "6/10",
         "startup_ease": "8/10",
         "speed_to_cash": "8/10",
         "recurring_revenue": "8/10",
         "founder_fit": "8/10"
       },
-      "verdict": "A strong practical option because software adoption is rising and cost pressure makes owner-time savings easier to justify than brand-new platforms."
+      "verdict": "A solid operational-automation play, but the best angle is implementation and revenue capture help rather than another horizontal software product."
     }
   ],
   "best_pick": {
