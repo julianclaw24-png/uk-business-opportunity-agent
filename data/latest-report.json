@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-26T08:01:42+00:00",
+  "generated_at": "2026-07-27T08:04:32.216417+00:00",
   "summary": {
-    "headline": "Best UK opportunity today: MTD onboarding and workflow automation still beats pure SaaS for fastest part-time cash flow.",
+    "headline": "Compliance-heavy workflow automation still beats pure SaaS for fastest UK part-time cash flow this week.",
     "best_opportunity": "Making Tax Digital onboarding and quarterly workflow automation for accountants, bookkeepers and self-employed clients",
-    "why_now": "Live GOV.UK guidance says businesses over £50,000 qualifying income for 2024 to 2025 had to move from 6 April 2026, with £30,000 from 6 April 2027 and £20,000 from 6 April 2028. GOV.UK news also says more than 864,000 sole traders and landlords had just two weeks left for their first quarterly update, showing the admin pain is active right now."
+    "why_now": "Live GOV.UK guidance says qualifying income over £50,000 for 2024 to 2025 must move to Making Tax Digital from 6 April 2026, with £30,000 from 6 April 2027 and £20,000 from 6 April 2028. GOV.UK news also says more than 864,000 sole traders and landlords had just two weeks left before the 7 August 2026 first quarterly update deadline, so the admin pain is immediate rather than theoretical."
   },
   "top_opportunities": [
     {
       "name": "Making Tax Digital onboarding and quarterly workflow automation",
-      "description": "Sell a fixed-scope implementation and support service covering client segmentation, software setup, reminder automation, exception handling and quarterly admin workflows for firms serving sole traders and landlords.",
-      "why_now": "Current GOV.UK guidance says qualifying income over £50,000 for 2024 to 2025 must use MTD from 6 April 2026, over £30,000 starts from 6 April 2027 and over £20,000 starts from 6 April 2028. A GOV.UK news update also says more than 864,000 sole traders and landlords had two weeks left to file their first quarterly update, which is strong evidence of live deadline pressure.",
+      "description": "Sell a fixed-scope implementation and support service covering client segmentation, bookkeeping software setup, reminder automation, exception handling and quarterly update workflows for firms serving sole traders and landlords.",
+      "why_now": "GOV.UK currently states that qualifying income over £50,000 for 2024 to 2025 must use Making Tax Digital from 6 April 2026, over £30,000 starts from 6 April 2027 and over £20,000 starts from 6 April 2028. Separate GOV.UK news says more than 864,000 sole traders and landlords had only two weeks left before the 7 August 2026 first quarterly update deadline, which is strong evidence of active deadline pressure.",
       "buyer": "Small accountancy firms, bookkeepers, tax admin providers, self-employed professionals and landlords",
       "startup_cost": "£100-£800",
       "speed_to_revenue": "5-14 days",
       "recurring_revenue": "High - setup fees plus monthly or quarterly support retainers",
-      "founder_fit": "Very strong if positioned as workflow tooling and admin automation rather than tax advice.",
+      "founder_fit": "Very strong if positioned as workflow tooling and admin automation rather than regulated tax advice.",
       "risks": [
-        "Core bookkeeping platforms already exist, so the wedge is onboarding and operations support rather than replacing the ledger",
-        "The offer should avoid regulated tax advice unless partnered with an accountant"
+        "Bookkeeping platforms already exist, so the wedge is onboarding, reminders and ops support rather than replacing the ledger",
+        "The offer should stay clear of tax advice unless partnered with an accountant"
       ],
       "scores": {
         "demand": "9/10",
@@ -31,8 +31,8 @@
     },
     {
       "name": "Companies House identity-verification workflow service",
-      "description": "Offer identity-verification onboarding, document collection, reminder flows, status tracking and lightweight client portals for accountants, formation agents and company-secretarial firms.",
-      "why_now": "GOV.UK guidance says identity verification became a legal requirement from 18 November 2025 and marks the start of a 12-month transition period for directors and PSCs. That creates repetitive compliance admin for firms handling many entities, and the workflow is narrow enough for a solo operator to productize quickly.",
+      "description": "Offer identity-verification onboarding, document collection, reminder flows, status tracking and simple client portals for accountants, formation agents and company-secretarial firms.",
+      "why_now": "GOV.UK states identity verification rollout began from 18 November 2025. It also says existing directors confirm verification during their next annual confirmation statement in a 12-month transition period, creating repetitive compliance admin that a solo engineer can productize as a narrow workflow service.",
       "buyer": "Accountants, incorporation agents, compliance firms and company-secretarial providers",
       "startup_cost": "£150-£1,000",
       "speed_to_revenue": "7-21 days",
@@ -55,7 +55,7 @@
     {
       "name": "AI back-office automation for professional-service SMEs",
       "description": "Package one narrow workflow outcome such as inbox-to-CRM, call-summary-to-task creation, client document intake, compliance reminders or draft report assembly for accountants, brokers, recruiters, surveyors or small consultancies.",
-      "why_now": "A live GOV.UK AI Adoption Plan for Professional and Business Services says AI adoption is already relatively high, with 43% of businesses using AI, but also says the sector is dominated by SMEs and the digital adoption gap is widening. That supports real demand for done-for-you implementation services, though the evidence is broader than the compliance-led ideas above.",
+      "why_now": "The live GOV.UK AI Adoption Plan for Professional and Business Services says AI adoption is already relatively high, with 43% of businesses using AI, but also says the sector is dominated by SMEs and the digital adoption gap is widening. That supports real demand for done-for-you implementation services, though it is broader evidence than the compliance-led ideas above.",
       "buyer": "Admin-heavy professional-service SMEs with repetitive client follow-up and document workflows",
       "startup_cost": "£150-£1,500",
       "speed_to_revenue": "7-21 days",
@@ -63,7 +63,7 @@
       "founder_fit": "Excellent for a solo engineer because it can start service-first on existing APIs, then harden into reusable templates or micro-SaaS.",
       "risks": [
         "Generic AI automation is crowded, so the offer must stay vertical and workflow-specific",
-        "Evidence is strong on sector adoption but weaker on the single fastest-buying niche today"
+        "The evidence is strong on adoption but weaker on which single niche will buy fastest this week"
       ],
       "scores": {
         "demand": "8/10",
@@ -77,8 +77,8 @@
     },
     {
       "name": "Quoting, scheduling and follow-up automation for field-service SMEs",
-      "description": "Sell a productized workflow stack for trades and field-service firms that improves lead capture, quote turnaround, job scheduling, reminders and review requests without asking them to replace their full FSM software.",
-      "why_now": "Comparesoft's live UK field-service page says 8,961 field teams have used it to shortlist FSM software and highlights shorter quote-to-cash cycles as a key KPI. That is not hard proof of the fastest-buying niche, but it is a practical signal that spreadsheet-to-workflow pain is active and implementation-focused services have a believable wedge.",
+      "description": "Sell a productized workflow stack for trades and field-service firms that improves lead capture, quote turnaround, job scheduling, reminders and review requests without asking them to replace their full field-service software.",
+      "why_now": "Comparesoft's live UK field-service page says 8,961 field teams have used it to shortlist field service management software and highlights shorter quote-to-cash cycles as a key KPI. It also frames the category around replacing spreadsheets, whiteboards and paper job sheets, which is a practical signal of active workflow pain even if the evidence is weaker than the GOV.UK-led compliance niches.",
       "buyer": "Plumbers, electricians, HVAC firms, cleaning firms, facilities contractors and similar SMEs",
       "startup_cost": "£300-£1,500",
       "speed_to_revenue": "7-21 days",
@@ -86,7 +86,7 @@
       "founder_fit": "Good for a solo engineer who prefers operational automations over building a full vertical SaaS from scratch.",
       "risks": [
         "Many firms already have some software, so the pitch should be faster quote-to-cash rather than full replacement",
-        "Evidence is decent on category demand but weaker on which single trade buys fastest"
+        "Evidence is decent on category demand but weak on which single trade buys fastest"
       ],
       "scores": {
         "demand": "7/10",
@@ -101,7 +101,7 @@
     {
       "name": "E-invoicing readiness and AP/AR automation for VAT-registered SMEs",
       "description": "Offer e-invoicing readiness audits, supplier and customer workflow mapping, invoice-format rollout, approval automation and accounting-system integration for SMEs still running AP and AR in mixed manual workflows.",
-      "why_now": "A live GOV.UK consultation response says that, as announced at Budget 2025, the UK will introduce mandatory e-invoicing for all VAT invoices from 2029 and will publish an implementation roadmap at Budget 2026. It is less urgent than MTD today, but it creates a credible planning and implementation market now, especially where late payments and finance admin are already painful.",
+      "why_now": "A live GOV.UK consultation response says that, as announced at Budget 2025, the UK will introduce mandatory e-invoicing for all VAT invoices from 2029 and will publish an implementation roadmap at Budget 2026. It is less urgent than Making Tax Digital today, but it creates a credible planning and efficiency market now, especially where finance teams already struggle with late-payment and manual invoice handling.",
       "buyer": "VAT-registered SMEs, finance outsourcers and small accountancy firms serving B2B clients",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "14-30 days",
@@ -124,10 +124,10 @@
   ],
   "best_pick": {
     "name": "Making Tax Digital onboarding and quarterly workflow automation",
-    "why_it_wins": "It best matches the brief right now: the demand is live, the buyer pain is obvious, the startup cost is low and the path to first revenue is faster than most SaaS ideas. A solo engineer can sell a fixed-fee service first, then convert repeated steps into a thin internal tool or client dashboard.",
+    "why_it_wins": "It best matches the brief right now: live mandatory demand, obvious buyer pain, low startup cost and a faster path to first revenue than most SaaS ideas. A solo engineer can sell a fixed-fee service first, then convert repeated steps into a thin internal tool or client dashboard.",
     "validation_plan": [
       "Target one buyer type first, ideally small accountancy firms or bookkeepers already serving self-employed clients near the MTD thresholds.",
-      "Build a simple demo covering client segmentation, bookkeeping-software setup, quarterly reminders and exception handling.",
+      "Build a simple demo covering client segmentation, bookkeeping software setup, quarterly reminders and exception handling.",
       "Offer a fixed-price MTD readiness sprint to 10 UK firms with an optional monthly support retainer.",
       "After the first 3 paid clients, turn repeatable steps into templates, intake forms and a lightweight tracker."
     ],
