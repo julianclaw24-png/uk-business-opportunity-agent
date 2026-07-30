@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-29T08:07:43Z",
+  "generated_at": "2026-07-30T08:05:22Z",
   "summary": {
-    "headline": "Deadline-driven compliance automation still beats pure SaaS for fastest UK solo-founder revenue right now.",
+    "headline": "Compliance-triggered workflow services still beat pure SaaS for fastest UK solo-founder revenue right now.",
     "best_opportunity": "Making Tax Digital onboarding and quarterly workflow automation for accountants and self-employed clients",
-    "why_now": "Live GOV.UK guidance says Making Tax Digital for Income Tax is mandatory from 6 April 2026 for people with over £50,000 of qualifying self-employment and property income, which creates immediate operational pain that can be sold as setup plus recurring support."
+    "why_now": "Live GOV.UK guidance says people with over £50,000 of qualifying self-employment and property income for the 2024 to 2025 tax year should have started using Making Tax Digital for Income Tax from 6 April 2026, creating urgent admin pain that can be sold as setup plus recurring support."
   },
   "top_opportunities": [
     {
       "name": "Making Tax Digital onboarding and quarterly workflow automation",
       "description": "Sell a fixed-scope setup and support service for accountants, bookkeepers, sole traders and landlords: client intake, software setup, record-keeping workflows, reminder automation and quarterly submission operations.",
-      "why_now": "Live GOV.UK guidance says businesses with more than £50,000 of qualifying self-employment and property income need to use Making Tax Digital for Income Tax from 6 April 2026. That is a real deadline with messy admin, which is better for near-term cash flow than building a broad new accounting product.",
+      "why_now": "Live GOV.UK guidance says qualifying income over £50,000 for the 2024 to 2025 tax year means users should have started Making Tax Digital for Income Tax from 6 April 2026, with £30,000 and £20,000 thresholds following in 2027 and 2028. That is a real deadline with operational mess, which is easier to monetise quickly than building a broad new accounting product.",
       "buyer": "Small accountancy firms, bookkeepers, sole traders and landlords",
       "startup_cost": "£100-£800",
       "speed_to_revenue": "5-14 days",
@@ -27,13 +27,13 @@
         "recurring_revenue": "9/10",
         "founder_fit": "8/10"
       },
-      "verdict": "Best immediate-cash option because the pain is mandatory, current and easy to sell before building much software."
+      "verdict": "Best immediate-cash option because the pain is mandatory, current and simple to explain to buyers."
     },
     {
       "name": "Companies House identity-verification and personal-code workflow service",
       "description": "Offer status tracking, document collection, director and PSC reminders, personal-code capture and confirmation-statement readiness workflows for firms handling many companies.",
-      "why_now": "Live GOV.UK guidance says identity verification became a legal requirement from 18 November 2025 and started a 12-month transition period. Separate GOV.UK guidance says directors must provide a Companies House personal code in the next confirmation statement, and PSCs must also verify and provide their code. That creates repetitive admin pain for accountants, company secretarial firms and formation agents.",
-      "buyer": "Accountants, incorporation agents, compliance firms and company-secretarial providers",
+      "why_now": "Live GOV.UK guidance says identity verification became a mandatory requirement from 18 November 2025, and directors must provide their Companies House personal code in the next confirmation statement. Separate GOV.UK filing guidance says confirmation statements will not be accepted until all directors have verified their identity, and PSCs must also verify and provide their code.",
+      "buyer": "Accountants, company-formation agents, compliance firms and company-secretarial providers",
       "startup_cost": "£150-£1,000",
       "speed_to_revenue": "7-21 days",
       "recurring_revenue": "Medium to high - onboarding projects plus annual compliance support",
@@ -55,15 +55,15 @@
     {
       "name": "AI back-office automation for professional-service SMEs",
       "description": "Package one narrow outcome such as inbox-to-CRM, document intake, call-summary-to-task creation, proposal drafting or compliance reminder workflows for small professional-service firms.",
-      "why_now": "Live BCC research from March 2026 says 54% of UK SMEs are now using AI tools, more than double the 25% reported in 2024, but adoption remains uneven and smaller firms lag. That points to demand for done-for-you implementation and monitoring rather than another broad AI app.",
+      "why_now": "The live GOV.UK AI Opportunities Action Plan says government wants to drive adoption of AI across the economy to boost growth and improve products and services. That is broad rather than niche-specific evidence, but it still supports selling done-for-you AI implementation to firms that want outcomes faster than they want another generic AI app.",
       "buyer": "Accountants, brokers, recruiters, surveyors, immigration advisers and small consultancies",
       "startup_cost": "£150-£1,500",
       "speed_to_revenue": "7-21 days",
       "recurring_revenue": "High - implementation fees plus monitoring, support and change-request retainers",
-      "founder_fit": "Excellent for a solo engineer because it can start service-first on existing APIs and later turn into repeatable templates or micro-SaaS.",
+      "founder_fit": "Excellent for a solo engineer because it can start service-first on existing APIs and later turn into templates or micro-SaaS.",
       "risks": [
         "Generic AI automation is crowded, so the offer must stay vertical and workflow-specific",
-        "Evidence is strong on category demand but weaker on which exact sub-niche closes fastest this week"
+        "Evidence is solid on policy direction but weaker on which exact sub-niche will close fastest this week"
       ],
       "scores": {
         "demand": "8/10",
@@ -73,20 +73,20 @@
         "recurring_revenue": "9/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Best long-term tech-enabled play if sold as one workflow for one niche instead of a broad AI agency offer."
+      "verdict": "Best longer-term tech-enabled play if sold as one workflow for one niche instead of a broad AI agency offer."
     },
     {
       "name": "Quote-to-cash automation for field-service SMEs",
-      "description": "Sell a productized automation stack for trades and field-service firms that improves lead capture, quoting, scheduling, reminders, review requests and back-office sync without forcing a full software replacement.",
-      "why_now": "A live UK field-service software category page from Comparesoft says field service software replaces spreadsheets, whiteboards and paper job sheets, and highlights shorter quote-to-cash cycles and reduced days sales outstanding as key outcomes. That is practical evidence of monetizable workflow pain, even if the software category itself is already crowded.",
-      "buyer": "Plumbers, electricians, HVAC firms, cleaning firms, facilities contractors and similar SMEs",
+      "description": "Sell a productized automation stack for trades and field-service firms that improves lead capture, quoting, scheduling, reminders, digital job sheets and invoicing without forcing a full software replacement.",
+      "why_now": "Live Comparesoft pages say field-service software replaces error-prone spreadsheets, whiteboards and paper job sheets, and that small teams can get invoices paid on completion or on site instead of weeks later. The same category highlights shorter quote-to-cash cycles and reduced days sales outstanding as key outcomes, which is practical evidence of monetisable workflow pain.",
+      "buyer": "Plumbers, electricians, HVAC firms, fire and security installers, cleaning firms and facilities contractors",
       "startup_cost": "£300-£1,500",
       "speed_to_revenue": "7-21 days",
       "recurring_revenue": "High - setup fees plus monthly support, messaging and reporting retainers",
       "founder_fit": "Good for a solo engineer who prefers operational automation over building a full vertical SaaS from scratch.",
       "risks": [
-        "Many firms already use some software, so the pitch should focus on faster quote-to-cash rather than total replacement",
-        "Evidence is decent on category pain but weaker than the compliance-led opportunities above"
+        "Many firms already use some software, so the pitch should focus on faster cash collection rather than total replacement",
+        "Evidence is practical but comes from category pages, so claims should stay tied to operations rather than overstate demand certainty"
       ],
       "scores": {
         "demand": "7/10",
@@ -99,32 +99,32 @@
       "verdict": "A realistic recurring-revenue business if tightly packaged around one trade and one measurable operational outcome."
     },
     {
-      "name": "Dental clinic patient-communications and recall automation layer",
-      "description": "Offer a lightweight automation add-on for private dental clinics: missed-call capture, booking follow-up, recall reminders, treatment-plan nudges and patient reactivation sequences tied into the existing practice stack.",
-      "why_now": "A live UK dental software comparison page from Updent says practice-management software is the digital backbone of a clinic and specifically highlights patient communications and integration with online booking platforms. That suggests clinics already value workflow software, making an automation layer easier to sell than a brand-new core system, though the evidence is weaker than the GOV.UK compliance niches.",
-      "buyer": "Private dental clinics, multi-site practices and dental growth agencies",
-      "startup_cost": "£200-£1,200",
-      "speed_to_revenue": "7-21 days",
-      "recurring_revenue": "Medium to high - setup fees plus monthly reactivation and communications retainers",
-      "founder_fit": "Good if the founder is comfortable selling into one vertical and integrating with existing clinic tools.",
+      "name": "Customer messaging and lead-response automation for local service SMEs",
+      "description": "Offer a lightweight automation layer covering web chat, enquiry routing, missed-call follow-up, review requests and multi-channel customer updates for small local businesses.",
+      "why_now": "Live Comparesoft content says live chat integration is an affordable way for small businesses to provide personalised customer support and reduce dependence on expensive telephone support systems. Another live Comparesoft page says 47% of UK customers use five different communication channels, which supports a simple multi-channel follow-up service, though the evidence is weaker than the compliance niches above.",
+      "buyer": "Trades, clinics, agencies, small e-commerce operators and other local service SMEs",
+      "startup_cost": "£100-£900",
+      "speed_to_revenue": "5-14 days",
+      "recurring_revenue": "High - setup fees plus monthly messaging, optimisation and reporting retainers",
+      "founder_fit": "Strong for a solo engineer because it can start with existing chat, SMS and CRM tools before evolving into a micro-SaaS layer.",
       "risks": [
-        "Vertical access is harder without domain credibility or partnerships",
-        "The evidence shows software intensity, but not all practices will buy a separate automation layer immediately"
+        "This market is crowded unless the offer is niche-specific and outcome-based",
+        "Evidence points to channel complexity, but not every small business will buy immediately without a clear ROI hook"
       ],
       "scores": {
         "demand": "7/10",
-        "competition": "6/10",
-        "startup_ease": "7/10",
-        "speed_to_cash": "7/10",
+        "competition": "5/10",
+        "startup_ease": "9/10",
+        "speed_to_cash": "8/10",
         "recurring_revenue": "8/10",
-        "founder_fit": "7/10"
+        "founder_fit": "8/10"
       },
-      "verdict": "Worth testing as a focused productized service if you want a niche with obvious recurring patient-comms workflows."
+      "verdict": "Worth testing as a tight productized service for one local-business niche, especially where response speed directly affects bookings."
     }
   ],
   "best_pick": {
     "name": "Making Tax Digital onboarding and quarterly workflow automation",
-    "why_it_wins": "It matches the brief best today: deadline-driven demand, obvious buyer pain, low startup cost and faster first revenue than most pure SaaS ideas. Live GOV.UK business population data also shows the UK started 2025 with 5.7 million private sector businesses, of which 5.64 million were small, so there is plenty of reachable SME volume behind a focused compliance offer.",
+    "why_it_wins": "It matches the brief best today: deadline-driven demand, obvious buyer pain, low startup cost and faster first revenue than most pure SaaS ideas. Live GOV.UK business population data also says the UK started 2025 with 5.7 million private sector businesses, including 5.64 million small businesses, so there is plenty of reachable SME volume behind a focused compliance offer.",
     "validation_plan": [
       "Target one buyer type first, ideally small accountancy firms or bookkeepers serving self-employed clients near the threshold.",
       "Build a simple demo covering client intake, record-keeping checklist, reminder automation and quarterly workflow tracking.",
