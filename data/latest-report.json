@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-02T08:03:34Z",
+  "generated_at": "2026-08-03T08:02:59+00:00",
   "summary": {
-    "headline": "Vertical AI automation services for UK SMEs still look like the strongest sub-£2k route to fast recurring revenue.",
-    "best_opportunity": "AI workflow automation for professional-service SMEs",
-    "why_now": "Live ONS and GOV.UK pages still show real adoption momentum rather than pure hype: ONS says AI use in UK businesses with 10+ employees rose from around 12% to around 35% since late 2023, while GOV.UK's Professional and Business Services AI plan says sector AI usage reached 43% in December 2025. That points to buyers who already believe in AI, but still need practical implementation help."
+    "headline": "UK opportunity right now is still service-first automation, with Making Tax Digital creating an unusually strong compliance-led wedge.",
+    "best_opportunity": "AI workflow automation for accountants and other professional-service SMEs",
+    "why_now": "Live official sources are strong: ONS says AI use in UK businesses with 10+ employees rose from around 12% to around 35% since late 2023, GOV.UK's AI Adoption Research says 56% of AI-using businesses report higher employee productivity and says marketing and administration are both 72% common AI use areas, while HMRC's Making Tax Digital rollout is already live for some taxpayers and expands again in 2027 and 2028. That creates both willingness to buy automation and immediate admin pain to solve."
   },
   "top_opportunities": [
     {
-      "name": "AI workflow automation for professional-service SMEs",
-      "description": "Sell fixed-scope automations for inbox triage, client intake, call-summary-to-CRM, proposal drafting, follow-up reminders and internal admin for accountants, recruiters, brokers and consultancies.",
-      "why_now": "This run's strongest live signal came from official sources. ONS says self-reported AI use in UK businesses with 10+ employees climbed from around 12% to around 35% since late 2023, and GOV.UK's Professional and Business Services AI plan says PBS sector usage rose from 35% in March 2025 to 43% in December 2025. GOV.UK's AI adoption research also says 56% of AI-using businesses reported higher employee productivity, with marketing and administration both cited at 72% as common AI use areas.",
-      "buyer": "Small accountancy firms, recruiters, brokers, specialist consultancies and back-office-heavy service SMEs",
+      "name": "AI workflow automation for accountants and other professional-service SMEs",
+      "description": "Sell fixed-scope automations for enquiry triage, document chasing, call-summary-to-CRM, proposal drafting, client onboarding and follow-up for accountants, brokers, recruiters and consultancies.",
+      "why_now": "This run's strongest evidence came from official UK sources. ONS says self-reported AI use in UK businesses with 10+ employees increased from around 12% to around 35% since late 2023. GOV.UK's AI Adoption Research says 56% of AI-using businesses report higher employee productivity, and says marketing and administration are both common AI use areas at 72%. That points to buyers who already believe the category, but still need implementation help.",
+      "buyer": "Small accountancy firms, brokers, recruiters, specialist consultancies and other admin-heavy service SMEs",
       "startup_cost": "£150-£1,500",
       "speed_to_revenue": "7-21 days",
-      "recurring_revenue": "High - setup fees plus monthly monitoring, optimisation and support retainers",
-      "founder_fit": "Excellent for a solo engineer because it can start as a service on existing APIs and later turn into reusable templates or micro-SaaS.",
+      "recurring_revenue": "High - setup fee plus monthly support, monitoring and optimisation retainers",
+      "founder_fit": "Excellent for a solo engineer because it can start as a service on existing APIs and later turn into repeatable templates or micro-SaaS.",
       "risks": [
-        "Generic AI automation is crowded, so the offer needs one vertical and one measurable outcome",
-        "Evidence is strong on adoption, but weaker on which exact sub-niche will close fastest this week"
+        "Generic AI automation is crowded, so the offer needs one niche and one measurable outcome",
+        "Evidence is strong for adoption overall, but weaker on which exact sub-niche will close fastest this week"
       ],
       "scores": {
         "demand": "9/10",
@@ -27,20 +27,43 @@
         "recurring_revenue": "9/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Best overall pick because it fits the budget, is realistic part-time, and has the clearest path to first cash plus retainers."
+      "verdict": "Best overall pick because it fits the budget, works part-time, and has the clearest path to upfront fees plus retainers."
+    },
+    {
+      "name": "Making Tax Digital migration and bookkeeping automation service",
+      "description": "Offer MTD setup, software migration, transaction capture, quarterly-update workflows and bookkeeping automation for sole traders, landlords and small accountancy firms.",
+      "why_now": "HMRC guidance says taxpayers over £50,000 qualifying income should already have started using Making Tax Digital for Income Tax from 6 April 2026, with £30,000 from 6 April 2027 and £20,000 from 6 April 2028. HMRC's campaign page calls it the biggest change since Self Assessment launched more than 30 years ago and says people must use software and send quarterly updates. That is real, near-term compliance pressure, not speculative demand.",
+      "buyer": "Small accountants, bookkeepers, sole traders, landlords and partnerships preparing early",
+      "startup_cost": "£200-£1,200",
+      "speed_to_revenue": "5-14 days",
+      "recurring_revenue": "High - onboarding fees plus monthly bookkeeping, software support and quarterly filing retainers",
+      "founder_fit": "Strong if the founder is willing to package integrations and workflow tooling rather than become a full accountancy practice.",
+      "risks": [
+        "Compliance accuracy matters, so the offer should stay on tooling and workflow rather than regulated tax advice",
+        "Some buyers may prefer established accounting software partners unless the service is tightly productized"
+      ],
+      "scores": {
+        "demand": "9/10",
+        "competition": "5/10",
+        "startup_ease": "7/10",
+        "speed_to_cash": "9/10",
+        "recurring_revenue": "9/10",
+        "founder_fit": "8/10"
+      },
+      "verdict": "Probably the best compliance-led opportunity for immediate cash flow if sold as migration plus automation, not as a new full accounting platform."
     },
     {
       "name": "Missed-call and lead-response automation for local service businesses",
-      "description": "Offer a productized system that captures missed calls, auto-texts leads, routes enquiries, books appointments and requests reviews for trades, clinics and other local operators.",
-      "why_now": "Live DuckDuckGo HTML results this run showed multiple UK-focused pages for missed-call text-back, appointment scheduling and local-service booking software, which is a practical buying signal even if it is weaker than official statistics. The appeal is simple ROI: recover leads that would otherwise be lost when a small team cannot answer the phone.",
-      "buyer": "Plumbers, electricians, HVAC firms, dentists, physios, garages, salons and similar local SMEs",
+      "description": "Package a system that captures missed calls, auto-texts leads, routes enquiries, books appointments and requests reviews for trades, clinics and similar local operators.",
+      "why_now": "Live DuckDuckGo HTML results this run showed multiple UK-focused pages for missed-call text-back software and booking tools, which is a practical sign of active market demand even if it is weaker than official statistics. The ROI is easy to explain: recover leads that small teams lose when nobody answers the phone.",
+      "buyer": "Plumbers, electricians, HVAC firms, dentists, physios, garages, salons and other local SMEs",
       "startup_cost": "£100-£900",
       "speed_to_revenue": "5-14 days",
-      "recurring_revenue": "High - monthly messaging, booking, support and reporting retainers",
-      "founder_fit": "Very strong for a solo engineer because it can be assembled quickly from telephony, CRM and scheduling integrations before building any custom product.",
+      "recurring_revenue": "High - monthly messaging, booking, support and reporting fees",
+      "founder_fit": "Very strong for a solo engineer because it can be assembled quickly from telephony, CRM and scheduling integrations before building custom software.",
       "risks": [
-        "Evidence here is mostly market-signal research, not hard UK demand statistics",
-        "Small local firms can be price-sensitive, so packaging by niche matters"
+        "Evidence here is mostly market-signal research rather than hard UK demand statistics",
+        "Local SMEs can be price-sensitive, so packaging by niche matters"
       ],
       "scores": {
         "demand": "8/10",
@@ -50,20 +73,20 @@
         "recurring_revenue": "8/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Probably the fastest path to first revenue if sold with a concrete lost-booking recovery promise."
+      "verdict": "One of the fastest routes to first revenue if sold with a concrete lost-booking recovery promise."
     },
     {
-      "name": "AI client-intake and document collection automation for accountants and brokers",
-      "description": "Package secure intake forms, document chasing, extraction, reminders, status tracking and handoff workflows for admin-heavy regulated firms.",
-      "why_now": "GOV.UK's Professional and Business Services AI plan says the sector accounts for around 12% of UK economic activity, supports around 5 million jobs and already has relatively high AI usage. This run's live search results also showed active UK demand around accountant client portals and document collection tools, suggesting firms already pay to solve this workflow. The gap is implementation speed, niche tailoring and integration.",
+      "name": "AI client-intake and document collection automation for regulated SMEs",
+      "description": "Build secure intake forms, reminder flows, document collection, extraction and status tracking for accountants, brokers, recruiters and other paperwork-heavy firms.",
+      "why_now": "GOV.UK's AI Adoption Research says administration is one of the most common AI use areas, and this run's live search-result pages showed active UK demand around portals, document collection and related workflow software. That suggests firms already pay to reduce admin drag; the realistic wedge is faster implementation and niche tailoring, not a broad platform replacement.",
       "buyer": "Accountants, mortgage brokers, insurance brokers, recruiters and immigration advisers",
       "startup_cost": "£200-£1,500",
       "speed_to_revenue": "7-21 days",
-      "recurring_revenue": "High - per-workflow fees plus ongoing support and refinement",
+      "recurring_revenue": "High - per-workflow setup fees plus ongoing support and refinements",
       "founder_fit": "Strong for a solo engineer comfortable with forms, OCR, workflow logic and audit trails.",
       "risks": [
-        "Compliance, privacy and auditability matter more than AI novelty in these niches",
-        "Some buyers may prefer trusted incumbent software unless the offer is tightly scoped"
+        "Privacy, auditability and reliability matter more than AI novelty in these niches",
+        "Some buyers will default to incumbent tools unless the offer is narrowly scoped"
       ],
       "scores": {
         "demand": "8/10",
@@ -73,20 +96,20 @@
         "recurring_revenue": "8/10",
         "founder_fit": "8/10"
       },
-      "verdict": "A practical second-place option because the pain is real, the buyers are used to paying for software, and the work can be sold as a sprint."
+      "verdict": "A practical B2B automation offer because the pain is real and the buyer is already used to paying for software."
     },
     {
       "name": "Quote-to-cash automation for field-service SMEs",
-      "description": "Build a narrow service or micro-SaaS layer for quote follow-up, scheduling, job confirmation, invoice chasing and payment-status visibility for field-service businesses.",
-      "why_now": "Live search-result pages this run showed an active UK market for field service management software, which means buyers already understand the category. That usually makes a narrow wedge easier to sell than a full replacement product, especially if the promise is faster quote conversion or quicker payment collection.",
-      "buyer": "Trades, maintenance firms, cleaning companies, security installers and facilities SMEs",
+      "description": "Create a narrow service or micro-SaaS layer for quote follow-up, scheduling, job confirmation, invoice chasing and payment-status visibility for field-service businesses.",
+      "why_now": "Live search-result pages this run showed an active UK market for field service management software, which means buyers already understand the category. That makes a narrow wedge easier to sell than a full replacement product, especially if the promise is faster quote conversion or quicker payment collection.",
+      "buyer": "Trades, maintenance firms, cleaning companies, installers and facilities SMEs",
       "startup_cost": "£300-£1,800",
       "speed_to_revenue": "10-30 days",
       "recurring_revenue": "High - subscriptions or managed automation retainers",
-      "founder_fit": "Good if the founder wants to start service-first and later standardise one workflow into software.",
+      "founder_fit": "Good if the founder wants to start service-first and later standardise one painful workflow into software.",
       "risks": [
-        "Broad FSM competition is heavy, so the wedge must stay very narrow",
-        "Custom integrations can consume time if every early customer uses a different stack"
+        "Broad field-service software competition is heavy, so the wedge must stay very narrow",
+        "Custom integrations can absorb time if early customers all use different systems"
       ],
       "scores": {
         "demand": "7/10",
@@ -97,42 +120,19 @@
         "founder_fit": "8/10"
       },
       "verdict": "Strong if positioned around one painful handoff such as quote follow-up or invoice chasing, not full job management."
-    },
-    {
-      "name": "Niche lead-generation sites plus CRM automation for underserved UK verticals",
-      "description": "Build a focused lead-gen website or mini-directory for one niche, then sell routing, enrichment, auto-follow-up and reporting on monthly contracts.",
-      "why_now": "This run's live search results again showed a crowded but active UK market for CRM and lead-management software, which suggests buyers already understand the value of lead handling. The realistic opportunity is not a generic directory; it is combining owned lead flow with automation in a niche where response speed and conversion tracking actually matter.",
-      "buyer": "Specialist trades, commercial installers, business brokers, training providers and other niche service suppliers",
-      "startup_cost": "£200-£1,200",
-      "speed_to_revenue": "14-45 days",
-      "recurring_revenue": "Medium to high - monthly lead, routing and CRM support contracts",
-      "founder_fit": "Good for a solo engineer willing to pair technical work with outbound, SEO or paid acquisition.",
-      "risks": [
-        "Lead generation can take longer to validate than direct workflow services",
-        "This only works if the niche economics support paid leads or retainers"
-      ],
-      "scores": {
-        "demand": "7/10",
-        "competition": "4/10",
-        "startup_ease": "7/10",
-        "speed_to_cash": "6/10",
-        "recurring_revenue": "8/10",
-        "founder_fit": "7/10"
-      },
-      "verdict": "Viable, but slower than selling direct automation services unless the niche and channel are already known."
     }
   ],
   "best_pick": {
-    "name": "AI workflow automation for professional-service SMEs",
-    "why_it_wins": "It has the best mix of live demand signals, low startup cost, part-time friendliness and a credible route to both upfront project fees and recurring retainers. The strongest evidence this run came from official UK sources rather than hype blogs: ONS shows material adoption growth, GOV.UK says PBS usage is already high, and GOV.UK's AI adoption research says admin and marketing are common real-world AI use areas. That makes a vertical, done-for-you offer more believable for near-term cash flow than launching a broad standalone SaaS first.",
+    "name": "AI workflow automation for accountants and other professional-service SMEs",
+    "why_it_wins": "It has the best mix of live demand signals, low startup cost, part-time friendliness and a credible route to both upfront project fees and recurring retainers. Official UK sources in this run are unusually supportive: ONS shows material business AI adoption growth, GOV.UK says AI users are reporting productivity gains and heavy use in admin tasks, and HMRC's MTD changes give accountants and adjacent firms immediate workflow pressure. That makes a vertical, done-for-you automation offer more believable for near-term cash than launching a standalone SaaS first.",
     "validation_plan": [
-      "Pick one niche with repetitive admin and visible paperwork, ideally accountants, recruiters or brokers.",
-      "Review 20 UK firms' websites and workflows to spot one repeated bottleneck such as enquiry triage, document chasing or follow-up.",
-      "Build one demo that shows an end-to-end flow from incoming enquiry to CRM update to automated follow-up.",
+      "Pick one niche with repetitive admin and visible paperwork, ideally small accountancy firms first.",
+      "Review 20 UK firms' sites and onboarding flows to find one repeated bottleneck such as document chasing, enquiry triage or quarterly-update prep.",
+      "Build one demo that shows an end-to-end flow from incoming enquiry or document request to CRM update to automated follow-up.",
       "Pitch a fixed-fee implementation plus monthly optimisation retainer to the first 30 prospects."
     ],
-    "first_offer": "AI ops sprint: one workflow automated in 10 days for a fixed fee, with optional monthly monitoring and refinement.",
-    "mvp": "A thin admin dashboard, workflow templates, prompt logic, audit logs and two or three common integrations such as Gmail, Calendly and HubSpot.",
+    "first_offer": "AI admin sprint: one workflow automated in 10 days for a fixed fee, with optional monthly monitoring and refinement.",
+    "mvp": "A thin admin dashboard, workflow templates, prompt logic, audit logs and two or three common integrations such as Gmail, Calendly and a CRM or accounting stack.",
     "customer_types": [
       "Small accountancy firms",
       "Recruitment agencies",
