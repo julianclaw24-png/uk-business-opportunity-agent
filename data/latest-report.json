@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-07T08:03:34+00:00",
+  "generated_at": "2026-08-08T08:04:49+00:00",
   "summary": {
-    "headline": "Compliance-triggered accountancy automation remains the strongest UK solo-founder opportunity, with AI admin services and missed-call recovery close behind for faster service-led cash flow.",
+    "headline": "Compliance-led accountancy automation still looks like the best UK solo-founder wedge, with AI admin services and cash-collection automations close behind for fast service revenue.",
     "best_opportunity": "Making Tax Digital workflow automation for small UK accountancy and bookkeeping firms",
-    "why_now": "Live GOV.UK pages fetched this run say Making Tax Digital for Income Tax becomes mandatory from 6 April 2026 for sole traders and landlords over \u00a350,000 qualifying income, while GOV.UK AI adoption research says 56% of AI-using businesses report higher employee productivity and marketing and administration both sit at 72% for current or planned AI use. That creates an urgent compliance wedge plus a broader willingness to buy admin automation."
+    "why_now": "Live GOV.UK guidance fetched this run says businesses with qualifying income over £50,000 must start Making Tax Digital for Income Tax on 6 April 2026, with £30,000 and £20,000 thresholds following in 2027 and 2028. That creates a real implementation window right now for workflow-heavy services that a solo engineer can sell before building any full product."
   },
   "top_opportunities": [
     {
       "name": "Making Tax Digital workflow automation for small UK accountancy and bookkeeping firms",
-      "description": "Productized implementation service that automates reminder sequences, document collection, exception tracking and quarterly-update prep around Making Tax Digital for Income Tax.",
-      "why_now": "This run fetched live GOV.UK wording that sole traders and landlords over \u00a350,000 qualifying income must use Making Tax Digital for Income Tax from 6 April 2026. That gives firms a near-term operational project rather than a speculative software idea.",
+      "description": "Productized implementation service that automates reminder sequences, client document collection, exception tracking and quarterly-update readiness around Making Tax Digital for Income Tax.",
+      "why_now": "This run fetched the GOV.UK MTD guide section saying qualifying income over £50,000 starts on 6 April 2026, then over £30,000 on 6 April 2027 and over £20,000 on 6 April 2028. That is a live compliance trigger with obvious admin workload for small firms.",
       "buyer": "Small accountancy firms, bookkeeping practices and tax-admin operators serving sole traders and landlords",
-      "startup_cost": "\u00a3200-\u00a31,200",
+      "startup_cost": "£200-£1,200",
       "speed_to_revenue": "5-14 days",
       "recurring_revenue": "High - setup fees plus monthly support and quarterly workflow retainers",
-      "founder_fit": "Excellent for a solo engineer if sold as workflow tooling, integrations and admin reduction instead of tax advice.",
+      "founder_fit": "Excellent for a solo engineer if positioned as process automation and implementation rather than tax advice.",
       "risks": [
-        "The scope must stay away from regulated tax advice and focus on process automation",
-        "Accounting software incumbents are entrenched, so the wedge must be faster implementation and lower admin burden"
+        "Must stay away from regulated tax advice and focus on workflow operations",
+        "Accounting software incumbents are established, so the wedge needs to be speed and lower admin burden"
       ],
       "scores": {
         "demand": "9/10",
@@ -27,20 +27,20 @@
         "recurring_revenue": "9/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Best overall because urgency is real, delivery can start as a service, and retainers are natural after the first setup."
+      "verdict": "Best overall because urgency is real, delivery can start as a service, and retainers are a natural follow-on."
     },
     {
       "name": "AI admin automation for professional-service SMEs",
       "description": "Niche automation package for enquiry triage, meeting notes to CRM, proposal drafting, document chasing and follow-up workflows in admin-heavy SMEs.",
-      "why_now": "Live GOV.UK AI adoption research fetched this run says 56% of AI-using businesses report higher employee productivity, and marketing and administration are both at 72% for AI use or planned use. Buyers already understand the category, so a narrow measurable offer is more plausible than generic AI consulting.",
+      "why_now": "The live GOV.UK AI Adoption Research page fetched this run says 56% of AI-using businesses report higher employee productivity, and the most common current or planned areas are marketing (72%) and administration (72%). Buyers already believe the category, which makes a focused measurable offer more credible than generic AI consulting.",
       "buyer": "Recruiters, mortgage brokers, consultancies, agencies and legal-adjacent SMEs",
-      "startup_cost": "\u00a3150-\u00a31,500",
+      "startup_cost": "£150-£1,500",
       "speed_to_revenue": "7-21 days",
       "recurring_revenue": "High - implementation projects plus optimisation and support retainers",
-      "founder_fit": "Very strong for a solo engineer using existing APIs and workflow tools before building any standalone product.",
+      "founder_fit": "Very strong for a solo engineer using existing APIs and workflow tools before building standalone software.",
       "risks": [
-        "Generic AI automation positioning is crowded unless the offer is narrowed to one niche and one KPI",
-        "The macro evidence is strong, but exact fast-closing sub-verticals still need direct validation"
+        "Generic AI automation positioning is crowded unless narrowed to one niche and one KPI",
+        "Strong macro evidence does not guarantee equally fast close rates in every sub-vertical"
       ],
       "scores": {
         "demand": "9/10",
@@ -50,20 +50,43 @@
         "recurring_revenue": "9/10",
         "founder_fit": "9/10"
       },
-      "verdict": "A very strong second choice with broad demand, but less immediate urgency than compliance-led offers."
+      "verdict": "Broad and very sellable if the offer is framed around one painful admin bottleneck."
     },
     {
-      "name": "Missed-call lead capture automation for UK trades and local services",
-      "description": "Simple missed-call text-back and lead-qualification system that keeps callers engaged, captures details and routes booking requests into a shared inbox or CRM.",
-      "why_now": "Live search-result pages and direct page fetches this run show active UK vendors such as Missed Call Hero and trade-focused guides selling exactly this outcome. The evidence is more market-signal than official statistics, but it strongly suggests local businesses already buy the category.",
-      "buyer": "Trades, garages, clinics, salons and other local operators that lose leads when calls go unanswered",
-      "startup_cost": "\u00a3100-\u00a3900",
+      "name": "Late-payment and receivables automation for small UK B2B service firms",
+      "description": "Productized quote-to-cash workflow that sends reminders, escalates unpaid invoices, updates pipeline status and gives owners a simple cash-collection dashboard.",
+      "why_now": "Live GOV.UK pages fetched this run say late payments can hurt cash flow, raise costs and make it harder for businesses to invest and grow, while a government news page says paying small businesses on time could boost the economy by £2.5 billion annually. That makes cash-collection tooling easier to justify than many nice-to-have automations.",
+      "buyer": "Small agencies, consultancies, service businesses and specialist trades with recurring invoicing",
+      "startup_cost": "£150-£1,000",
       "speed_to_revenue": "5-14 days",
-      "recurring_revenue": "High - monthly messaging, routing, reporting and support fees",
-      "founder_fit": "Excellent for a solo engineer because it can be built quickly with telephony, SMS and calendar integrations.",
+      "recurring_revenue": "High - monthly monitoring, reminder automation and reporting retainers",
+      "founder_fit": "Strong for a solo engineer because it can start with email, spreadsheet, accounting-software and CRM integrations rather than a full billing platform.",
       "risks": [
-        "Evidence here is weaker than the GOV.UK-backed opportunities and comes mostly from live market pages",
-        "Local-business pricing can be tight unless the offer is framed around recovered bookings"
+        "Buyer urgency is real, but some firms will see collections as operational cleanup rather than a new budget line",
+        "Integrations can sprawl if too many accounting tools are supported too early"
+      ],
+      "scores": {
+        "demand": "8/10",
+        "competition": "6/10",
+        "startup_ease": "8/10",
+        "speed_to_cash": "9/10",
+        "recurring_revenue": "8/10",
+        "founder_fit": "8/10"
+      },
+      "verdict": "One of the best fast-cash service offers because the ROI story is immediate and concrete."
+    },
+    {
+      "name": "Missed-call text-back and AI receptionist automation for UK local businesses",
+      "description": "Simple missed-call recovery system that texts back instantly, captures job details and routes booking requests into a shared inbox or calendar.",
+      "why_now": "Live search-result pages and direct site fetches this run show active UK vendors such as AlwaysOn Booking and CallAid already selling missed-call text-back and AI receptionist outcomes. The evidence here is more market-signal than official data, but it strongly suggests local businesses already buy the category.",
+      "buyer": "Trades, clinics, garages, salons and other local operators that regularly miss inbound calls",
+      "startup_cost": "£100-£900",
+      "speed_to_revenue": "5-10 days",
+      "recurring_revenue": "High - monthly messaging, routing, reporting and support fees",
+      "founder_fit": "Excellent for a solo engineer because it can be launched quickly with telephony, SMS and scheduling integrations.",
+      "risks": [
+        "Evidence is weaker than the GOV.UK-backed opportunities and comes mostly from market pages",
+        "Local-business pricing can be tight unless sold around recovered bookings"
       ],
       "scores": {
         "demand": "8/10",
@@ -73,61 +96,38 @@
         "recurring_revenue": "8/10",
         "founder_fit": "9/10"
       },
-      "verdict": "One of the fastest ways to get first revenue if sold as recovered leads rather than generic automation."
+      "verdict": "Very attractive for first revenue if sold as missed-booking recovery rather than generic AI."
     },
     {
       "name": "Client onboarding and AML workflow automation for UK accountancy firms",
       "description": "Service-first onboarding stack for ID capture, reminders, AML steps, approvals and status tracking for smaller accounting practices.",
-      "why_now": "This run found an active UK category through live search results and direct vendor pages including Xama, Firmcheck and Nomi. That indicates real demand, but the realistic solo-founder angle is implementation and workflow simplification, not building a full AML platform from scratch.",
+      "why_now": "This run found active UK category evidence through live search results and direct pages including Clienta and Firmcheck, both focused on onboarding or AML for accountants. That indicates a real market, although the realistic solo-founder angle is implementation and workflow simplification rather than building a full AML platform from scratch.",
       "buyer": "Small accountancy and bookkeeping firms that want faster onboarding without a full software migration",
-      "startup_cost": "\u00a3200-\u00a31,500",
+      "startup_cost": "£200-£1,500",
       "speed_to_revenue": "7-21 days",
       "recurring_revenue": "High - setup fees plus monthly support and workflow monitoring",
-      "founder_fit": "Strong for a solo engineer comfortable with forms, automations, notifications and secure admin tooling.",
+      "founder_fit": "Strong for a solo engineer comfortable with forms, notifications, secure admin tooling and light integrations.",
       "risks": [
-        "Sensitive client data raises reliability and privacy expectations",
+        "Sensitive client data raises privacy and reliability expectations",
         "Established software vendors mean the offer must stay narrower, easier and more implementation-led"
       ],
       "scores": {
         "demand": "8/10",
         "competition": "6/10",
-        "startup_ease": "8/10",
+        "startup_ease": "7/10",
         "speed_to_cash": "8/10",
         "recurring_revenue": "8/10",
         "founder_fit": "8/10"
       },
-      "verdict": "A solid niche adjacent to the MTD opportunity, especially if bundled as onboarding and admin relief."
-    },
-    {
-      "name": "Quote-to-cash follow-up automation for field-service SMEs",
-      "description": "Productized workflow for quote chases, appointment reminders, invoice nudges and customer follow-ups for trade teams.",
-      "why_now": "Live search results and direct page fetches this run show UK products such as Trade Manager UK, QuoteRecover and Tradify actively promoting quote and invoice follow-up automation. That is credible category evidence, though it is still weaker than formal demand data.",
-      "buyer": "Trades, maintenance firms, cleaning companies, installers and facilities businesses",
-      "startup_cost": "\u00a3300-\u00a31,800",
-      "speed_to_revenue": "10-30 days",
-      "recurring_revenue": "High - monthly software or managed-service retainers",
-      "founder_fit": "Good for a solo engineer starting with one painful workflow before considering software productization.",
-      "risks": [
-        "Field-service software is crowded, so the initial offer must stay tightly focused",
-        "Integration work can sprawl if too many customer systems are supported early"
-      ],
-      "scores": {
-        "demand": "7/10",
-        "competition": "5/10",
-        "startup_ease": "7/10",
-        "speed_to_cash": "7/10",
-        "recurring_revenue": "9/10",
-        "founder_fit": "8/10"
-      },
-      "verdict": "Viable if positioned around one measurable bottleneck such as quote recovery or invoice chasing."
+      "verdict": "Still strong, especially if bundled as onboarding cleanup plus ongoing admin reduction."
     }
   ],
   "best_pick": {
     "name": "Making Tax Digital workflow automation for small UK accountancy and bookkeeping firms",
-    "why_it_wins": "It has the clearest live trigger, the shortest path to a paid service engagement and obvious recurring support potential. Current GOV.UK guidance gives practices a real deadline problem, while the work itself is workflow-heavy rather than deep-product-heavy, which suits a part-time solo engineer far better than launching another speculative SaaS.",
+    "why_it_wins": "It has the clearest live trigger, the shortest path to a paid implementation sprint and obvious recurring support potential. The work is workflow-heavy instead of deep-product-heavy, which suits a part-time solo software engineer much better than launching another broad SaaS from zero.",
     "validation_plan": [
       "Review 20 small UK accountancy firms and note how they currently explain MTD readiness, reminders and quarterly-update workflows.",
-      "Build one demo that automates client reminders, document chasing and status tracking around an MTD workflow.",
+      "Build one working demo that automates client reminders, document chasing and status tracking around an MTD workflow.",
       "Pitch a fixed-fee MTD workflow sprint to 30 firms with a promise of fewer manual chases and cleaner quarterly readiness.",
       "Turn the first successful sprint into a monthly support and optimisation retainer."
     ],
