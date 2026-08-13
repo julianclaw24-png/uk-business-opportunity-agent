@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-12T08:01:28Z",
+  "generated_at": "2026-08-13T08:01:09Z",
   "summary": {
-    "headline": "Compliance-led automation still looks strongest, with local-business response automation close behind for fastest cash flow.",
+    "headline": "Compliance-led automation remains the strongest UK solo-business opening, with missed-call recovery second for pure speed to cash.",
     "best_opportunity": "Making Tax Digital workflow automation for small UK accountancy and bookkeeping firms.",
-    "why_now": "HMRC says sole traders and landlords with qualifying income over £50,000 need to use Making Tax Digital for Income Tax from 6 April 2026, creating immediate migration, chasing and reporting work for small practices."
+    "why_now": "Live HMRC guidance says sole traders and landlords with qualifying income over £50,000 must use Making Tax Digital for Income Tax from 6 April 2026, creating immediate workflow pain for small practices that need migration, chasing and quarterly process support."
   },
   "top_opportunities": [
     {
       "name": "Making Tax Digital workflow automation for small accountancy and bookkeeping firms",
       "description": "A productized service or narrow micro-SaaS that handles MTD client onboarding, reminder flows, missing-record chases, quarterly workflow tracking and exception handling for small practices.",
-      "why_now": "HMRC guidance updated 16 July 2026 says sole traders and landlords with qualifying income over £50,000 must use MTD for Income Tax from 6 April 2026 and should sign up now if they need it for the 2026 to 2027 tax year. That is a live compliance trigger with obvious operational pain.",
+      "why_now": "Live GOV.UK and DuckDuckGo results both point to the April 2026 MTD deadline and active HMRC sign-up guidance, which is a direct compliance trigger rather than speculative demand.",
       "buyer": "Small UK accountancy firms, bookkeepers and tax advisers with self-employed and landlord clients.",
       "startup_cost": "£300-£1,500 for a landing page, outreach, demo workflows and lightweight integrations.",
       "speed_to_revenue": "Fast as a done-for-you migration or workflow package; first revenue could plausibly land in 1-3 weeks.",
@@ -27,12 +27,12 @@
         "recurring_revenue": "8/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Best overall because the demand is deadline-led, specific and monetisable immediately with a service-first approach."
+      "verdict": "Best overall because the demand is deadline-led, specific and monetisable quickly with a service-first offer."
     },
     {
       "name": "AI missed-call recovery and booking automation for local service businesses",
       "description": "A productized service that automatically texts back missed callers, captures job details, qualifies leads and books follow-ups for owner-led local businesses.",
-      "why_now": "Live search results show multiple UK-focused vendors selling missed-call text-back and lead-capture products, which is a useful signal that the pain is already understood by the market. Competition is real, but so is buyer awareness, making this one of the fastest paths to cash if sold niche-first.",
+      "why_now": "Live UK search results show multiple active vendors selling missed-call text-back tools to trades and local services, which is strong evidence that the pain is understood and buyers already exist.",
       "buyer": "Trades, dental clinics, vets, garages, cleaners, beauty businesses and other local service SMEs that miss inbound calls.",
       "startup_cost": "£200-£1,200 using telephony APIs, SMS or WhatsApp flows, simple CRM glue and basic reporting.",
       "speed_to_revenue": "Very fast with a setup fee plus monthly retainer model.",
@@ -55,7 +55,7 @@
     {
       "name": "Cyber Essentials readiness automation for SMEs",
       "description": "A lightweight service or micro-SaaS that assesses common gaps, tracks remediation, gathers evidence and prepares small firms for Cyber Essentials certification.",
-      "why_now": "The NCSC says Cyber Essentials is the government-recommended minimum standard, notes that a growing number of organisations require suppliers to be certified to bid for work, and highlights a large support ecosystem. That creates a practical buying trigger rather than a vague interest in security.",
+      "why_now": "Live NCSC content says Cyber Essentials is the government-recommended minimum standard and that a growing number of organisations require suppliers to be certified to bid for work, which creates a practical purchase trigger.",
       "buyer": "SMEs selling into larger companies, public-sector-adjacent supply chains, agencies, consultancies and software firms.",
       "startup_cost": "£400-£1,500 for checklists, evidence collection, reporting flows and partner referral setup.",
       "speed_to_revenue": "Fast as a fixed-scope prep service; slower if launched as pure self-serve SaaS from day one.",
@@ -78,7 +78,7 @@
     {
       "name": "AI lead qualification and viewing-booking automation for independent estate agents",
       "description": "A niche tool or managed automation layer that qualifies property enquiries, captures buyer intent data and books viewings without staff handling every initial lead.",
-      "why_now": "Current search results show UK-specific tools and content focused on AI lead qualification for estate agents, which suggests category awareness already exists. That lowers education cost, though it also means a new entrant needs a sharper wedge than a generic chatbot.",
+      "why_now": "Live search results show UK-specific tools already selling AI lead qualification for estate agents, so buyer education cost is lower even though competition is visible.",
       "buyer": "Independent estate agents, letting agents and small regional property groups.",
       "startup_cost": "£500-£2,000 if started as a narrow workflow service rather than full property software.",
       "speed_to_revenue": "Moderate-fast; a single branch can buy quickly if the value is framed around fewer wasted viewings and faster response.",
@@ -96,12 +96,12 @@
         "recurring_revenue": "8/10",
         "founder_fit": "7/10"
       },
-      "verdict": "Viable and recurring, but not as universally urgent as compliance automation and not as easy to sell as missed-call recovery."
+      "verdict": "Viable and recurring, but less urgent than compliance automation and less universal than missed-call recovery."
     },
     {
       "name": "Productized SME operations automation sprint",
       "description": "A fixed-scope service that replaces manual intake, quoting, reminders, handoffs and reporting for small UK service firms using simple integrations and scripts.",
-      "why_now": "The broader signal is supportive rather than decisive: British Chambers of Commerce messaging is still stressing UK productivity pressure, while techUK continues to push AI opportunity and SME support themes. That points to real need, but the evidence is weaker and less urgent than the compliance-led ideas above.",
+      "why_now": "Live BCC search results point to UK productivity pressure and rising AI adoption among SMEs, but the evidence is broader and weaker than the deadline-driven opportunities above.",
       "buyer": "Owner-managed service SMEs with 5-50 staff running core workflows through inboxes and spreadsheets.",
       "startup_cost": "£200-£1,000 using no-code tools, standard connectors and a little custom code.",
       "speed_to_revenue": "Fast if sold as a fixed-price sprint with an optional monthly support retainer.",
@@ -126,7 +126,7 @@
     "name": "Making Tax Digital workflow automation for small accountancy and bookkeeping firms",
     "why_it_wins": "It combines a live HMRC compliance trigger, a concentrated buyer pool, service-first immediate cash flow and clear recurring support potential. Compared with broader AI agency offers, the pain is more urgent, more specific and easier to convert into a concrete package.",
     "validation_plan": [
-      "Publish a one-page offer for an 'MTD workflow setup in 7 days' package with a setup fee and monthly support tier.",
+      "Publish a one-page offer for an MTD workflow setup package with a setup fee and monthly support tier.",
       "Build a demo flow covering intake, document chasing, quarterly reminders and exception tracking, then use it in outreach.",
       "Contact 30 small UK accountancy or bookkeeping firms and ask how they are handling MTD client chasing, quarterly update workflows and software migration admin."
     ],
@@ -137,7 +137,7 @@
       "Independent bookkeepers serving sole traders",
       "Tax advisers wanting a white-label workflow layer rather than new core software"
     ],
-    "do_today": "Draft the offer, record a short screen-demo of the workflow and start a 30-firm outreach list from UK accountancy directories and local search results."
+    "do_today": "Draft the offer, record a short workflow demo and build a 30-firm outreach list from UK accountancy directories and local search results."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
