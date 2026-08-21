@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-20T08:04:27Z",
+  "generated_at": "2026-08-21T08:05:55Z",
   "summary": {
-    "headline": "Compliance-led workflow services still look like the strongest UK solo bets; MTD wins, with Companies House ops and cash-collection automation next.",
+    "headline": "UK compliance-led workflow services still look strongest; MTD for Income Tax is the clearest near-term solo opportunity, with Companies House admin and cash-collection automation close behind.",
     "best_opportunity": "Making Tax Digital workflow automation for small UK accountancy and bookkeeping firms.",
-    "why_now": "A live GOV.UK sign-up page says sole traders and landlords with over £50,000 of qualifying income must use Making Tax Digital for Income Tax from 6 April 2026, creating immediate admin, reminder and migration work that a solo engineer can package as a service-first offer now."
+    "why_now": "A live GOV.UK page says businesses must use Making Tax Digital for Income Tax from 6 April 2026 when self-employment and property income exceeds \u00a350,000, creating immediate practice-side migration, reminder and client-chasing work that can be sold service-first."
   },
   "top_opportunities": [
     {
       "name": "Making Tax Digital workflow automation for small accountancy and bookkeeping firms",
-      "description": "A productized service or narrow micro-SaaS that automates client onboarding, document chasing, quarterly reminder flows, exception tracking and practice-side admin around MTD for Income Tax.",
-      "why_now": "Live GOV.UK guidance says businesses must use MTD for Income Tax from 6 April 2026 if total annual income from self-employment and property is over £50,000. That creates immediate operational pain for smaller firms before the filing deadline itself.",
+      "description": "A productized service or narrow micro-SaaS that automates client onboarding, document chasing, quarterly reminder flows, exception handling and practice-side admin around MTD for Income Tax.",
+      "why_now": "GOV.UK says MTD for Income Tax starts on 6 April 2026 for businesses with over \u00a350,000 of relevant income, and firms can volunteer earlier. That creates urgent operational work now, before the deadline pressure peaks.",
       "buyer": "Small UK accountancy firms, independent bookkeepers and tax advisers serving sole traders and landlords.",
-      "startup_cost": "£300-£1,500 for a landing page, demo workflow, outreach and a few integrations.",
+      "startup_cost": "\u00a3300-\u00a31,500 for a landing page, demo workflow, outreach and a few integrations.",
       "speed_to_revenue": "Very fast as a done-for-you setup or migration-support offer; first revenue within 1-2 weeks is plausible.",
       "recurring_revenue": "High via monthly reminder management, exception handling, support and per-client workflow fees.",
-      "founder_fit": "Excellent for a solo engineer who can layer automation on top of spreadsheets and existing tax software instead of replacing the filing stack.",
+      "founder_fit": "Excellent for a solo engineer who can layer automation on top of spreadsheets and existing tax software instead of trying to replace the tax stack.",
       "risks": [
         "Trust matters, so the offer should stay on workflow automation rather than regulated tax advice.",
-        "Core tax software is crowded, so the wedge should be practice ops, reminders, migration and client chasing rather than full bookkeeping software."
+        "Core tax software is crowded, so the wedge should be practice ops, reminders, migration and client chasing rather than bookkeeping itself."
       ],
       "scores": {
         "demand": "9/10",
@@ -27,14 +27,14 @@
         "recurring_revenue": "8/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Best overall because the compliance trigger is live, the buyer pool is concentrated and the service-to-retainer path is straightforward."
+      "verdict": "Best overall because the deadline is live, the buyer pain is admin-heavy and the service-to-retainer path is straightforward."
     },
     {
       "name": "Companies House identity-verification workflow service for accountants and corporate service firms",
-      "description": "A productized workflow tool or service that collects director data, tracks personal codes, manages reminder sequences and packages identity-verification admin for firms handling many entities.",
-      "why_now": "Live GOV.UK pages say more than 6 million individuals will need to comply in the 12 months after identity verification becomes mandatory, and another Companies House update says from 18 November 2025 all new and existing directors and PSCs must verify their identity. That creates real admin volume for accountants, formation agents and company secretarial providers.",
+      "description": "A workflow tool or productized service that collects director data, tracks personal codes, manages reminder sequences and packages identity-verification admin for firms handling many entities.",
+      "why_now": "GOV.UK says identity verification becomes a legal requirement from 18 November 2025, and a Companies House news page says more than 6 million individuals will need to comply during the following 12 months. That is real admin volume for firms that manage many companies.",
       "buyer": "Accountants, company formation agents, legal and corporate service firms, and outsourced company secretarial providers.",
-      "startup_cost": "£300-£1,400 for a portal, reminder system, secure forms and lightweight case tracking.",
+      "startup_cost": "\u00a3300-\u00a31,400 for a portal, reminder system, secure forms and lightweight case tracking.",
       "speed_to_revenue": "Fast as a done-for-you operational service or white-label workflow setup.",
       "recurring_revenue": "Medium via annual confirmation statement support, ongoing entity admin and retained compliance ops.",
       "founder_fit": "Very good for a solo engineer who can build secure intake flows, reminders and dashboarding without becoming a regulated adviser.",
@@ -50,14 +50,14 @@
         "recurring_revenue": "6/10",
         "founder_fit": "8/10"
       },
-      "verdict": "Strong near-term opportunity because the trigger is active and the buyer pain is operational, but it needs a retainer extension to avoid being mostly one-off work."
+      "verdict": "Strong near-term opportunity because the legal trigger is active and the buyer pain is operational, though it needs a retainer extension to avoid becoming one-off project work."
     },
     {
       "name": "Invoice chasing and cash-collection automation for SMEs",
       "description": "A productized accounts-receivable automation service that sends staged reminders, flags overdue risk, triggers escalation and gives owners a simple debtor dashboard.",
-      "why_now": "A live GOV.UK late-payment response says late payment costs the UK economy £11 billion each year, closes 38 UK businesses every day and wastes 86 hours per year for affected owners chasing invoices. That is direct cash-flow pain with an easy-to-understand ROI story.",
+      "why_now": "A live GOV.UK policy page says late payments close 38 businesses every single day and cost the UK economy \u00a311 billion every year, while a 2024 GOV.UK research summary says most businesses are still given 30-day payment terms and 68% informally pursue late payments. That is direct cash-flow pain with obvious ROI.",
       "buyer": "Agencies, consultancies, recruiters, trades and other UK SMEs that invoice manually and suffer overdue payments.",
-      "startup_cost": "£250-£1,000 using Xero or QuickBooks integrations, email or SMS reminders and simple reporting.",
+      "startup_cost": "\u00a3250-\u00a31,000 using Xero or QuickBooks integrations, email or SMS reminders and simple reporting.",
       "speed_to_revenue": "Fast because the value proposition is immediate: recover money already earned.",
       "recurring_revenue": "High through monthly reminder workflows, monitoring and exception handling retainers.",
       "founder_fit": "Very good for a solo engineer who can connect accounting systems, communications and workflow logic.",
@@ -73,14 +73,14 @@
         "recurring_revenue": "8/10",
         "founder_fit": "8/10"
       },
-      "verdict": "One of the best immediate-cash offers because the pitch is simple and the return can be measured quickly."
+      "verdict": "One of the best immediate-cash offers because the pitch is simple, the ROI is measurable and setup can stay lightweight."
     },
     {
       "name": "Cyber Essentials readiness automation for SMEs",
       "description": "A lightweight service or micro-SaaS that checks common gaps, tracks remediation, gathers evidence and prepares smaller firms for Cyber Essentials certification or renewal.",
-      "why_now": "The live 2025 UK Cyber Security Breaches Survey says 43% of businesses identified a cyber breach or attack in the last year, says ransomware prevalence increased between 2024 and 2025, and notes a significant increase in small businesses carrying out cyber risk assessments. That supports a focused readiness offer tied to tenders and customer requirements.",
+      "why_now": "The UK Cyber Security Breaches Survey 2025 says 43% of businesses identified a cyber breach or attack in the last 12 months, and it says ransomware prevalence increased between 2024 and 2025. That supports a narrow readiness offer tied to tenders, supply-chain requirements and annual recertification.",
       "buyer": "SMEs selling into larger companies, public-sector-adjacent supply chains, agencies, consultancies and software firms.",
-      "startup_cost": "£400-£1,500 for checklists, evidence collection, reporting flows and assessor-partner referrals.",
+      "startup_cost": "\u00a3400-\u00a31,500 for checklists, evidence collection, reporting flows and assessor-partner referrals.",
       "speed_to_revenue": "Fast as a fixed-scope prep service; slower if launched as pure self-serve SaaS first.",
       "recurring_revenue": "Medium-high via annual recertification prep, hygiene checks and lightweight compliance retainers.",
       "founder_fit": "Good for a technical solo founder who can package structured compliance help without drifting into broad security consulting.",
@@ -96,14 +96,14 @@
         "recurring_revenue": "7/10",
         "founder_fit": "7/10"
       },
-      "verdict": "A solid B2B compliance play, slightly behind the top three because trust requirements are higher and repeat usage is less frequent."
+      "verdict": "A solid B2B compliance play, slightly behind the top three because trust requirements are higher and recurring usage is less frequent."
     },
     {
-      "name": "AI missed-call recovery and quote follow-up automation for trades and appointment-led local SMEs",
-      "description": "A productized service that captures missed inbound calls, qualifies leads, sends instant text-back or WhatsApp follow-up, books appointments and nudges quotes that have gone quiet.",
-      "why_now": "Evidence is a bit weaker here than in the compliance-led ideas, but the live market signal is still good: VoiceFleet currently markets an AI phone receptionist for local businesses that helps capture every call and book appointments 24/7, and ServiceM8 UK positions software for trades from the first call through quoting, invoicing and payment while claiming users complete 30% more work in the first 3 months. That shows buyers already pay for lead-to-cash operational tooling.",
+      "name": "Missed-call recovery and quote follow-up automation for trades and appointment-led local SMEs",
+      "description": "A productized service that captures missed inbound calls, sends instant text-back or WhatsApp follow-up, books appointments and nudges quotes that have gone quiet.",
+      "why_now": "Evidence is weaker than the compliance-led ideas, but live market activity is still encouraging: ServiceM8 UK says users complete 30% more work in the first 3 months and positions software from the first call through quoting, invoicing and payment. That suggests owner-led service firms already buy lead-to-cash operational tooling, leaving room for a narrower recovered-revenue offer.",
       "buyer": "Trades, clinics, garages, salons, dentists and other owner-led local service businesses with inbound phone leads.",
-      "startup_cost": "£200-£1,200 using telephony APIs, SMS or WhatsApp flows, simple CRM glue and reporting.",
+      "startup_cost": "\u00a3200-\u00a31,200 using telephony APIs, SMS or WhatsApp flows, simple CRM glue and reporting.",
       "speed_to_revenue": "Very fast with a setup fee plus monthly retainer or per-number pricing.",
       "recurring_revenue": "High because numbers, messaging, monitoring and optimisation fit monthly billing naturally.",
       "founder_fit": "Excellent for a solo engineer comfortable with webhooks, telephony, lead routing and AI-assisted summaries.",
@@ -130,14 +130,14 @@
       "Build a short demo showing intake, document chasing, quarterly reminders and exception tracking on top of a spreadsheet or existing practice tool.",
       "Contact 30 small UK accountancy or bookkeeping firms and ask how they are handling MTD client chasing, reminders and migration admin right now."
     ],
-    "first_offer": "£750-£1,500 setup for one practice workflow plus £149-£399 per month for reminders, client chasing and basic reporting.",
+    "first_offer": "\u00a3750-\u00a31,500 setup for one practice workflow plus \u00a3149-\u00a3399 per month for reminders, client chasing and basic reporting.",
     "mvp": "A lightweight practice portal with automated reminders, document chase workflows, task routing and a simple dashboard layered over existing spreadsheets or accountancy software.",
     "customer_types": [
       "Small accountancy firms with self-employed and landlord client bases",
       "Independent bookkeepers serving sole traders",
       "Tax advisers wanting a white-label workflow layer instead of new core software"
     ],
-    "do_today": "Draft the offer, record a short workflow demo and build a 30-firm outreach list from UK accountancy directories and current search results."
+    "do_today": "Draft the offer, record a short workflow demo and build a 30-firm outreach list from UK accountancy directories and current GOV.UK search results."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
