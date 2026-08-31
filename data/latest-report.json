@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-30T08:03:36Z",
+  "generated_at": "2026-08-31T08:01:06Z",
   "summary": {
-    "headline": "UK compliance deadlines and cashflow pain still create the best low-budget solo opportunities, with tightly scoped AI ops services the strongest non-regulatory play.",
+    "headline": "UK compliance deadlines plus stubborn SME cashflow/admin pain still create the best low-budget solo opportunities; service-first automations beat SaaS-only bets for speed.",
     "best_opportunity": "Invoice chasing and cash-collection automation for UK SMEs",
-    "why_now": "A live GOV.UK response says late payments cost the UK economy £11 billion each year, affect over 1.5 million businesses, tie up about £26 billion at any given time and waste around 86 hours per affected business. That makes the ROI immediate, easy to explain and saleable as either a service-first offer or a lightweight SaaS." 
+    "why_now": "Live GOV.UK and Small Business Commissioner pages still frame late payment as an immediate, economy-scale pain: roughly £11 billion annual drag, 1.5 million affected businesses, about £26 billion tied up, and around 86 hours per affected business spent chasing invoices. That makes ROI easy to prove and first revenue plausible fast."
   },
   "top_opportunities": [
     {
       "name": "Invoice chasing and cash-collection automation for UK SMEs",
-      "description": "A productized service or small SaaS that plugs into Xero, QuickBooks or CSV exports to send reminders, segment overdue accounts, capture replies and escalate exceptions to the owner or finance lead.",
-      "why_now": "GOV.UK's live late-payment response says late payments cost the UK economy £11 billion a year, affect over 1.5 million businesses and leave firms owed about £26 billion at any given time. It also says affected businesses spend around 86 hours a year chasing invoices, so the pain is both cash and admin.",
+      "description": "A productized service or small SaaS that plugs into Xero, QuickBooks or CSV exports to automate reminders, segment overdue accounts, route disputes and escalate exceptions to owners or finance leads.",
+      "why_now": "A live GOV.UK late-payment response page says late payments cost the UK economy almost £11 billion a year, affect 1.5 million businesses, leave around £26 billion outstanding at any given time and consume about 86 hours per affected business each year. That is strong, current evidence of painful and measurable demand.",
       "buyer": "UK agencies, consultancies, recruiters, wholesalers, trades and other owner-led SMEs with recurring invoicing.",
       "startup_cost": "£250-£1,000",
-      "speed_to_revenue": "Very fast; a paid audit, setup fee or 30-day pilot is plausible inside 1-2 weeks.",
-      "recurring_revenue": "High via monthly monitoring, reminders, reporting and exception handling.",
-      "founder_fit": "Excellent for a solo engineer because it can start as workflow glue and a managed service before any full SaaS build.",
+      "speed_to_revenue": "Very fast; a paid audit, setup fee or 30-day pilot is plausible within 1-2 weeks.",
+      "recurring_revenue": "High via monthly monitoring, reminder management, exception handling and reporting.",
+      "founder_fit": "Excellent for a solo engineer because it can launch as workflow glue plus managed service before any heavier product build.",
       "risks": [
-        "Accounting platforms already include basic reminders, so the wedge must be smarter escalation, segmentation or reporting.",
-        "Some buyers may push for success-fee pricing, which can complicate scope and margins."
+        "Accounting systems already offer basic reminders, so the wedge must be better segmentation, escalation and visibility.",
+        "Some buyers may prefer success-fee pricing, which can complicate delivery and margins."
       ],
       "scores": {
         "demand": "9/10",
@@ -27,20 +27,20 @@
         "recurring_revenue": "8/10",
         "founder_fit": "9/10"
       },
-      "verdict": "Best overall because the problem is urgent, measurable and broad, while the offer is cheap to launch and part-time friendly."
+      "verdict": "Best overall because the pain is urgent, broad and easy to quantify, while the offer is cheap to launch and part-time friendly."
     },
     {
       "name": "Productized AI operations automation for B2B service SMEs",
-      "description": "A fixed-scope service that automates one repetitive workflow such as inbox triage, quote follow-up, onboarding admin, document drafting or internal handoffs using existing LLMs and workflow tools.",
-      "why_now": "The British Chambers of Commerce AI Academy page currently says 35% of SMEs now use AI technology, up from 25% in 2024, and 46% of B2B service firms in finance, law and marketing are embedding AI in their work. But it also says only 11% of SMEs use AI to its full potential, which suggests real demand for implementation help rather than more AI advice.",
+      "description": "A fixed-scope service that automates one repetitive workflow such as inbox triage, quote follow-up, client onboarding admin, document drafting or internal handoffs using existing LLMs and workflow tools.",
+      "why_now": "The British Chambers of Commerce AI Academy page currently says 35% of SMEs now use AI technology, up from 25% in 2024, 46% of B2B service firms in finance, law and marketing are embedding AI in their work, but only 11% of SMEs use AI to its full potential. That suggests adoption is real, but implementation remains immature.",
       "buyer": "Owner-led SMEs, recruiters, accountants, brokers, agencies and consultancies with repetitive back-office workflows.",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "Fast if sold as a paid workflow audit plus implementation instead of SaaS-first.",
       "recurring_revenue": "High through support retainers, monitoring and staged rollout into adjacent workflows.",
-      "founder_fit": "Excellent for a solo software engineer who can scope narrowly and ship one workflow at a time.",
+      "founder_fit": "Excellent for a solo software engineer who can scope narrowly and ship one ROI-linked workflow at a time.",
       "risks": [
         "Generic AI agency positioning is crowded and easy to ignore.",
-        "Urgency is weaker than compliance or cashflow unless the offer is tied to one painful process and one clear ROI metric."
+        "Urgency is weaker than compliance or cashflow unless the offer is tied to one painful process and one clear metric."
       ],
       "scores": {
         "demand": "8/10",
@@ -54,15 +54,15 @@
     },
     {
       "name": "Companies House identity-verification workflow service for accountants and formation firms",
-      "description": "A secure workflow tool or managed service that collects director and PSC details, tracks verification status, sends reminders and reduces repetitive admin around identity checks.",
-      "why_now": "Live GOV.UK guidance says identity verification became a legal requirement from 18 November 2025 and started a 12-month transition period. That creates immediate admin work for accountants, company-secretarial providers and formation agents that need a workflow layer more than another big practice system.",
+      "description": "A secure workflow tool or managed service that collects director and PSC details, tracks verification status, sends reminders and reduces repetitive admin around Companies House identity checks.",
+      "why_now": "Live GOV.UK guidance says identity verification became a legal requirement from 18 November 2025 and marks the start of a 12-month transition period. That creates live, deadline-backed admin work for accountants, company-secretarial providers and formation agents.",
       "buyer": "Small accountancy firms, formation agents, company-secretarial providers and outsourced compliance teams.",
       "startup_cost": "£300-£1,400",
       "speed_to_revenue": "Fast as a workflow setup, managed intake service or recurring compliance retainer.",
       "recurring_revenue": "Medium to high if expanded into annual filings and broader secretarial workflows.",
       "founder_fit": "Very good for a solo engineer who can build secure internal tooling without drifting into legal advice.",
       "risks": [
-        "Identity-related data handling raises trust and security requirements immediately.",
+        "Identity-related data handling raises trust, security and process design requirements immediately.",
         "The narrow verification wave may cool later unless the offer expands into broader compliance operations."
       ],
       "scores": {
@@ -78,14 +78,14 @@
     {
       "name": "Making Tax Digital admin automation for small accountancy and bookkeeping firms",
       "description": "A workflow layer that handles onboarding, document chasing, quarterly reminder sequences, exception tracking and task routing around Making Tax Digital for Income Tax.",
-      "why_now": "Live GOV.UK guidance says Making Tax Digital for Income Tax is required from 6 April 2026 for sole traders and landlords over £50,000 income. The filing software market is crowded, but the surrounding onboarding, chasing and exception-handling work is still painful and immediate for small firms.",
+      "why_now": "Live GOV.UK guidance says Making Tax Digital for Income Tax applies from 6 April 2026 for sole traders and landlords with total annual self-employment and property income over £50,000. Filing software is crowded, but the surrounding client-chasing and exception work is still immediate and operationally messy.",
       "buyer": "Small UK accountancy firms, bookkeepers and tax advisers serving sole traders and landlords.",
       "startup_cost": "£300-£1,500",
       "speed_to_revenue": "Fast as a done-for-you setup, migration-admin or client-reminder service.",
       "recurring_revenue": "High through ongoing reminder management, exception handling and per-client workflow retainers.",
       "founder_fit": "Very good for a solo engineer because the product can sit on top of existing practice software instead of replacing it.",
       "risks": [
-        "Tax software itself is crowded, so the wedge must stay focused on workflow relief rather than filing software.",
+        "Tax software itself is crowded, so the wedge must stay focused on admin capacity relief rather than filing.",
         "Some firms may wait for existing vendors to improve their onboarding and reminder tooling."
       ],
       "scores": {
@@ -96,20 +96,20 @@
         "recurring_revenue": "8/10",
         "founder_fit": "8/10"
       },
-      "verdict": "A practical recurring-revenue niche if sold as admin capacity relief, not as another tax platform."
+      "verdict": "A practical recurring-revenue niche if sold as workflow relief, not as another tax platform."
     },
     {
       "name": "Missed-call recovery and quote follow-up automation for trades and appointment-led local businesses",
       "description": "A productized service that captures missed calls, sends instant SMS follow-up, qualifies inbound leads, books appointments and nudges open quotes until they convert or close.",
-      "why_now": "The UK private sector had 5.7 million businesses at the start of 2025 and 5.64 million were small, according to GOV.UK business population estimates, so the target market is huge. On the commercial side, UK vendor pages still push direct ROI: ServiceM8 says users complete 30% more work in the first 3 months, while AlwaysOn Booking is built around missed-call text-back for UK local service firms. The evidence here is more commercial than policy-led, so certainty is weaker than the top picks.",
+      "why_now": "The GOV.UK 2025 business population release says the UK had 5.7 million businesses and 5.64 million were small, so the target base is huge. ServiceM8's live UK site still claims users complete 30% more work in the first 3 months. That second signal is commercial rather than neutral research, so confidence is weaker than the top four, but the wedge can still produce fast local revenue.",
       "buyer": "Trades, garages, clinics, dentists, salons and other local service businesses that rely on phone leads and appointment bookings.",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "Very fast with a setup fee plus monthly support or per-number pricing.",
       "recurring_revenue": "High because telephony, messaging and monitoring fit monthly billing naturally.",
       "founder_fit": "Excellent for a solo engineer comfortable with webhooks, telephony APIs and lightweight CRM automation.",
       "risks": [
-        "This category is getting crowded, so niche choice and local proof matter a lot.",
-        "Evidence is mostly vendor-side rather than government demand data, so results will vary by vertical and sales execution."
+        "This category is getting crowded, so niche choice and proof matter a lot.",
+        "Evidence is more commercial than policy-led, so real demand will vary by vertical and sales execution."
       ],
       "scores": {
         "demand": "7/10",
@@ -124,7 +124,7 @@
   ],
   "best_pick": {
     "name": "Invoice chasing and cash-collection automation for UK SMEs",
-    "why_it_wins": "It matches the brief best: low build cost, easy service-first launch, part-time friendly delivery, broad UK buyer pool and immediate ROI. The live GOV.UK late-payment response gives a strong sales hook that generic automation offers do not have.",
+    "why_it_wins": "It matches the brief best: low build cost, service-first launch, part-time friendly delivery, broad UK buyer pool and immediate ROI. The live late-payment data gives a sharper sales story than generic automation offers.",
     "validation_plan": [
       "Build one demo flow on mock Xero or CSV data showing first reminder, second reminder, dispute flagging and owner escalation.",
       "Prospect 30 UK agencies, recruiters and consultancies that likely invoice monthly and still look operationally manual.",
