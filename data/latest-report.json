@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-03T08:03:29Z",
+  "generated_at": "2026-09-04T08:03:33Z",
   "summary": {
-    "headline": "Current UK signals still favour narrow workflow businesses with hard ROI, especially receivables, compliance-admin and practical AI operations work.",
+    "headline": "Current UK signals still favour hard-ROI automation businesses: cash collection, deadline-driven compliance admin, and practical AI workflow services.",
     "best_opportunity": "Invoice chasing and cash-collection automation for UK SMEs",
-    "why_now": "A live GOV.UK government response says late payments cost the UK economy almost £11 billion per year, affect over 1.5 million businesses and leave an estimated £26 billion outstanding at any given time, which makes receivables automation the clearest fast-ROI offer today."
+    "why_now": "A live GOV.UK response says late payments cost the UK economy almost £11 billion per year, affect over 1.5 million businesses and leave an estimated £26 billion outstanding at any given time, which makes receivables automation the clearest fast-cash opportunity right now."
   },
   "top_opportunities": [
     {
       "name": "Invoice chasing and cash-collection automation for UK SMEs",
       "description": "A productized service or lightweight micro-SaaS that automates reminders, overdue segmentation, reply triage and owner escalation on top of Xero, QuickBooks or CSV exports.",
-      "why_now": "The GOV.UK late-payment consultation response currently says late payments cost the UK economy almost £11 billion per year, over 1.5 million businesses are affected each year and businesses are owed an estimated £26 billion in late payments at any given time. That is strong live evidence of urgent, measurable pain.",
+      "why_now": "The current GOV.UK late-payment response says late payments cost the UK economy almost £11 billion per year, over 1.5 million businesses are affected each year and businesses are owed an estimated £26 billion in late payments at any given time. That is unusually strong evidence of urgent, measurable pain.",
       "buyer": "Owner-led UK SMEs that invoice regularly, especially agencies, recruiters, consultancies, wholesalers and trades.",
       "startup_cost": "£250-£1,000",
       "speed_to_revenue": "Very fast; a paid audit, setup fee or 30-day pilot is realistic within 1-2 weeks.",
-      "recurring_revenue": "High via monthly monitoring, reminders, dispute handling and reporting.",
-      "founder_fit": "Excellent for a solo engineer because it can start as a service on top of existing accounting workflows before becoming software.",
+      "recurring_revenue": "High via monthly monitoring, reminder handling, escalation and reporting.",
+      "founder_fit": "Excellent for a solo engineer because it can launch service-first on existing finance workflows, then turn into software later.",
       "risks": [
         "Accounting platforms already include basic reminders, so the wedge must be better escalation, reporting or done-for-you operation.",
         "Some buyers will push for success-fee pricing, which can complicate scope and margins."
@@ -30,9 +30,9 @@
       "verdict": "Best overall because the pain is broad, current and easy to sell with a direct ROI story."
     },
     {
-      "name": "Productized AI operations automation for B2B service SMEs",
+      "name": "Productized AI operations automation for admin-heavy UK service SMEs",
       "description": "A fixed-scope implementation service that automates one repetitive workflow such as inbox triage, quote follow-up, onboarding admin, document drafting or internal handoffs using existing LLMs and workflow tools.",
-      "why_now": "The British Chambers of Commerce AI Academy page currently says 35% of SMEs now use AI, up from 25% in 2024, 46% of B2B service firms in finance, law and marketing are embedding AI, but only 11% of SMEs use AI to its full potential. Adoption is real, but execution depth is still weak.",
+      "why_now": "The latest ONS article on AI in UK businesses says self-reported AI use in businesses with 10 or more employees has risen from around 12% to around 35% since late 2023, but only 10% report using AI extensively and only 11% say more than half their workforce has received AI-related training. Adoption is real, but execution depth is still shallow.",
       "buyer": "Accountants, brokers, recruiters, agencies, legal services and other admin-heavy B2B service firms.",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "Fast if sold as a paid workflow audit plus implementation rather than SaaS-first.",
@@ -78,7 +78,7 @@
     {
       "name": "Companies House identity-verification workflow service for accountants and formation firms",
       "description": "A workflow tool or managed service that collects director and PSC details, tracks verification status, sends reminders and removes repetitive admin around Companies House identity checks.",
-      "why_now": "The current GOV.UK identity-verification guidance says identity verification becomes a legal requirement from 18 November 2025 and that this starts a 12-month transition period for directors and PSCs to verify by their due dates. That keeps deadline-backed admin pressure live for small compliance teams.",
+      "why_now": "Current GOV.UK guidance says identity verification becomes a legal requirement from 18 November 2025 and that this starts a 12-month transition period for directors and PSCs to verify by their due dates. That keeps deadline-backed admin pressure live for small compliance teams.",
       "buyer": "Small accountancy firms, formation agents, company-secretarial providers and outsourced compliance teams.",
       "startup_cost": "£300-£1,400",
       "speed_to_revenue": "Fast as a workflow setup, managed intake service or recurring compliance retainer.",
@@ -101,7 +101,7 @@
     {
       "name": "AI receptionist and missed-call recovery for local service businesses",
       "description": "A productized service that captures missed calls, sends instant SMS follow-up, qualifies inbound leads, books appointments and nudges open quotes until they convert or close.",
-      "why_now": "Evidence is weaker than the top four, but current public signals are still useful: the 2025 GOV.UK business population release says there were 5.7 million UK private sector businesses at the start of 2025, including 5.64 million small businesses, and current DuckDuckGo HTML results show multiple UK vendors already selling missed-call text-back tools. That suggests a large buyer base and an educated market.",
+      "why_now": "Evidence is weaker than the top four, but current public signals are still useful: the latest GOV.UK business population release says there were 5.7 million UK private sector businesses at the start of 2025, including 5.64 million small businesses, and live DuckDuckGo HTML results show multiple UK vendors already selling missed-call text-back and AI receptionist tools. That suggests a large buyer base and an educated market.",
       "buyer": "Trades, garages, clinics, dentists, salons and other local service businesses that rely on phone leads and appointment bookings.",
       "startup_cost": "£200-£1,200",
       "speed_to_revenue": "Very fast with a setup fee plus monthly support or per-number pricing.",
