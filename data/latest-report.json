@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-10T08:00:53Z",
+  "generated_at": "2026-10-11T08:01:02+00:00",
   "summary": {
-    "headline": "Sell one measurable SME workflow fix before building software; fresh BCC evidence shows AI use rising, but impact and niche willingness to pay remain unproven.",
-    "best_opportunity": "Productized SME workflow automation and AI implementation",
-    "why_now": "The British Chambers of Commerce reported on 18 March 2026 that 54% of surveyed UK firms actively used AI, up from 35% in 2025, yet reported limited headcount impact so far. That points to an implementation gap worth testing—not guaranteed demand. Start with an existing-tool workflow and a paid pilot."
+    "headline": "Sell a narrow, measurable SME workflow implementation before building software; live GOV.UK research supports buying solutions, not unvalidated SaaS.",
+    "best_opportunity": "Productized workflow automation for one SME niche, sold as a paid setup plus monthly monitoring and support.",
+    "why_now": "A live DuckDuckGo search surfaced GOV.UK's AI Adoption Research, updated 2026-02-13: businesses surveyed mostly deployed AI by purchasing ready-to-use external solutions rather than developing in-house. This is a directional signal for implementation services, not proof of niche willingness to pay."
   },
   "top_opportunities": [
     {
       "name": "SME Workflow Automation & AI Implementation",
       "description": "Fixed-scope setup of one measurable workflow—such as enquiry triage, document extraction or CRM updates—with human review, exception handling and optional support.",
-      "why_now": "BCC's March 2026 survey reported AI use at 54% of UK firms versus 35% in 2025, while noting limited headcount impact so far. The implementation opportunity is plausible, but validate a specific buyer pain and budget directly.",
+      "why_now": "GOV.UK AI Adoption Research updated 2026-02-13 reports surveyed businesses mostly bought ready-to-use external AI solutions. This suggests implementation help may be valued; local buyer demand still needs direct validation.",
       "buyer": "Small business-services firms, property operators and trades businesses with repetitive admin and existing digital tools.",
       "startup_cost": "£200–£900 for basic web presence, tools and insurance; client-owned software subscriptions separate.",
       "speed_to_revenue": "1–3 weeks via direct outreach and a paid, tightly scoped pilot; not assured.",
@@ -74,7 +74,7 @@
   ],
   "best_pick": {
     "name": "SME Workflow Automation & AI Implementation",
-    "why_it_wins": "It fits the budget and immediate-cash constraint: sell a fixed-scope improvement using tools the client already owns. BCC's March 2026 survey shows rising AI use but limited headcount impact, a timely reason to test implementation help—not proof of demand in any chosen niche.",
+    "why_it_wins": "It fits the budget and immediate-cash constraint: sell a fixed-scope improvement using tools the client already owns. GOV.UK's current AI adoption research provides a broad external-solution purchasing signal, not proof of demand in any chosen niche.",
     "validation_plan": ["Choose one buyer niche and interview 10 owners about a repetitive workflow, current time/cost and tools; ask qualified prospects to pay for a pilot.", "Offer a £250–£500 scoped pilot to 2–3 firms; measure time saved, exceptions and support effort, then seek a monthly maintenance commitment."],
     "first_offer": "A 7-day workflow audit and one live automation for £350–£750, with explicit scope, human approval points and client-owned accounts; optional £150–£400 monthly support.",
     "mvp": "A secure, human-reviewed workflow using the customer's existing email, CRM or spreadsheet and an approved automation/AI service; log exceptions, document rollback and avoid autonomous high-impact decisions.",
