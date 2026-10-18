@@ -1,85 +1,85 @@
 {
-  "generated_at": "2026-10-17T08:00:56Z",
+  "generated_at": "2026-10-18T08:01:05Z",
   "summary": {
     "headline": "Sell practical SME automation as a fixed-scope service before building software.",
     "best_opportunity": "Productized workflow automation and AI implementation for UK micro-businesses.",
-    "why_now": "A live search surfaced the July 2025 GOV.UK SME Digital Adoption Taskforce report: it cites 5.5m+ SMEs, barriers including skills, confidence and adoption costs, and recommends accessible digital/AI support. Separately, a March 2026 BCC survey result surfaced in search reporting AI use rising to 54% from 35% in 2025. The signal supports implementation help, but does not prove willingness to pay in a chosen niche; validate directly."
+    "why_now": "The GOV.UK SME Digital Adoption Taskforce report (July 2025) cites more than 5.5m SMEs and identifies skills, confidence and adoption costs as barriers, recommending accessible digital and AI support. Search results also surfaced BCC March 2026 reporting AI use rising to 54% from 35% in 2025. These are broad adoption signals, not proof of willingness to pay for a particular niche; validate directly."
   },
   "top_opportunities": [
     {
       "name": "Productized SME workflow automation",
-      "description": "Implement one measurable workflow (enquiry triage, quote follow-up, appointment reminders or admin handoff) for a narrow local-business niche using existing SaaS and modest custom code; charge setup plus support.",
-      "why_now": "The GOV.UK SME Digital Adoption Taskforce (31 July 2025) describes SME barriers as lack of expertise/confidence and adoption costs, and recommends simple accessible digital/AI support. Search surfaced BCC March 2026 reporting 54% of UK firms using AI versus 35% in 2025; rising adoption makes integration and workflow support timely, though demand for this specific offer still needs validation.",
+      "description": "Implement one measurable workflow—enquiry triage, quote follow-up, appointment reminders or admin handoff—for a narrow local-business niche using existing SaaS and modest custom code; charge setup plus support.",
+      "why_now": "The GOV.UK SME Digital Adoption Taskforce (31 July 2025) describes SME barriers as lack of expertise/confidence and adoption costs, and recommends accessible digital/AI support. Search surfaced BCC March 2026 reporting 54% of UK firms using AI versus 35% in 2025. Rising adoption makes implementation timely, though demand for this specific offer needs validation.",
       "buyer": "Owner-managed trades, property services, small professional firms or other appointment/enquiry-led businesses with repetitive admin.",
       "startup_cost": "£100–£700 for domain, basic hosting, automation/API usage and demos; keep client software in the client's account.",
       "speed_to_revenue": "Potentially 1–3 weeks through direct outreach and a paid pilot; not guaranteed.",
       "recurring_revenue": "£75–£300/month for monitoring, small changes and reporting, alongside £400–£1,500 implementation.",
       "founder_fit": "Very strong: software engineering skills enable rapid integrations, prototyping and delivery without inventory or a large team.",
-      "risks": ["Generic AI automation is crowded; sell a business outcome in one vertical, not AI itself.", "Data access, reliability and ongoing support can expand scope; define boundaries and obtain appropriate data-processing agreements."],
-      "scores": {"demand":"4/5","competition":"3/5","startup_ease":"5/5","speed_to_cash":"5/5","recurring_revenue":"4/5","founder_fit":"5/5"},
+      "risks": ["Generic AI automation is crowded; sell a business outcome in one vertical, not AI itself.", "Data access, reliability and ongoing support can expand scope; define boundaries and appropriate data-processing agreements."],
+      "scores": {"demand":"4/5; broad adoption signal, niche willingness unproven","competition":"3/5","startup_ease":"5/5","speed_to_cash":"5/5","recurring_revenue":"4/5","founder_fit":"5/5"},
       "verdict": "Best immediate-cash option: sell a small paid pilot manually before investing in a reusable platform."
     },
     {
       "name": "Local lead-response and booking websites",
       "description": "Build or improve a local service firm's conversion-focused site with enquiry forms, tracking, booking and automated follow-up; offer ongoing hosting and optimisation.",
-      "why_now": "The GOV.UK taskforce report explicitly identifies CRM, e-commerce and wider digital tools as routes to productivity, while reporting barriers to SME uptake. This is a direct, understandable implementation service; no live source in this run quantified local website conversion demand, so test a specific local segment.",
+      "why_now": "The GOV.UK taskforce report identifies CRM, e-commerce and wider digital tools as routes to productivity, while reporting barriers to SME uptake. This is a direct implementation service; no live source in this run quantified local website conversion demand, so test a specific segment.",
       "buyer": "Trades, clinics, repair firms and other local operators whose jobs start with a phone call or web enquiry.",
       "startup_cost": "£100–£500 for domain, hosting, design/demo tooling and outreach.",
       "speed_to_revenue": "1–4 weeks if sold as a fixed-price audit/build to firms with visible website gaps.",
       "recurring_revenue": "£50–£250/month for hosting, edits, analytics and lead-flow upkeep.",
       "founder_fit": "Strong: engineering skills support fast builds and integrations; sales and local prospecting remain essential.",
       "risks": ["Many agencies compete on low-cost websites; avoid commodity design-only positioning.", "Ranking or lead-volume outcomes depend on factors outside the developer's control."],
-      "scores": {"demand":"3/5","competition":"2/5","startup_ease":"5/5","speed_to_cash":"4/5","recurring_revenue":"3/5","founder_fit":"4/5"},
-      "verdict": "Viable when paired with a measurable lead-response improvement and recurring maintenance, not as a generic web-design offer."
+      "scores": {"demand":"3/5; local demand unquantified","competition":"2/5; high competition","startup_ease":"5/5","speed_to_cash":"4/5","recurring_revenue":"3/5","founder_fit":"4/5"},
+      "verdict": "Viable when paired with a measurable lead-response improvement and recurring maintenance, not as generic web design."
     },
     {
       "name": "SME digital operations support retainer",
-      "description": "Provide a lightweight part-time technical operations service: integrations, CRM cleanup, reporting, access reviews and small automations, with a defined monthly capacity limit.",
-      "why_now": "The UK government's 2025 taskforce says smaller firms face expertise and confidence gaps and recommends scalable CTO-as-a-service support. That is a useful policy-level signal for an approachable fractional service, not evidence that clients will buy a particular retainer.",
+      "description": "Provide part-time technical operations support: integrations, CRM cleanup, reporting, access reviews and small automations, with a defined monthly capacity limit.",
+      "why_now": "The UK government's 2025 taskforce says smaller firms face expertise and confidence gaps and recommends scalable CTO-as-a-service support. This is a policy-level signal for an approachable fractional service, not proof that clients will buy a particular retainer.",
       "buyer": "Businesses of roughly 5–30 staff without an in-house technical operations lead.",
-      "startup_cost": "£100–£600 for insurance consideration, business basics, monitoring and outreach; use client-owned systems.",
+      "startup_cost": "£100–£600 for business basics, monitoring and outreach; use client-owned systems.",
       "speed_to_revenue": "2–6 weeks after discovery calls and a tightly scoped paid assessment.",
       "recurring_revenue": "£300–£1,000/month depending on included hours and response expectations.",
       "founder_fit": "Strong technical fit; requires dependable communication and resisting open-ended support demands.",
       "risks": ["Retainer can turn into unbounded helpdesk work unless service levels and hours are explicit.", "Access to sensitive business systems creates security and liability obligations."],
-      "scores": {"demand":"3/5","competition":"3/5","startup_ease":"4/5","speed_to_cash":"3/5","recurring_revenue":"5/5","founder_fit":"4/5"},
+      "scores": {"demand":"3/5; broad policy signal","competition":"3/5","startup_ease":"4/5","speed_to_cash":"3/5","recurring_revenue":"5/5","founder_fit":"4/5"},
       "verdict": "Good recurring-income model once credibility is established; start with paid audits and strict scope."
     },
     {
       "name": "Niche micro-SaaS for a proven admin pain",
       "description": "Turn a repeated workflow from paid service work into a small subscription tool, such as quote follow-up tracking or job handover for one trade niche.",
-      "why_now": "GOV.UK's taskforce identifies SME digital adoption and fit-for-purpose products as priorities, with high switching/adoption costs and expertise barriers. This favors simple niche tools with hands-on onboarding, but the report does not validate any single product concept.",
+      "why_now": "The GOV.UK taskforce identifies SME digital adoption and fit-for-purpose products as priorities, alongside adoption costs and expertise barriers. This favours simple niche tools with hands-on onboarding, but does not validate any particular product concept.",
       "buyer": "A tightly defined group of small operators already repeating the same manual process.",
       "startup_cost": "£200–£1,500 for a lean prototype, hosting and basic service costs; avoid paid acquisition until retention is proven.",
       "speed_to_revenue": "Typically 4–12+ weeks; slower and less certain than selling implementation first.",
       "recurring_revenue": "Potential £15–£100/month per account if the tool becomes part of a recurring workflow.",
       "founder_fit": "Excellent build fit, but product discovery, onboarding and distribution are the main risks.",
-      "risks": ["Building before securing committed users can consume the entire budget without revenue.", "Established platforms may add the feature or make integrations costly."],
-      "scores": {"demand":"3/5","competition":"3/5","startup_ease":"3/5","speed_to_cash":"2/5","recurring_revenue":"5/5","founder_fit":"5/5"},
+      "risks": ["Building before securing committed users can consume the budget without revenue.", "Established platforms may add the feature or make integrations costly."],
+      "scores": {"demand":"3/5; concept unvalidated","competition":"3/5","startup_ease":"3/5","speed_to_cash":"2/5","recurring_revenue":"5/5","founder_fit":"5/5"},
       "verdict": "Do not start with a standalone build; use paid service projects to identify repeated pain and pre-sell a narrow MVP."
     },
     {
       "name": "Vertical lead-generation and appointment setting",
       "description": "Generate and qualify enquiries for one local high-value service category through a niche landing page and transparent per-lead or monthly arrangement.",
-      "why_now": "A consistent commercial motive exists where one new customer is valuable, and sites/forms can be launched cheaply. This run found no robust current evidence establishing lead costs or conversion rates for a specific UK niche, so demand and unit economics are particularly uncertain.",
+      "why_now": "Sites and forms can be launched cheaply, but this run found no robust current evidence establishing lead costs or conversion rates for a specific UK niche. Demand and unit economics are uncertain.",
       "buyer": "Local providers with spare capacity and high-value jobs, such as specialist home services or private clinics.",
-      "startup_cost": "£200–£1,000 for landing page, tracking and a tightly capped initial test; avoid substantial ad spend before buyer commitment.",
+      "startup_cost": "£200–£1,000 for landing page, tracking and a tightly capped initial test; avoid significant ad spend before buyer commitment.",
       "speed_to_revenue": "2–8 weeks; faster with a signed buyer, slower if traffic must be built from scratch.",
       "recurring_revenue": "Monthly retainer or recurring qualified-lead fees, subject to verifiable lead quality.",
       "founder_fit": "Good technical fit for tracking and landing pages; requires sales, channel testing and careful compliance.",
       "risks": ["Paid traffic can exceed lead revenue and local search rankings take time.", "Consent, privacy, lead exclusivity and dispute rules must be handled clearly."],
-      "scores": {"demand":"3/5","competition":"2/5","startup_ease":"3/5","speed_to_cash":"3/5","recurring_revenue":"4/5","founder_fit":"3/5"},
+      "scores": {"demand":"3/5; niche economics unverified","competition":"2/5","startup_ease":"3/5","speed_to_cash":"3/5","recurring_revenue":"4/5","founder_fit":"3/5"},
       "verdict": "Only test after securing a buyer and agreeing what constitutes a qualified, billable lead."
     }
   ],
   "best_pick": {
     "name": "Productized SME workflow automation",
-    "why_it_wins": "Combines low setup costs, direct access to buyers, engineering leverage and a credible route from one-off paid implementation to monthly support. The government adoption report supports the broad need for accessible SME digital help; the specific niche and price still require real customer validation.",
-    "validation_plan": ["Choose one nearby niche and interview 10 owners about a single repetitive enquiry or admin bottleneck; ask for recent examples and current costs rather than opinions about AI.", "Offer a fixed-scope paid pilot to 3 qualified businesses; proceed to a reusable product only if at least 2 pay and the workflow repeats across customers."],
-    "first_offer": "£500 fixed-price, one-week enquiry-to-follow-up automation pilot, with a written workflow map, tested integration and 30-day bug-fix window; quote any ongoing support separately.",
+    "why_it_wins": "Combines low setup costs, direct access to buyers, engineering leverage and a credible route from paid implementation to monthly support. Broad UK adoption signals support accessible SME digital help; the niche and pricing still need customer validation.",
+    "validation_plan": ["Choose one nearby niche and interview 10 owners about a repetitive enquiry or admin bottleneck; ask for recent examples and current costs rather than opinions about AI.", "Offer a fixed-scope paid pilot to three qualified businesses; proceed to a reusable product only if at least two pay and the workflow repeats across customers."],
+    "first_offer": "£500 fixed-price, one-week enquiry-to-follow-up automation pilot, with a written workflow map, tested integration and 30-day bug-fix window; quote ongoing support separately.",
     "mvp": "A simple form or inbox trigger, human-reviewed classification, CRM/spreadsheet entry and follow-up reminder. Use established platforms and client-owned accounts; no bespoke SaaS until repeated demand is demonstrated.",
     "customer_types": ["Local trades and property-service businesses receiving leads by phone, email and web form", "Small appointment-led firms that manually handle enquiries, reminders or quote follow-ups"],
-    "do_today": "Make a one-page offer for one niche, list 30 local prospects with visible enquiry channels, and contact 10 asking for a 15-minute workflow discussion; do not build the product before conversations."
+    "do_today": "Make a one-page offer for one niche, list 30 local prospects with visible enquiry channels, and contact 10 asking for a 15-minute workflow discussion; do not build before customer conversations."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
