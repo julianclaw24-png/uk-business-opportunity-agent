@@ -1,89 +1,131 @@
 {
-  "generated_at": "2026-10-19T08:01:10Z",
+  "generated_at": "2026-10-20T08:01:49Z",
   "summary": {
-    "headline": "Sell outcome-focused SME workflow implementation before building a standalone product.",
-    "best_opportunity": "Fixed-scope workflow automation and AI integration for UK SMEs.",
-    "why_now": "Fresh GOV.UK DSIT research, published 28 January 2026 and based on 3,500 UK business interviews in Feb–May 2025, says 1 in 6 businesses used AI; 65% of current/planned adopters expected to invest in off-the-shelf AI and 59% to embed it into existing systems. Among AI users, 75% reported improved productivity, while 77% had not yet seen revenue change. This points to implementation and measurable efficiency work, not guaranteed buyer demand; survey excludes firms with fewer than five employees."
+    "headline": "Sell practical workflow setup now; MTD readiness creates a timely, narrow entry point.",
+    "best_opportunity": "Productized workflow automation and software onboarding for UK microbusinesses and small firms.",
+    "why_now": "Live GOV.UK AI Adoption Research (28 January 2026; 3,500 business interviews in 2025) says 65% of current/planned adopters expect to invest in off-the-shelf AI and 59% plan to embed it in existing systems, while only 34% of businesses planning adoption feel ready to implement. Separately, HMRC's current MTD guidance says qualifying sole traders and landlords must use MTD for Income Tax from April 2026, with later income thresholds phased in. These are implementation signals, not proof of local willingness to pay: sell setup and workflow outcomes, not tax advice or a speculative app."
   },
   "top_opportunities": [
     {
       "name": "Productized SME workflow automation",
-      "description": "Implement one measurable workflow—such as enquiry triage, quote follow-up or admin handoff—for one narrow business niche using existing tools, then charge for setup and bounded support.",
-      "why_now": "DSIT's January 2026 AI Adoption Research found 65% of current/planned adopters intended to invest in off-the-shelf AI and 59% to embed AI into existing systems. It reports skills gaps and readiness issues, while outcomes vary; sell a concrete, supervised workflow rather than AI hype.",
-      "buyer": "Small construction, property-service and business-service firms with repeated enquiry/admin work; validate firms with 5+ staff first because the survey excludes smaller firms.",
-      "startup_cost": "£100–£700 using client-owned software accounts, modest hosting and API/demo costs.",
-      "speed_to_revenue": "Potentially 1–3 weeks with direct sales and a paid pilot; not guaranteed.",
-      "recurring_revenue": "£75–£300/month for monitoring, reporting and capped changes, plus implementation fee.",
-      "founder_fit": "Excellent: software engineering enables fast integrations and iteration; sales and workflow discovery are the main non-technical work.",
-      "risks": ["Survey evidence is broad and does not prove local micro-firm willingness to pay; validate with paid pilots.", "Data protection, accuracy and support scope need explicit controls and human review."],
-      "scores": {"demand":"4/5; adoption intent evidenced, niche demand unproven","competition":"3/5","startup_ease":"5/5","speed_to_cash":"5/5","recurring_revenue":"4/5","founder_fit":"5/5"},
-      "verdict": "Best near-term bet: sell one paid workflow improvement, measure time/error reduction, and standardise only after repeat sales."
+      "description": "Implement one measurable enquiry or admin workflow—such as inbox triage, quote follow-up, CRM entry or reminders—in the client's existing tools, with human review and a clear support boundary.",
+      "why_now": "DSIT's January 2026 research reports that 65% of current/planned AI adopters expect to buy off-the-shelf applications and 59% expect to embed AI in existing tools. This supports integration work over building a broad AI product. Survey adoption data is not evidence that a particular niche will pay.",
+      "buyer": "Small local property-service, construction and business-service firms with repeated enquiry/admin bottlenecks and no in-house automation specialist.",
+      "startup_cost": "£100–£700; use client-owned subscriptions, low-cost hosting and a small demo/API budget.",
+      "speed_to_revenue": "Potentially 1–3 weeks through direct outreach and a paid pilot; not guaranteed.",
+      "recurring_revenue": "£75–£300/month for monitoring, bounded improvements and reporting, plus setup fee.",
+      "founder_fit": "Excellent technical fit; workflow discovery, direct sales and scope control are the main gaps to solve.",
+      "risks": ["Broad survey evidence does not establish local microbusiness willingness to pay; validate with paid pilots.", "Data protection, access permissions and inaccurate automation outputs require human checks and explicit boundaries."],
+      "scores": {
+        "demand": "4/5; implementation intent in official research, niche demand unproven",
+        "competition": "3/5; competing consultants exist, specificity can differentiate",
+        "startup_ease": "5/5",
+        "speed_to_cash": "5/5",
+        "recurring_revenue": "4/5",
+        "founder_fit": "5/5"
+      },
+      "verdict": "Best immediate path: charge for one workflow outcome, then repeat only when the same pain recurs across buyers."
     },
     {
-      "name": "SME AI workflow readiness and implementation service",
-      "description": "Run a short operational assessment, select low-risk off-the-shelf tools, configure one use case and train staff with a documented human-review process.",
-      "why_now": "DSIT research says only 34% of businesses planning AI felt ready to implement it; skills, ethical concerns, cost and unclear regulation featured as barriers. This supports practical onboarding and governance, though willingness to pay must be tested.",
-      "buyer": "Small professional and business-services companies exploring AI but lacking internal implementation capacity.",
-      "startup_cost": "£100–£500 for demo tooling, insurance/business setup and outreach; use client subscriptions where possible.",
-      "speed_to_revenue": "1–4 weeks for a paid assessment or implementation sprint.",
-      "recurring_revenue": "£150–£500/month for training refreshers, workflow reviews and controlled improvements.",
-      "founder_fit": "Strong technical fit; requires clear communication, change management and cautious handling of sensitive data.",
-      "risks": ["Generic AI consultancy is crowded and buyers may not understand the value without a specific workflow outcome.", "Do not promise legal compliance or business results; sensitive data and model errors require safeguards."],
-      "scores": {"demand":"4/5; readiness gap in current official survey","competition":"3/5","startup_ease":"4/5","speed_to_cash":"4/5","recurring_revenue":"4/5","founder_fit":"4/5"},
-      "verdict": "A practical entry offer when tied to a single measurable operational use case, not open-ended AI advice."
+      "name": "Making Tax Digital software onboarding for sole traders and landlords",
+      "description": "Offer non-accounting technical setup: help clients compare HMRC-compatible tools, configure records/imports and reminders, and explain software operation; refer tax interpretation and filing advice to qualified accountants.",
+      "why_now": "Live HMRC guidance states MTD for Income Tax began for qualifying sole traders and landlords from 6 April 2026, with qualifying-income thresholds phased in. This creates an active transition and onboarding need, but some affected businesses will already have accountants or software and the implementation timetable varies by eligibility.",
+      "buyer": "Local sole traders, landlords and small bookkeeping/accountancy practices needing client software onboarding capacity.",
+      "startup_cost": "£150–£800 for training/demo software, basic business cover and outreach; avoid handling client tax funds or making tax judgments.",
+      "speed_to_revenue": "Potentially 1–4 weeks via local accountancy/bookkeeping referrals; eligibility and customer access must be verified.",
+      "recurring_revenue": "£20–£100/month for software support and bookkeeping workflow assistance, or referral/partner work where agreed.",
+      "founder_fit": "Strong systems/integration fit, but requires learning supported software and maintaining strict non-advisory boundaries.",
+      "risks": ["Tax and accounting advice is regulated/professional territory; keep offer strictly technical and refer questions to qualified agents.", "Market timing and eligible customer counts differ by income threshold; confirm each prospect's HMRC position rather than assume obligation."],
+      "scores": {
+        "demand": "4/5; current government rollout is a concrete trigger, local paid demand unverified",
+        "competition": "3/5; accountants and software vendors already serve some users",
+        "startup_ease": "4/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "4/5",
+        "founder_fit": "4/5"
+      },
+      "verdict": "A timely service-led niche if sold as software setup and workflow support—not tax advice or a new accounting platform."
     },
     {
-      "name": "Local lead-response and booking websites",
-      "description": "Build a conversion-focused site or landing page with enquiry capture, booking, analytics and fast automated acknowledgement; offer maintenance separately.",
-      "why_now": "DSIT's survey found marketing and administration among the most common AI use/planned areas, but does not measure local website demand. Combining a website with lead handling is a plausible offer, not a validated market signal.",
-      "buyer": "Trades, clinics and local appointment-led operators with slow enquiry response or weak online booking.",
-      "startup_cost": "£100–£600 for hosting, domain, design/demo tools and outreach.",
-      "speed_to_revenue": "1–4 weeks if a fixed-price build is sold directly to a business with visible gaps.",
-      "recurring_revenue": "£50–£250/month for hosting, analytics and bounded updates.",
-      "founder_fit": "Strong implementation fit; prospecting and proving lead impact require effort.",
-      "risks": ["Competitive commodity website market; differentiate on response and booking workflows.", "Ranking and lead volume depend on external factors and cannot be guaranteed."],
-      "scores": {"demand":"3/5; local demand not quantified in sources checked","competition":"2/5; high","startup_ease":"5/5","speed_to_cash":"4/5","recurring_revenue":"3/5","founder_fit":"4/5"},
-      "verdict": "Sell the end-to-end enquiry process rather than generic web design; secure a buyer before adding features."
+      "name": "SME AI workflow readiness and implementation sprint",
+      "description": "Run a short, fixed-scope assessment, choose one low-risk use case, configure a ready-made tool and document staff review, privacy and fallback steps.",
+      "why_now": "DSIT's 2025 fieldwork, published January 2026, found only 34% of businesses planning AI felt ready to implement it; skills, ethical concerns, cost and unclear regulation were barriers. The research covers businesses with five or more employees, so evidence for the smallest firms is limited.",
+      "buyer": "Small professional/business-service firms with 5–49 staff that have picked an AI use case but lack implementation confidence.",
+      "startup_cost": "£100–£500 using trial/demo accounts and client-owned subscriptions.",
+      "speed_to_revenue": "Potentially 1–4 weeks for a paid assessment or sprint.",
+      "recurring_revenue": "£150–£500/month for training refreshers, review and bounded workflow support.",
+      "founder_fit": "Strong technical fit; needs clear communication and responsible treatment of sensitive business data.",
+      "risks": ["Generic AI consulting is crowded and easy for buyers to dismiss; anchor on a specific process and measurable baseline.", "Do not guarantee compliance, accuracy or productivity gains; use data minimisation and human review."],
+      "scores": {
+        "demand": "4/5; official readiness gap, individual buying intent not established",
+        "competition": "3/5",
+        "startup_ease": "4/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "4/5",
+        "founder_fit": "4/5"
+      },
+      "verdict": "Sell implementation of one low-risk task, not open-ended AI strategy."
     },
     {
-      "name": "Fractional SME digital operations retainer",
-      "description": "Provide a capped monthly allocation for integrations, CRM hygiene, reporting, automation maintenance and staff support without becoming an unrestricted helpdesk.",
-      "why_now": "Official research identifies limited skills and implementation readiness, while 57% of AI-using businesses reported developing improved processes or operations. These signals suggest operational support may help adopters, but do not establish retainer demand.",
-      "buyer": "Businesses with roughly 5–30 staff and no internal technical operations owner.",
-      "startup_cost": "£100–£600 for business essentials, monitoring and outreach; client retains ownership of systems.",
-      "speed_to_revenue": "2–6 weeks after a paid discovery or small implementation.",
-      "recurring_revenue": "£300–£1,000/month based on explicit hours, response windows and deliverables.",
-      "founder_fit": "Strong technical match; communication, reliability and scope control are essential.",
-      "risks": ["Unbounded requests can undermine part-time capacity; cap hours and define exclusions.", "Privileged access to client systems creates security, privacy and liability exposure."],
-      "scores": {"demand":"3/5; skills gap signal, purchase intent unverified","competition":"3/5","startup_ease":"4/5","speed_to_cash":"3/5","recurring_revenue":"5/5","founder_fit":"4/5"},
-      "verdict": "Promising recurring income after proving trust through a paid, limited-scope project."
+      "name": "Local lead-response and booking systems",
+      "description": "Combine a simple conversion-focused web page, enquiry capture, instant acknowledgement, booking or quote follow-up, and basic reporting for appointment-led or trade businesses.",
+      "why_now": "DSIT's AI research identifies marketing and administration as common use/planned areas, but does not measure local website or lead-response purchasing. This is a testable local service hypothesis rather than a proven national demand trend.",
+      "buyer": "Trades, clinics and appointment-led local operators with visible gaps in enquiry capture, response speed or online booking.",
+      "startup_cost": "£100–£600 for hosting, domain, demo materials and outreach.",
+      "speed_to_revenue": "Potentially 1–4 weeks for a fixed-price build sold directly to a qualified prospect.",
+      "recurring_revenue": "£50–£250/month for hosting, analytics, uptime and capped changes.",
+      "founder_fit": "Good implementation fit; requires prospecting and clear proof that the offer improves lead handling.",
+      "risks": ["Generic website work is commoditised; differentiate with the lead-handling workflow and service niche.", "Do not guarantee search ranking, lead volume or conversion outcomes."],
+      "scores": {
+        "demand": "3/5; local need must be established prospect by prospect",
+        "competition": "2/5; crowded",
+        "startup_ease": "5/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "3/5",
+        "founder_fit": "4/5"
+      },
+      "verdict": "Viable near-term cash offer when paired with a specific booking or follow-up problem; not generic web design."
     },
     {
-      "name": "Niche micro-SaaS from a repeated paid workflow",
-      "description": "Convert a repeated pain found in service engagements into a narrow subscription tool, such as quote follow-up tracking for one trade category.",
-      "why_now": "The research shows some firms plan to embed AI in existing systems, but does not validate any specific product concept. Build only after multiple buyers pay for the same workaround or request a pre-sold tool.",
-      "buyer": "A tightly defined niche of small operators repeating the same costly manual workflow.",
-      "startup_cost": "£200–£1,500 for a lean prototype, hosting and essential integrations; avoid paid ads before retention evidence.",
-      "speed_to_revenue": "Usually 4–12+ weeks and less predictable than service sales.",
-      "recurring_revenue": "Potentially £15–£100/month per account if the workflow is frequent and retained.",
-      "founder_fit": "Excellent coding fit; discovery, distribution and support are harder than building.",
-      "risks": ["Building before pre-sales can consume time and budget without customers.", "Existing platforms can add similar features or restrict integrations."],
-      "scores": {"demand":"2/5; concept not validated","competition":"3/5","startup_ease":"3/5","speed_to_cash":"2/5","recurring_revenue":"5/5","founder_fit":"5/5"},
-      "verdict": "Do not lead with SaaS; discover repeated paid-service needs and pre-sell before committing to a build."
+      "name": "Fractional digital operations support",
+      "description": "Provide a capped monthly service for integrations, CRM hygiene, reporting, automation maintenance and staff support, with fixed hours, response windows and exclusions.",
+      "why_now": "DSIT reports 57% of businesses already using AI had developed new or improved processes/operations, while implementation skills remain uneven. This supports a plausible ongoing support role but does not directly measure demand for fractional retainers.",
+      "buyer": "Businesses with roughly 5–30 staff and no dedicated technical operations owner, ideally after a successful paid implementation.",
+      "startup_cost": "£100–£600 for business essentials, monitoring and outreach; keep client accounts and data under client control.",
+      "speed_to_revenue": "Potentially 2–6 weeks after a paid discovery or implementation project.",
+      "recurring_revenue": "£300–£1,000/month with explicit hours, deliverables, service windows and overage rates.",
+      "founder_fit": "Strong engineering match; reliability, client communication and strict scope control are essential.",
+      "risks": ["Unbounded requests can overwhelm a part-time founder; define caps and exclusions in writing.", "Admin access creates security and privacy exposure; use least privilege, MFA and documented offboarding."],
+      "scores": {
+        "demand": "3/5; adjacent capability signal, retainer willingness unverified",
+        "competition": "3/5",
+        "startup_ease": "4/5",
+        "speed_to_cash": "3/5",
+        "recurring_revenue": "5/5",
+        "founder_fit": "4/5"
+      },
+      "verdict": "Build recurring income from trusted project clients; avoid selling an unrestricted helpdesk."
     }
   ],
   "best_pick": {
     "name": "Productized SME workflow automation",
-    "why_it_wins": "Offers the clearest path to early cash with little capital and makes direct use of engineering skills. Current DSIT evidence supports demand for implementation into existing tools, but not any particular niche or price, so validate by charging for pilots.",
-    "validation_plan": ["Select one local niche and interview 10 owners about a recent enquiry/admin bottleneck, existing workaround and measurable cost; avoid leading with AI.", "Offer a fixed-scope paid pilot to three qualified prospects; only standardise if at least two pay and the same workflow recurs."],
-    "first_offer": "£500 fixed-price, one-week enquiry-to-follow-up pilot including workflow map, tested integration and 30-day bug-fix period; ongoing support quoted separately.",
-    "mvp": "A form or inbox trigger, human-reviewed classification, CRM or spreadsheet entry, and a follow-up reminder using existing tools and client-owned accounts.",
-    "customer_types": ["Small local construction and property-service firms managing inbound enquiries manually", "Small business-service firms with repetitive admin and no in-house automation specialist"],
-    "do_today": "Choose a single niche, create a one-page fixed-price offer, identify 30 prospects and contact 10 to book workflow discovery calls; do not build software before conversations."
+    "why_it_wins": "It combines low startup cost, engineering fit and the fastest plausible route to a paid project. Current official research supports demand for off-the-shelf and embedded AI, while the MTD transition offers a possible niche channel; neither proves purchase intent, so charge for discovery/pilots before building a product.",
+    "validation_plan": ["Pick one reachable niche and interview 10 owners/bookkeepers about a recent admin or software-onboarding bottleneck, current workaround and cost; do not pitch AI first.", "Offer three fixed-scope paid pilots; continue only if at least two buy and the same operational pain recurs. For any MTD-related work, confirm customer eligibility and keep all tax interpretation with an accountant/HMRC."],
+    "first_offer": "£450–£650 fixed-price, one-week implementation of one defined workflow, including a baseline, client-owned tool setup, human-review step and 30-day bug-fix period; exclude ongoing changes and tax advice.",
+    "mvp": "A single client-approved trigger (form or inbox), structured classification with human approval, CRM/spreadsheet update and a follow-up reminder using existing tools; no standalone SaaS until repeated paid demand is demonstrated.",
+    "customer_types": ["Small local construction/property-service firms managing enquiries manually", "Sole traders, landlords or bookkeepers who need technical help configuring existing MTD-compatible software"],
+    "do_today": "Choose one niche and one repeatable pain, draft a one-page fixed-scope offer, list 30 local prospects and contact 10 to book discovery calls; do not build before conversations."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
-    "constraints": {"budget_gbp": 2000, "time_model": "part-time", "team_size": "solo_or_duo", "cashflow_priority": "immediate", "recurring_revenue": true, "tech_preferred": true},
+    "constraints": {
+      "budget_gbp": 2000,
+      "time_model": "part-time",
+      "team_size": "solo_or_duo",
+      "cashflow_priority": "immediate",
+      "recurring_revenue": true,
+      "tech_preferred": true
+    },
     "status": "ok"
   }
 }
