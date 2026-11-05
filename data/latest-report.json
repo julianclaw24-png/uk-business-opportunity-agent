@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-04T08:02:04.966492+00:00",
+  "generated_at": "2026-11-05T08:02:14.587567+00:00",
   "summary": {
-    "headline": "Sell implementation, not speculative software: near-term MTD support and practical SME automation are the strongest tests.",
+    "headline": "Sell practical onboarding or measurable risk reduction, not speculative SaaS: MTD transition and SME cyber hygiene are the strongest live signals.",
     "best_opportunity": "Productized Making Tax Digital readiness and bookkeeping workflow setup for sole traders and landlords.",
-    "why_now": "HMRC says qualifying sole traders and landlords above £50,000 income entered MTD from 6 April 2026, and HMRC began sign-up for 2026–27 in September 2026. This is a current compliance transition, although incumbent accounting software makes demand validation essential."
+    "why_now": "HMRC confirms MTD obligations began 6 April 2026 for qualifying income over £50,000 and is signing up eligible taxpayers from September 2026 for 2026–27; the 2025 government cyber survey found 43% of businesses identified a breach or attack. Both are demand signals to validate, not proof of purchase intent."
   },
   "top_opportunities": [
     {
@@ -30,27 +30,28 @@
       "verdict": "Best time-sensitive service test; sell setup before building a new SaaS."
     },
     {
-      "name": "Missed-enquiry follow-up for local service firms",
-      "description": "Install and maintain simple web-form, email and SMS follow-up workflows that respond quickly and surface unbooked leads.",
-      "why_now": "A direct revenue recovery proposition is easy to demonstrate with a short audit; no strong live sector-wide demand statistic was verified in this run.",
-      "buyer": "Trades, home services, clinics and other appointment-led local firms.",
-      "startup_cost": "£100–£600 using existing automation and messaging tools.",
-      "speed_to_revenue": "1–3 weeks with a paid pilot.",
-      "recurring_revenue": "High if monitoring, edits and reporting are bundled monthly.",
-      "founder_fit": "Strong: integrations and lightweight dashboards suit a solo engineer.",
+      "name": "SME cyber-hygiene setup and monthly maintenance",
+      "description": "Fixed-scope baseline for MFA, backups, account access, updates and incident contacts; offer implementation coordination and recurring checks, not penetration testing or certification.",
+      "why_now": "The UK Cyber Security Breaches Survey 2025 reports 43% of businesses identified a breach or attack in the prior 12 months (about 612,000 businesses); it also reports lower adoption of some controls, including two-factor authentication at 40%. This is a signal of exposure, not proof of willingness to buy.",
+      "buyer": "Small professional-services firms and local businesses without dedicated IT/security staff.",
+      "startup_cost": "£200–£800 for business setup, secure tooling, insurance research and outreach; do not handle credentials insecurely.",
+      "speed_to_revenue": "2–4 weeks via paid baseline reviews and tightly scoped remediation.",
+      "recurring_revenue": "Medium-high if monthly patching/account reviews and quarterly evidence checks are contracted.",
+      "founder_fit": "Good for a technical operator who can document safe boundaries and partner for specialist assurance.",
       "risks": [
-        "Customer acquisition and proving incremental bookings can be difficult.",
-        "Messaging consent, privacy and platform costs require attention."
+        "Do not imply certification or promise breach prevention; specialist testing and regulated client needs may exceed competence.",
+        "Access to sensitive systems creates liability; appropriate insurance, secure processes and clear scope are essential."
       ],
       "scores": {
-        "demand": "3/5",
+        "demand": "4/5",
         "competition": "3/5",
-        "startup_ease": "4/5",
-        "speed_to_cash": "4/5",
+        "startup_ease": "3/5",
+        "speed_to_cash": "3/5",
         "recurring_revenue": "4/5",
-        "founder_fit": "5/5"
+        "founder_fit": "4/5"
       },
-      "verdict": "Good second choice if sold against a specific missed-lead problem."
+      "verdict": "Evidence supports a real exposure problem, not automatic demand; validate with paid baseline audits before expanding.",
+      "source": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025 (published 10 April 2025; accessed 5 November 2026)"
     },
     {
       "name": "SME AI workflow implementation",
@@ -126,8 +127,8 @@
     "name": "MTD readiness setup for sole traders and landlords",
     "why_it_wins": "It is tied to a verified, current UK tax-reporting transition and can be delivered as a paid setup without spending months building software. Official reference: https://www.gov.uk/government/collections/making-tax-digital-for-income-tax.",
     "validation_plan": [
-      "Interview 10 newly in-scope sole traders/landlords and 3 local accountants; ask what setup task is still unresolved and what they have paid for.",
-      "Offer five fixed-price onboarding sessions; proceed only if at least two buyers pay and the workflow can be delivered safely within a bounded scope."
+      "Interview 10 newly in-scope sole traders/landlords and 3 local accountants; confirm unresolved setup needs, eligibility and willingness to pay.",
+      "Offer five fixed-price onboarding sessions; proceed only if at least two buyers pay and delivery is safely within scope. In parallel, ask five small firms whether they would pay for a scoped cyber-hygiene baseline."
     ],
     "first_offer": "£149 fixed-price software-readiness and workflow setup, subject to eligibility confirmation; no tax/accounting advice.",
     "mvp": "A checklist, 60-minute onboarding, compatible-software handoff, secure record-capture instructions and follow-up reminder; use existing tools, no custom SaaS.",
@@ -135,7 +136,7 @@
       "Sole traders newly above the qualifying-income threshold",
       "Small accountancy practices needing overflow onboarding support"
     ],
-    "do_today": "Review the official HMRC guidance, draft a one-page fixed-scope offer, and contact five local accountants for referral/onboarding interviews."
+    "do_today": "Review current HMRC MTD guidance, draft a one-page fixed-scope onboarding offer, and contact five local accountants; treat cyber hygiene as a secondary interview test."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
@@ -147,6 +148,10 @@
       "recurring_revenue": true,
       "tech_preferred": true
     },
-    "status": "ok"
+    "status": "ok",
+    "sources": {
+      "hmrc_mtd": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax (live checked 2026-11-05; confirms £50,000 threshold, 6 April 2026 start and September 2026 sign-up)",
+      "cyber_survey": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025 (published 2025-04-10; 43% reported breaches/attacks)"
+    }
   }
 }
