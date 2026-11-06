@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-05T08:02:14.587567+00:00",
+  "generated_at": "2026-11-06T08:02:47.307540+00:00",
   "summary": {
-    "headline": "Sell practical onboarding or measurable risk reduction, not speculative SaaS: MTD transition and SME cyber hygiene are the strongest live signals.",
+    "headline": "Prioritize a paid, bounded MTD onboarding service; cyber hygiene is a credible secondary test, not a guaranteed market.",
     "best_opportunity": "Productized Making Tax Digital readiness and bookkeeping workflow setup for sole traders and landlords.",
-    "why_now": "HMRC confirms MTD obligations began 6 April 2026 for qualifying income over £50,000 and is signing up eligible taxpayers from September 2026 for 2026–27; the 2025 government cyber survey found 43% of businesses identified a breach or attack. Both are demand signals to validate, not proof of purchase intent."
+    "why_now": "Live GOV.UK Cyber Security Breaches Survey 2025 data reports 43% of businesses experienced a breach or attack in the preceding 12 months (about 612,000); its 2025 publication is a dated but directly relevant exposure signal. HMRC’s MTD transition remains deadline-driven; verify individual eligibility before selling."
   },
   "top_opportunities": [
     {
@@ -32,7 +32,7 @@
     {
       "name": "SME cyber-hygiene setup and monthly maintenance",
       "description": "Fixed-scope baseline for MFA, backups, account access, updates and incident contacts; offer implementation coordination and recurring checks, not penetration testing or certification.",
-      "why_now": "The UK Cyber Security Breaches Survey 2025 reports 43% of businesses identified a breach or attack in the prior 12 months (about 612,000 businesses); it also reports lower adoption of some controls, including two-factor authentication at 40%. This is a signal of exposure, not proof of willingness to buy.",
+      "why_now": "The live GOV.UK 2025 survey reports 43% of businesses identified a breach or attack in the prior 12 months (about 612,000); 48% of small businesses undertook cyber-security risk assessments, up from 41% in 2024. This indicates exposure and some activity, not proof of unmet demand or willingness to pay.",
       "buyer": "Small professional-services firms and local businesses without dedicated IT/security staff.",
       "startup_cost": "£200–£800 for business setup, secure tooling, insurance research and outreach; do not handle credentials insecurely.",
       "speed_to_revenue": "2–4 weeks via paid baseline reviews and tightly scoped remediation.",
@@ -51,7 +51,7 @@
         "founder_fit": "4/5"
       },
       "verdict": "Evidence supports a real exposure problem, not automatic demand; validate with paid baseline audits before expanding.",
-      "source": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025 (published 10 April 2025; accessed 5 November 2026)"
+      "source": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025 (published 10 April 2025; live fetched 6 November 2026)"
     },
     {
       "name": "SME AI workflow implementation",
@@ -128,7 +128,7 @@
     "why_it_wins": "It is tied to a verified, current UK tax-reporting transition and can be delivered as a paid setup without spending months building software. Official reference: https://www.gov.uk/government/collections/making-tax-digital-for-income-tax.",
     "validation_plan": [
       "Interview 10 newly in-scope sole traders/landlords and 3 local accountants; confirm unresolved setup needs, eligibility and willingness to pay.",
-      "Offer five fixed-price onboarding sessions; proceed only if at least two buyers pay and delivery is safely within scope. In parallel, ask five small firms whether they would pay for a scoped cyber-hygiene baseline."
+      "Offer five fixed-price onboarding sessions; proceed only if at least two buyers pay and delivery is safely in scope. As a separate test, interview five small firms about whether they would pay for a clearly scoped cyber-hygiene baseline."
     ],
     "first_offer": "£149 fixed-price software-readiness and workflow setup, subject to eligibility confirmation; no tax/accounting advice.",
     "mvp": "A checklist, 60-minute onboarding, compatible-software handoff, secure record-capture instructions and follow-up reminder; use existing tools, no custom SaaS.",
@@ -151,7 +151,7 @@
     "status": "ok",
     "sources": {
       "hmrc_mtd": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax (live checked 2026-11-05; confirms £50,000 threshold, 6 April 2026 start and September 2026 sign-up)",
-      "cyber_survey": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025 (published 2025-04-10; 43% reported breaches/attacks)"
+      "cyber_survey": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025 (published 2025-04-10; live fetched 2026-11-06; 43% reported breaches/attacks and 48% of small businesses conducted risk assessments)"
     }
   }
 }
