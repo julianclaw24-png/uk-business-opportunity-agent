@@ -1,89 +1,152 @@
 {
-  "generated_at": "2026-11-10T08:01:00Z",
+  "generated_at": "2026-11-11T08:01:04Z",
   "summary": {
-    "headline": "Sell practical SME admin automation as a paid service before investing in SaaS.",
-    "best_opportunity": "Fixed-scope enquiry and quote-follow-up automation for UK trades and local service firms.",
-    "why_now": "DBT's 2025 estimate counts 5.64 million UK small businesses. GOV.UK guidance for Companies House identity verification was updated in April 2026 and HMRC's Making Tax Digital sign-up guidance in October 2026, signals of active operational change—not proof of demand for any vendor."
+    "headline": "Five low-capital service-first opportunities; compliance onboarding has the clearest near-term trigger.",
+    "best_opportunity": "Productized Making Tax Digital (MTD) readiness and bookkeeping-workflow setup for sole traders and landlords.",
+    "why_now": "HMRC says it will start signing up eligible taxpayers from September 2026; 2025 estimates count 5.7m UK private-sector businesses, including 3.2m sole proprietorships. These are addressable-population signals, not proof of willingness to pay."
   },
   "top_opportunities": [
     {
-      "name": "Lead-response and quote-follow-up automation",
-      "description": "Implement enquiry acknowledgement, qualification, booking handoff and quote reminders using the client's existing inbox, CRM and calendar.",
-      "why_now": "Large small-business base (DBT Business Population Estimates 2025: 5.64m small firms); specific willingness to pay for this workflow remains unverified, so sell a paid pilot rather than assume demand.",
-      "buyer": "Trades, home-improvement, repair and appointment-led local firms.",
-      "startup_cost": "£100–£600 for demo, domain, tools and initial outreach; excludes founder time.",
-      "speed_to_revenue": "Potentially 1–3 weeks via paid pilot; unvalidated estimate.",
-      "recurring_revenue": "£50–£250/month for monitoring, edits and reporting, subject to customer value.",
-      "founder_fit": "High: software and integration skills, narrow delivery, no inventory.",
-      "risks": ["Customer acquisition and willingness to pay are unproven.", "Integration failures, privacy or consent errors, and unreliable automation can harm client operations."],
-      "scores": {"demand":"4/5 (plausible problem; offer demand unverified)","competition":"3/5 (crowded agency/DIY market)","startup_ease":"5/5","speed_to_cash":"5/5","recurring_revenue":"4/5","founder_fit":"5/5"},
-      "verdict": "Best first test: tightly scope the service and require payment for the pilot before expanding."
+      "name": "MTD readiness & workflow setup",
+      "description": "Fixed-fee setup of compatible software, digital records, categorisation and quarterly-submission workflow; partner with qualified accountants for tax advice and filing where needed.",
+      "why_now": "HMRC collection says signup begins September 2026, creating a timely onboarding need. Government estimates 3.2m sole proprietorships, but only a subset will be eligible or need paid help.",
+      "buyer": "Eligible self-employed tradespeople, consultants and landlords; small accountancy practices needing onboarding capacity.",
+      "startup_cost": "£100–£600 for training, software and a simple landing page; no bespoke SaaS initially.",
+      "speed_to_revenue": "Potentially 1–3 weeks via local accountant referrals and paid setup pilots; validate eligibility and demand first.",
+      "recurring_revenue": "Medium: £20–£60/month support/records workflow, subject to clear scope and partner model.",
+      "founder_fit": "Strong technical fit for integrations and process automation; requires careful tax-compliance boundaries.",
+      "risks": [
+        "Eligibility, rules and software requirements need checking for each client; avoid presenting as tax advice.",
+        "Accountants/software vendors may absorb onboarding; dates or guidance may change."
+      ],
+      "scores": {
+        "demand": "4/5 (policy-driven trigger; paid demand unproven)",
+        "competition": "3/5 (accountants and software providers established)",
+        "startup_ease": "4/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "3/5",
+        "founder_fit": "4/5"
+      },
+      "verdict": "Best immediate test: sell a narrowly scoped setup service before building software."
     },
     {
-      "name": "Companies House identity-verification readiness support",
-      "description": "Help small firms map directors and persons with significant control, understand the official verification steps, and configure a simple internal completion tracker; do not provide legal advice or handle credentials.",
-      "why_now": "Live GOV.UK guidance on verifying identity for Companies House shows an active compliance process and was updated 30 April 2026. This is a timely signal, but the retrieved page did not establish unmet advisory demand or deadline pressure.",
-      "buyer": "Small limited companies, company formation/accountancy practices and business administrators.",
-      "startup_cost": "£100–£500 for outreach, checklist and lightweight tracker demo.",
-      "speed_to_revenue": "1–4 weeks if sold as a fixed-scope admin setup; estimate.",
-      "recurring_revenue": "£30–£150/month for ongoing entity and filing-status administration, where useful.",
-      "founder_fit": "Good for workflow tooling and clear process design; requires careful boundaries around regulated advice and personal data.",
-      "risks": ["Official Companies House service and accountants may already meet the need; willingness to pay is uncertain.", "Identity documents and personal data create significant privacy and security obligations; avoid collecting credentials or sensitive documents."],
-      "scores": {"demand":"3/5 (official process confirmed; commercial demand unknown)","competition":"3/5","startup_ease":"4/5","speed_to_cash":"3/5","recurring_revenue":"3/5","founder_fit":"4/5"},
-      "verdict": "Validate with accountants and small-company directors before building; offer admin coordination, not a substitute for official verification."
+      "name": "SME workflow automation implementation",
+      "description": "Audited, fixed-scope automation for repetitive admin: enquiry triage, appointment reminders, document intake and CRM updates.",
+      "why_now": "UK has 5.64m small businesses; ample prospect pool, but no retrieved evidence establishes local AI buying intent.",
+      "buyer": "Owner-operated service firms and small professional practices with repeated admin and lead follow-up.",
+      "startup_cost": "£200–£1,000 for demos, API usage and basic insurance/legal review.",
+      "speed_to_revenue": "1–4 weeks through paid workflow audit and one implementation.",
+      "recurring_revenue": "High if monitoring and improvements are retained (£100–£500/month), not guaranteed.",
+      "founder_fit": "Strong for a software engineer who can integrate existing tools and demonstrate measurable time savings.",
+      "risks": [
+        "Scope creep, fragile integrations and handling personal data create delivery and compliance risk.",
+        "Crowded market; generic AI positioning lacks differentiation."
+      ],
+      "scores": {
+        "demand": "3/5 (broad SME base; specific demand unverified)",
+        "competition": "2/5",
+        "startup_ease": "4/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "4/5",
+        "founder_fit": "5/5"
+      },
+      "verdict": "Sell a paid, measurable pilot in one vertical; do not build a platform first."
     },
     {
-      "name": "Website and enquiry-conversion refresh for local firms",
-      "description": "Fixed-price mobile-first landing page with enquiry form, analytics and basic local search setup.",
-      "why_now": "DBT's 2025 estimate confirms a large potential small-business base, but it does not prove unmet website demand; qualify prospects by visible conversion problems.",
-      "buyer": "Local trades and service businesses with dated or ineffective enquiry pages.",
-      "startup_cost": "£100–£500 using hosted tools and a reusable template.",
-      "speed_to_revenue": "1–3 weeks if sold directly; estimate, not conversion evidence.",
-      "recurring_revenue": "£25–£100/month for hosting, updates and reporting.",
-      "founder_fit": "High if delivery is templated and tightly scoped.",
-      "risks": ["Strong price competition and DIY alternatives.", "Scope creep and weak proof of incremental lead value."],
-      "scores": {"demand":"3/5 (broad prospect pool; niche demand unverified)","competition":"2/5","startup_ease":"5/5","speed_to_cash":"4/5","recurring_revenue":"3/5","founder_fit":"5/5"},
-      "verdict": "Sell measurable enquiry improvements and fast delivery, not bespoke design hours."
+      "name": "Local-business lead response & booking service",
+      "description": "Managed website forms, missed-call text-back, booking and review follow-up for one local service niche.",
+      "why_now": "Large small-business base supports prospecting; opportunity depends on proving missed enquiries and conversion economics in a chosen locality.",
+      "buyer": "Trades, clinics, salons or other appointment-led businesses with slow enquiry response.",
+      "startup_cost": "£300–£1,200 using existing booking, messaging and website tools.",
+      "speed_to_revenue": "1–3 weeks if sold as setup plus monthly management.",
+      "recurring_revenue": "High potential via monthly service contract.",
+      "founder_fit": "Good engineering fit; sales and local prospecting are the main constraints.",
+      "risks": [
+        "Attribution is difficult and client lead volumes may be low.",
+        "Messaging consent, platform rules and deliverability must be handled correctly."
+      ],
+      "scores": {
+        "demand": "3/5 (hypothesis; validate with interviews)",
+        "competition": "3/5",
+        "startup_ease": "4/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "4/5",
+        "founder_fit": "4/5"
+      },
+      "verdict": "Offer one niche a low-risk 30-day pilot with a clear response-time and booking metric."
     },
     {
-      "name": "Missed-call and out-of-hours enquiry capture",
-      "description": "Configure compliant call handling or messaging workflows to capture caller details and route a prompt callback task.",
-      "why_now": "An understandable operational outcome for appointment-led firms, but this live research found no current UK evidence quantifying missed-call losses or purchase intent.",
-      "buyer": "Small repair, plumbing, electrical and property-service firms.",
-      "startup_cost": "£150–£700 for telephony setup, test numbers and prototype.",
-      "speed_to_revenue": "2–4 weeks; depends on telephony setup and buyer trust.",
-      "recurring_revenue": "£50–£200/month including usage and support.",
-      "founder_fit": "High technical fit; moderate operational and compliance burden.",
-      "risks": ["Telephony integration and number-porting can add friction.", "Messaging consent, data handling and service uptime need careful controls."],
-      "scores": {"demand":"3/5 (plausible pain; unquantified)","competition":"3/5","startup_ease":"3/5","speed_to_cash":"3/5","recurring_revenue":"4/5","founder_fit":"4/5"},
-      "verdict": "Test as an add-on to lead-response automation, not as a standalone platform initially."
+      "name": "Niche website care & conversion service",
+      "description": "Maintain and improve websites for a specific local-business vertical: speed, forms, booking, accessibility basics and monthly reporting.",
+      "why_now": "Recurring operational need and broad SME population; public evidence gathered here does not quantify unmet website-service demand.",
+      "buyer": "Small businesses relying on a dated or poorly converting website.",
+      "startup_cost": "£150–£700 for hosting, monitoring, templates and outreach.",
+      "speed_to_revenue": "1–3 weeks via fixed-price audits and repairs.",
+      "recurring_revenue": "Medium-high through maintenance retainers.",
+      "founder_fit": "Strong; low-cost technical delivery, but differentiation and prospecting matter.",
+      "risks": [
+        "Commodity pricing from agencies and DIY platforms.",
+        "Client approvals and unclear content responsibilities slow delivery."
+      ],
+      "scores": {
+        "demand": "3/5 (plausible need; not quantified)",
+        "competition": "2/5",
+        "startup_ease": "5/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "3/5",
+        "founder_fit": "5/5"
+      },
+      "verdict": "Choose a vertical and bundle maintenance with one concrete conversion improvement."
     },
     {
-      "name": "Making Tax Digital admin workflow setup for sole traders",
-      "description": "Help sole traders map records and recurring admin tasks to their chosen compatible software; offer setup and reminder workflows, not tax or accounting advice.",
-      "why_now": "HMRC's live Making Tax Digital for Income Tax sign-up guidance was updated 13 October 2026, confirming active rollout guidance. The retrieved page does not quantify current buyer demand, and established accounting software is a strong substitute.",
-      "buyer": "Sole traders and landlords who need help organizing digital records and recurring reporting tasks.",
-      "startup_cost": "£100–£600 for training, demo and outreach; exclude any certification or advice costs.",
-      "speed_to_revenue": "2–6 weeks; depends on target eligibility, trust and partner channels.",
-      "recurring_revenue": "£30–£120/month for non-accounting admin support if customers retain the service.",
-      "founder_fit": "Good for workflow and integration setup; lower fit if the role drifts into regulated tax advice.",
-      "risks": ["Changing requirements and eligibility make unsupported guidance risky; customers can use HMRC and software-provider resources directly.", "Tax records are sensitive; secure handling and clear non-advisory boundaries are essential."],
-      "scores": {"demand":"3/5 (official rollout confirmed; purchasing demand unverified)","competition":"2/5","startup_ease":"3/5","speed_to_cash":"3/5","recurring_revenue":"4/5","founder_fit":"3/5"},
-      "verdict": "Consider a referral or setup service only after confirming a specific eligible buyer segment and avoiding tax advice."
+      "name": "Vertical micro-SaaS for compliance/admin",
+      "description": "A small workflow tool for one underserved UK niche, discovered by manually delivering the process first and converting repeated work into software.",
+      "why_now": "The large SME population offers potential buyers, but live evidence in this run does not validate a particular unmet software gap.",
+      "buyer": "A narrow professional or trade niche with a repeated, costly administrative task.",
+      "startup_cost": "£500–£2,000 for a lean prototype, hosting and customer discovery.",
+      "speed_to_revenue": "Usually slower (4–12+ weeks); seek paid design partners before coding.",
+      "recurring_revenue": "High potential subscription revenue if retention is established.",
+      "founder_fit": "Strong technical fit; market discovery and distribution are critical risks.",
+      "risks": [
+        "Building before confirming willingness to pay wastes scarce time and budget.",
+        "Incumbents, integrations and regulatory requirements can expand scope."
+      ],
+      "scores": {
+        "demand": "2/5 (specific demand unverified)",
+        "competition": "3/5",
+        "startup_ease": "2/5",
+        "speed_to_cash": "2/5",
+        "recurring_revenue": "5/5",
+        "founder_fit": "4/5"
+      },
+      "verdict": "Do not start with code; obtain three paid pilot commitments for one narrowly defined workflow."
     }
   ],
   "best_pick": {
-    "name": "Lead-response and quote-follow-up automation",
-    "why_it_wins": "A bounded implementation service can be sold before product development, uses client tools and can earn a support fee. Current official evidence establishes a 5.64m small-business base (DBT, 2025), not proven demand for this offer; paid validation is the next step.",
-    "validation_plan": ["Interview 10 local trades/service firms about enquiry response, quote follow-up, lost jobs and existing tools; record actual current workflow.", "Offer a fixed-price 14-day paid pilot to three qualified firms; measure response time, follow-up completion and booked outcomes before making ROI claims."],
-    "first_offer": "£250–£500 setup pilot covering one enquiry channel, acknowledgement, qualification, booking handoff and quote reminder; optional £75–£150/month support after the pilot.",
-    "mvp": "One workflow using the client's current form, email/CRM and calendar, with human approval for outbound messages, error logging and a weekly outcomes report.",
-    "customer_types": ["Independent trades with regular inbound quote requests", "Small local appointment-led service firms"],
-    "do_today": "Choose one trade niche, build a synthetic-data demo, and approach 20 local firms with a specific paid pilot; do not build multi-tenant SaaS yet."
+    "name": "MTD readiness & workflow setup",
+    "why_it_wins": "A dated public-policy onboarding trigger, identifiable self-employed buyers and a deliverable service make it more testable for near-term cash than speculative SaaS. UK population figures are not demand evidence; confirm eligibility and willingness to pay directly.",
+    "validation_plan": [
+      "Interview 10 local sole traders/landlords and 3 independent accountants; establish who is in scope, current software and onboarding pain.",
+      "Offer a paid, fixed-scope setup to five eligible prospects; proceed only if at least two pay and a qualified accountant confirms the referral/compliance boundaries."
+    ],
+    "first_offer": "£149 fixed-fee software and digital-record workflow setup, with optional £29/month non-tax-advice support; confirm scope and eligibility before quoting.",
+    "mvp": "A checklist, short intake form, standard setup steps using established compatible software, and manual follow-up; no custom app.",
+    "customer_types": [
+      "Self-employed tradespeople or consultants likely to be within MTD scope",
+      "Independent accountants seeking extra client-onboarding capacity"
+    ],
+    "do_today": "Read current HMRC eligibility and software guidance, then contact three local accountants and five self-employed prospects for discovery; do not claim universal eligibility."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
-    "constraints": {"budget_gbp":2000,"time_model":"part-time","team_size":"solo_or_duo","cashflow_priority":"immediate","recurring_revenue":true,"tech_preferred":true},
+    "constraints": {
+      "budget_gbp": 2000,
+      "time_model": "part-time",
+      "team_size": "solo_or_duo",
+      "cashflow_priority": "immediate",
+      "recurring_revenue": true,
+      "tech_preferred": true
+    },
     "status": "ok"
   }
 }
