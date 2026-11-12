@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-11T08:01:04Z",
+  "generated_at": "2026-11-12T08:00:00Z",
   "summary": {
-    "headline": "Five low-capital service-first opportunities; compliance onboarding has the clearest near-term trigger.",
-    "best_opportunity": "Productized Making Tax Digital (MTD) readiness and bookkeeping-workflow setup for sole traders and landlords.",
-    "why_now": "HMRC says it will start signing up eligible taxpayers from September 2026; 2025 estimates count 5.7m UK private-sector businesses, including 3.2m sole proprietorships. These are addressable-population signals, not proof of willingness to pay."
+    "headline": "Prioritise service revenue over speculative SaaS; current official evidence supports a focused SME cyber-hygiene offer, while buyer demand still needs validation.",
+    "best_opportunity": "Fixed-scope cyber-hygiene and phishing-readiness setup for small UK businesses, with a modest monthly check-in.",
+    "why_now": "The UK Cyber Security Breaches Survey 2025 reports 43% of businesses identified a breach or attack in the prior 12 months; phishing remains the most prevalent and disruptive incident type. This is a need signal, not proof of willingness to buy: https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025"
   },
   "top_opportunities": [
     {
-      "name": "MTD readiness & workflow setup",
-      "description": "Fixed-fee setup of compatible software, digital records, categorisation and quarterly-submission workflow; partner with qualified accountants for tax advice and filing where needed.",
-      "why_now": "HMRC collection says signup begins September 2026, creating a timely onboarding need. Government estimates 3.2m sole proprietorships, but only a subset will be eligible or need paid help.",
-      "buyer": "Eligible self-employed tradespeople, consultants and landlords; small accountancy practices needing onboarding capacity.",
-      "startup_cost": "£100–£600 for training, software and a simple landing page; no bespoke SaaS initially.",
-      "speed_to_revenue": "Potentially 1–3 weeks via local accountant referrals and paid setup pilots; validate eligibility and demand first.",
-      "recurring_revenue": "Medium: £20–£60/month support/records workflow, subject to clear scope and partner model.",
-      "founder_fit": "Strong technical fit for integrations and process automation; requires careful tax-compliance boundaries.",
+      "name": "SME cyber-hygiene and phishing-readiness setup",
+      "description": "A bounded, non-penetration-testing service: MFA and backup checks, account-recovery review, staff phishing-response checklist, basic policy/action register and referral to qualified security providers for deeper work.",
+      "why_now": "The 2025 UK government survey reports 43% of businesses identified a breach or attack in the previous 12 months; phishing was the most prevalent and disruptive. Survey prevalence does not establish local buying intent.",
+      "buyer": "Small professional-services firms, charities and owner-managed businesses without in-house IT/security staff.",
+      "startup_cost": "£200–£900 for training, insurance/legal review, demo materials and basic tooling; do not offer specialist testing without competence and cover.",
+      "speed_to_revenue": "Potentially 1–3 weeks through paid readiness reviews and local IT/accountant referrals; validate first.",
+      "recurring_revenue": "Medium: £50–£200/month for scheduled checks and staff refreshers, contingent on demonstrated value.",
+      "founder_fit": "Good for technical implementation and automation; security competence, trust and scope discipline are essential.",
       "risks": [
-        "Eligibility, rules and software requirements need checking for each client; avoid presenting as tax advice.",
-        "Accountants/software vendors may absorb onboarding; dates or guidance may change."
+        "Avoid claiming certification, guaranteed protection or performing intrusive testing outside competence and written authorisation.",
+        "High trust barrier and crowded MSP/security market; survey evidence measures incidents, not service purchasing."
       ],
       "scores": {
-        "demand": "4/5 (policy-driven trigger; paid demand unproven)",
-        "competition": "3/5 (accountants and software providers established)",
-        "startup_ease": "4/5",
-        "speed_to_cash": "4/5",
+        "demand": "4/5 (official incident signal; paid demand unproven)",
+        "competition": "2/5 (established MSPs and security providers)",
+        "startup_ease": "3/5",
+        "speed_to_cash": "3/5",
         "recurring_revenue": "3/5",
         "founder_fit": "4/5"
       },
-      "verdict": "Best immediate test: sell a narrowly scoped setup service before building software."
+      "verdict": "Test as a tightly scoped readiness service and refer technical remediation to qualified partners; do not build SaaS first."
     },
     {
       "name": "SME workflow automation implementation",
@@ -123,19 +123,19 @@
     }
   ],
   "best_pick": {
-    "name": "MTD readiness & workflow setup",
-    "why_it_wins": "A dated public-policy onboarding trigger, identifiable self-employed buyers and a deliverable service make it more testable for near-term cash than speculative SaaS. UK population figures are not demand evidence; confirm eligibility and willingness to pay directly.",
+    "name": "SME cyber-hygiene and phishing-readiness setup",
+    "why_it_wins": "It maps to a current government-reported business pain and can be delivered as a small paid service without product development. Evidence is directional; customer interviews and paid pilots must establish demand and competence fit.",
     "validation_plan": [
-      "Interview 10 local sole traders/landlords and 3 independent accountants; establish who is in scope, current software and onboarding pain.",
-      "Offer a paid, fixed-scope setup to five eligible prospects; proceed only if at least two pay and a qualified accountant confirms the referral/compliance boundaries."
+      "Speak with 8 local small-business owners and 3 independent IT/MSP providers to learn current controls, unmet needs and referral boundaries.",
+      "Offer three paid, fixed-scope reviews; proceed only if customers pay and an experienced security practitioner validates the checklist and service boundaries."
     ],
-    "first_offer": "£149 fixed-fee software and digital-record workflow setup, with optional £29/month non-tax-advice support; confirm scope and eligibility before quoting.",
-    "mvp": "A checklist, short intake form, standard setup steps using established compatible software, and manual follow-up; no custom app.",
+    "first_offer": "£199 fixed-scope cyber-hygiene review with written prioritised actions; no penetration testing, certification or guarantee.",
+    "mvp": "A documented checklist, client-authorised evidence review, concise action report and optional quarterly follow-up; use established tools and avoid storing credentials.",
     "customer_types": [
-      "Self-employed tradespeople or consultants likely to be within MTD scope",
-      "Independent accountants seeking extra client-onboarding capacity"
+      "Small professional-services firms without in-house IT",
+      "Local charities and owner-managed businesses"
     ],
-    "do_today": "Read current HMRC eligibility and software guidance, then contact three local accountants and five self-employed prospects for discovery; do not claim universal eligibility."
+    "do_today": "Read the 2025 government survey and interview three local business owners plus one MSP; verify qualifications, insurance and scope before offering security advice."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
