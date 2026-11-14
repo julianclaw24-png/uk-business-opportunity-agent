@@ -1,22 +1,32 @@
 {
-  "generated_at": "2026-11-13T08:01:04Z",
+  "generated_at": "2026-11-14T08:02:40Z",
   "summary": {
     "headline": "Prioritise paid service pilots over speculative SaaS; cyber hygiene is the strongest evidence-led test today.",
     "best_opportunity": "Fixed-scope cyber-hygiene and phishing-readiness setup for small UK businesses.",
-    "why_now": "The live GOV.UK Cyber Security Breaches Survey 2025 provides a current UK business-risk signal. It does not prove willingness to pay, so validate with buyers before scaling. Source: https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025"
+    "why_now": "The live GOV.UK Cyber Security Breaches Survey 2025/2026, published 30 April 2026, reports 43% of businesses experienced a breach or attack in the preceding 12 months (about 612,000). This indicates risk, not willingness to pay. Source: https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026"
   },
   "top_opportunities": [
     {
       "name": "SME cyber-hygiene and phishing-readiness setup",
       "description": "A bounded, non-intrusive service covering MFA and backup checks, account recovery, practical phishing response and a prioritized action register; refer specialist work to qualified providers.",
-      "why_now": "The UK government's Cyber Security Breaches Survey 2025 is a timely public risk signal. Incident prevalence is not evidence of local buying intent, which still requires paid validation.",
+      "why_now": "The UK government's Cyber Security Breaches Survey 2025/2026 reports 43% of businesses experienced a cyber breach or attack in the preceding 12 months (about 612,000); that is a risk signal, not proof of local buying intent or service demand.",
       "buyer": "Small professional-services firms, charities and owner-managed businesses without in-house IT/security staff.",
       "startup_cost": "£200–£900 for training, insurance/legal review, demo materials and basic tooling; only offer work within competence and cover.",
       "speed_to_revenue": "Potentially 1–3 weeks through paid readiness reviews and referrals; validate first.",
       "recurring_revenue": "Medium: quarterly checks and staff refreshers could support a retainer if clients see value.",
       "founder_fit": "Good technical implementation and automation fit; security competence, trust and scope discipline are essential.",
-      "risks": ["Do not claim certification, guaranteed protection or perform intrusive tests without competence and written authorization.", "Trust barrier and established MSP competition; survey incident data does not establish service purchasing."],
-      "scores": {"demand": "4/5 (official risk signal; buying intent unproven)", "competition": "2/5", "startup_ease": "3/5", "speed_to_cash": "3/5", "recurring_revenue": "3/5", "founder_fit": "4/5"},
+      "risks": [
+        "Do not claim certification, guaranteed protection or perform intrusive tests without competence and written authorization.",
+        "Trust barrier and established MSP competition; survey incident data does not establish service purchasing."
+      ],
+      "scores": {
+        "demand": "4/5 (official risk signal; buying intent unproven)",
+        "competition": "2/5",
+        "startup_ease": "3/5",
+        "speed_to_cash": "3/5",
+        "recurring_revenue": "3/5",
+        "founder_fit": "4/5"
+      },
       "verdict": "Best to test as a tightly scoped readiness service; do not build SaaS first."
     },
     {
@@ -28,8 +38,18 @@
       "speed_to_revenue": "1–4 weeks through a paid workflow audit and implementation; not guaranteed.",
       "recurring_revenue": "High potential through monitoring and improvement retainers, subject to proving value.",
       "founder_fit": "Very strong for an engineer integrating existing tools and measuring time saved.",
-      "risks": ["Generic AI positioning is crowded and undifferentiated.", "Fragile integrations, scope creep and personal-data handling create delivery risk."],
-      "scores": {"demand": "3/5 (specific demand unverified)", "competition": "2/5", "startup_ease": "4/5", "speed_to_cash": "4/5", "recurring_revenue": "4/5", "founder_fit": "5/5"},
+      "risks": [
+        "Generic AI positioning is crowded and undifferentiated.",
+        "Fragile integrations, scope creep and personal-data handling create delivery risk."
+      ],
+      "scores": {
+        "demand": "3/5 (specific demand unverified)",
+        "competition": "2/5",
+        "startup_ease": "4/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "4/5",
+        "founder_fit": "5/5"
+      },
       "verdict": "Sell a paid pilot in one niche before building reusable software."
     },
     {
@@ -41,8 +61,18 @@
       "speed_to_revenue": "Potentially 1–3 weeks with a paid setup and pilot.",
       "recurring_revenue": "High potential through monthly management, contingent on retention and measurable results.",
       "founder_fit": "Good engineering fit; sales and local prospecting are likely constraints.",
-      "risks": ["Lead attribution and low enquiry volumes can weaken the value case.", "Messaging consent, deliverability and platform rules need attention."],
-      "scores": {"demand": "3/5 (hypothesis)", "competition": "3/5", "startup_ease": "4/5", "speed_to_cash": "4/5", "recurring_revenue": "4/5", "founder_fit": "4/5"},
+      "risks": [
+        "Lead attribution and low enquiry volumes can weaken the value case.",
+        "Messaging consent, deliverability and platform rules need attention."
+      ],
+      "scores": {
+        "demand": "3/5 (hypothesis)",
+        "competition": "3/5",
+        "startup_ease": "4/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "4/5",
+        "founder_fit": "4/5"
+      },
       "verdict": "Test one vertical with a short pilot and a baseline response/booking metric."
     },
     {
@@ -54,8 +84,18 @@
       "speed_to_revenue": "Potentially 1–4 weeks; depends on access to decision-makers and paid pilot conversion.",
       "recurring_revenue": "Medium through maintenance and reporting, though existing accounting software may suffice.",
       "founder_fit": "Strong integration fit; avoid financial advice and protect access to sensitive data.",
-      "risks": ["Accounting platforms may already solve the problem adequately.", "Financial data access requires strong permissions, trust and security."],
-      "scores": {"demand": "3/5 (not freshly quantified)", "competition": "3/5", "startup_ease": "4/5", "speed_to_cash": "3/5", "recurring_revenue": "3/5", "founder_fit": "4/5"},
+      "risks": [
+        "Accounting platforms may already solve the problem adequately.",
+        "Financial data access requires strong permissions, trust and security."
+      ],
+      "scores": {
+        "demand": "3/5 (not freshly quantified)",
+        "competition": "3/5",
+        "startup_ease": "4/5",
+        "speed_to_cash": "3/5",
+        "recurring_revenue": "3/5",
+        "founder_fit": "4/5"
+      },
       "verdict": "Sell setup only where customers confirm a specific gap; avoid a standalone app initially."
     },
     {
@@ -67,23 +107,46 @@
       "speed_to_revenue": "Potentially 1–3 weeks through fixed-price audits and repairs.",
       "recurring_revenue": "Medium through maintenance retainers if clients value ongoing work.",
       "founder_fit": "Strong technical fit; sales and differentiation may be harder than delivery.",
-      "risks": ["Crowded commodity market with DIY and agency competition.", "Unclear content responsibilities and approvals can delay delivery."],
-      "scores": {"demand": "3/5 (plausible, not quantified)", "competition": "2/5", "startup_ease": "5/5", "speed_to_cash": "4/5", "recurring_revenue": "3/5", "founder_fit": "5/5"},
+      "risks": [
+        "Crowded commodity market with DIY and agency competition.",
+        "Unclear content responsibilities and approvals can delay delivery."
+      ],
+      "scores": {
+        "demand": "3/5 (plausible, not quantified)",
+        "competition": "2/5",
+        "startup_ease": "5/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "3/5",
+        "founder_fit": "5/5"
+      },
       "verdict": "Use as a productized service only with a clear niche and measurable conversion improvement."
     }
   ],
   "best_pick": {
     "name": "SME cyber-hygiene and phishing-readiness setup",
-    "why_it_wins": "It pairs a current official risk signal with service delivery that needs no custom product investment. Evidence is directional; validate buyer demand and competence fit before proceeding.",
-    "validation_plan": ["Interview 8 local small-business owners and 3 independent IT/MSP providers about existing controls, unmet needs and referral boundaries.", "Offer three paid fixed-scope reviews; proceed only if customers pay and a qualified security practitioner validates scope and checklist."],
+    "why_it_wins": "It pairs an up-to-date official UK risk signal with service delivery requiring no custom product investment. The survey reports 43% of businesses had a breach or attack in the preceding 12 months, but does not establish willingness to pay; validate buyer demand and competence fit before proceeding.",
+    "validation_plan": [
+      "Interview 8 local small-business owners and 3 independent IT/MSP providers about existing controls, unmet needs and referral boundaries.",
+      "Offer three paid fixed-scope reviews; proceed only if customers pay and a qualified security practitioner validates scope and checklist."
+    ],
     "first_offer": "A fixed-price Cyber Hygiene Baseline: account/MFA and backup review, prioritized action list and assisted setup of agreed low-risk improvements. Exclude certification, penetration testing and security guarantees.",
     "mvp": "A documented checklist, authorized evidence review, concise action report and optional quarterly follow-up; use established tools and do not store client credentials.",
-    "customer_types": ["Small professional-services firms without in-house IT", "Local charities and owner-managed businesses"],
-    "do_today": "Read the GOV.UK Cyber Security Breaches Survey 2025, draft a one-page scope and contact three local business owners plus one MSP; verify qualifications, insurance and scope before offering security advice."
+    "customer_types": [
+      "Small professional-services firms without in-house IT",
+      "Local charities and owner-managed businesses"
+    ],
+    "do_today": "Read the GOV.UK Cyber Security Breaches Survey 2025/2026, draft a one-page scope and contact three local business owners plus one MSP; verify qualifications, insurance and scope before offering security advice."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
-    "constraints": {"budget_gbp": 2000, "time_model": "part-time", "team_size": "solo_or_duo", "cashflow_priority": "immediate", "recurring_revenue": true, "tech_preferred": true},
+    "constraints": {
+      "budget_gbp": 2000,
+      "time_model": "part-time",
+      "team_size": "solo_or_duo",
+      "cashflow_priority": "immediate",
+      "recurring_revenue": true,
+      "tech_preferred": true
+    },
     "status": "ok"
   }
 }
