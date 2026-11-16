@@ -1,89 +1,152 @@
 {
-  "generated_at": "2026-11-15T08:01:37Z",
+  "generated_at": "2026-11-16T08:02:20Z",
   "summary": {
-    "headline": "Prioritise paid automation pilots over speculative SaaS; sell a measurable enquiry-response outcome.",
-    "best_opportunity": "Missed-enquiry recovery and booking automation for one local-service niche.",
-    "why_now": "The UK had 5.45 million small businesses at the start of 2024, per DBT official statistics. That establishes a broad addressable base, not demand for this service; validate willingness to pay directly."
+    "headline": "Five low-capital UK service opportunities, ranked for fast validation and repeat revenue.",
+    "best_opportunity": "Cyber-hygiene and incident-readiness service for small UK businesses",
+    "why_now": "The UK Government's Cyber Security Breaches Survey 2025 reports 43% of businesses experienced a breach or attack in the prior year (about 612,000); phishing is the dominant incident type. This creates a clear practical service need, although it does not prove willingness to buy from a new solo provider."
   },
   "top_opportunities": [
     {
-      "name": "Missed-enquiry recovery for local service firms",
-      "description": "Configure enquiry capture, prompt acknowledgement, owner alerts, follow-up and booking handoff using existing tools.",
-      "why_now": "A measurable response/booking outcome can be pitched as a paid pilot without building a product. UK DBT estimates 5.45 million small businesses in 2024, but niche-level demand remains unverified.",
-      "buyer": "Owner-operated trades and appointment-led local services that receive enquiries outside staffed hours.",
-      "startup_cost": "£100–£500 for a demo stack, domain and pilot costs; check tool pricing before purchase.",
-      "speed_to_revenue": "Potentially 1–3 weeks via direct outreach; estimate, not validated result.",
-      "recurring_revenue": "Monthly monitoring, edits and reporting; retainer demand and pricing need validation.",
-      "founder_fit": "Strong fit for backend, integrations and automation skills; sales is the main challenge.",
-      "risks": ["Prospects may not lose enough enquiries or value the fix enough to pay.", "Consent, data protection, messaging deliverability and third-party platform changes require care."],
-      "scores": {"demand":"3/5—plausible pain, willingness to pay unverified","competition":"3/5—tools/agencies common; vertical focus needed","startup_ease":"5/5","speed_to_cash":"4/5—if pilot buyer found","recurring_revenue":"4/5—potential, not proven","founder_fit":"5/5"},
-      "verdict": "Best immediate test: pitch a paid, tightly scoped pilot; no custom SaaS until repeat demand appears."
+      "name": "SME cyber-hygiene and incident-readiness retainer",
+      "description": "Fixed-scope baseline review, MFA/backup checks, staff phishing guidance, incident contact sheet and monthly follow-up; refer technical remediation to qualified partners where needed.",
+      "why_now": "GOV.UK's 2025 survey reports breaches/attacks at 43% of businesses and phishing in 85% of affected businesses. The issue is concrete; buyer conversion and willingness to pay still need direct testing.",
+      "buyer": "UK micro/small professional-services firms, agencies and local operators without in-house IT.",
+      "startup_cost": "£100–£600 for a simple site, insurance/contract review and secure tooling; scope depends on professional indemnity and qualifications.",
+      "speed_to_revenue": "Potentially 1–3 weeks via direct outreach and a paid baseline; unvalidated.",
+      "recurring_revenue": "Medium-high: quarterly checks, onboarding/offboarding and incident-readiness support; avoid implying 24/7 security monitoring.",
+      "founder_fit": "Good for a software engineer with security literacy, process discipline and ability to partner for specialist work.",
+      "risks": [
+        "Liability and trust barriers; do not offer penetration testing or certify compliance without competence.",
+        "Survey prevalence does not establish local demand or price acceptance."
+      ],
+      "scores": {
+        "demand": "4/5",
+        "competition": "3/5",
+        "startup_ease": "4/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "4/5",
+        "founder_fit": "4/5"
+      },
+      "verdict": "Best first test: sell a narrow, transparent readiness package rather than a broad cybersecurity promise."
     },
     {
-      "name": "Workflow automation implementation retainer",
-      "description": "Automate one repetitive process such as quote follow-up, document intake, onboarding or CRM updates, with human review where appropriate.",
-      "why_now": "A broad base of small firms exists, but generic AI demand is unproven. Sell a specific time-saving or revenue outcome using existing tools.",
-      "buyer": "Small professional practices and service businesses with repetitive admin.",
-      "startup_cost": "£100–£700 for demos, API usage and basic operational costs.",
-      "speed_to_revenue": "Potentially 1–4 weeks with a paid discovery and implementation; uncertain.",
-      "recurring_revenue": "Support and improvement retainer after fixed-scope setup, subject to value and retention.",
-      "founder_fit": "Excellent technical fit; requires discovery, sales and scope discipline.",
-      "risks": ["Bespoke scope creep can damage margins.", "Integration failures and personal-data handling create support and security obligations."],
-      "scores": {"demand":"3/5—specific demand unverified","competition":"2/5—crowded generic offer","startup_ease":"4/5","speed_to_cash":"4/5","recurring_revenue":"4/5 potential","founder_fit":"5/5"},
-      "verdict": "Viable when narrowed to one buyer type and one workflow with a measurable baseline."
+      "name": "AI workflow automation for one SME niche",
+      "description": "Implement one measurable workflow such as enquiry triage, document extraction or quote follow-up using existing tools, with human approval and monthly maintenance.",
+      "why_now": "Businesses continue to explore AI and automation, but live search results were blocked in this run and no current adoption statistic was independently verified. Demand must be demonstrated with niche-specific interviews and paid pilots.",
+      "buyer": "Small recruiters, property managers, accountants or trades firms with repetitive admin and an identifiable workflow owner.",
+      "startup_cost": "£100–£800 using existing SaaS/API tiers and a landing page; client software fees passed through transparently.",
+      "speed_to_revenue": "1–4 weeks if sold as a fixed-scope paid pilot; uncertain before validation.",
+      "recurring_revenue": "High potential through monitoring, prompt/workflow updates and support retainers.",
+      "founder_fit": "Very strong for a solo engineer able to integrate APIs and explain measurable time savings.",
+      "risks": [
+        "Generic AI positioning is crowded and easy to copy.",
+        "Privacy, errors and changing third-party APIs require safeguards and support boundaries."
+      ],
+      "scores": {
+        "demand": "3/5",
+        "competition": "2/5",
+        "startup_ease": "4/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "4/5",
+        "founder_fit": "5/5"
+      },
+      "verdict": "Promising only when narrowed to one expensive, frequent workflow and sold against a quantified baseline."
     },
     {
-      "name": "Niche website care and conversion service",
-      "description": "Fixed-price repair or refresh of a local firm's mobile enquiry journey, followed by maintenance and reporting.",
-      "why_now": "A visible website problem makes a concrete demonstration possible, but live research did not establish current niche buying intent.",
-      "buyer": "Local firms with dated sites, broken forms or poor mobile booking journeys.",
-      "startup_cost": "£100–£600 using existing development tools and low-cost hosting.",
-      "speed_to_revenue": "Potentially 1–3 weeks if prospects have an obvious defect; unverified estimate.",
-      "recurring_revenue": "Care plan and small monthly improvement allowance; moderate potential.",
-      "founder_fit": "Strong full-stack fit; design and client acquisition are additional work.",
-      "risks": ["Crowded market and DIY website builders constrain pricing.", "Client content and approval delays can slow delivery."],
-      "scores": {"demand":"3/5—must validate","competition":"2/5—crowded","startup_ease":"5/5","speed_to_cash":"4/5","recurring_revenue":"3/5","founder_fit":"4/5"},
-      "verdict": "Offer only as a narrowly packaged outcome, not generic web development."
+      "name": "Missed-enquiry capture and follow-up for local service firms",
+      "description": "Set up web forms, call-back alerts, CRM pipeline and consent-aware SMS/email follow-up; report lead response and booking outcomes monthly.",
+      "why_now": "A direct-response offer ties technology to revenue, but no reliable live market-size signal was verified this run. Validate with a small local niche before building reusable software.",
+      "buyer": "Trades, clinics, repair services and other appointment-based local businesses.",
+      "startup_cost": "£150–£700 for hosting, CRM/automation tools and basic marketing; messaging charges vary.",
+      "speed_to_revenue": "1–3 weeks with a paid setup package.",
+      "recurring_revenue": "Medium-high from hosting, monitoring and optimisation retainers.",
+      "founder_fit": "Strong: integrations and lightweight web development are a natural fit.",
+      "risks": [
+        "Attribution is difficult if client intake and lead-quality data are poor.",
+        "Direct marketing and personal-data handling require UK GDPR/PECR-compliant processes."
+      ],
+      "scores": {
+        "demand": "3/5",
+        "competition": "3/5",
+        "startup_ease": "4/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "4/5",
+        "founder_fit": "5/5"
+      },
+      "verdict": "Sell booked-lead improvement, not a generic website or automation build."
     },
     {
-      "name": "Invoice-chasing workflow setup for small B2B firms",
-      "description": "Configure reminders, escalation and a simple receivables view within the client's existing accounting workflow.",
-      "why_now": "Potentially close to cash-flow outcomes for clients, but no fresh reliable signal of unmet demand was verified in this run.",
-      "buyer": "Small agencies, consultancies and subcontractors invoicing other businesses.",
-      "startup_cost": "£100–£500 for demonstrations and outreach.",
-      "speed_to_revenue": "Potentially 1–4 weeks, contingent on buyer access and paid pilot conversion.",
-      "recurring_revenue": "Maintenance and reporting could recur; accounting software may already cover needs.",
-      "founder_fit": "Strong integration fit; protect financial data and avoid advice outside competence.",
-      "risks": ["Existing accounting features may solve the problem adequately.", "Financial data access raises trust, permission and security requirements."],
-      "scores": {"demand":"2/5—current demand signal weak","competition":"3/5","startup_ease":"4/5","speed_to_cash":"3/5","recurring_revenue":"3/5","founder_fit":"4/5"},
-      "verdict": "Only pursue after interviews confirm a specific workflow gap and buyer commitment."
+      "name": "Productized website care and conversion fixes",
+      "description": "Offer a fixed monthly package for updates, uptime checks, backups, accessibility basics and a small number of conversion improvements.",
+      "why_now": "Recurring maintenance solves ongoing operational work, but this run did not verify a fresh market-demand signal; customer conversations are the evidence gate.",
+      "buyer": "Independent UK businesses with outdated or neglected WordPress and small custom sites.",
+      "startup_cost": "£100–£500 for tooling, hosting/test environment and basic sales materials.",
+      "speed_to_revenue": "1–3 weeks by auditing existing local sites and offering a paid remediation sprint.",
+      "recurring_revenue": "High when support scope, response times and included changes are tightly capped.",
+      "founder_fit": "Strong for a web-capable solo developer.",
+      "risks": [
+        "Crowded market with price-sensitive buyers.",
+        "Unbounded support, legacy systems and security incidents can make small retainers unprofitable."
+      ],
+      "scores": {
+        "demand": "3/5",
+        "competition": "2/5",
+        "startup_ease": "5/5",
+        "speed_to_cash": "4/5",
+        "recurring_revenue": "4/5",
+        "founder_fit": "5/5"
+      },
+      "verdict": "Viable as a narrowly scoped cash-flow service; differentiate by niche and response reliability."
     },
     {
-      "name": "Niche micro-SaaS for a repeated admin pain",
-      "description": "A small subscription tool for one recurring workflow discovered through paid implementation work.",
-      "why_now": "Recurring software economics are attractive, but a service-first route reduces risk and can reveal repeated requirements before investment.",
-      "buyer": "A single niche with repeated pain and reachable owner-buyers.",
-      "startup_cost": "£300–£2,000 for a lean prototype and hosting, excluding unpaid development time.",
-      "speed_to_revenue": "Uncertain and likely slower than services; pre-sell before building.",
-      "recurring_revenue": "Subscription potential if ongoing value and retention are demonstrated.",
-      "founder_fit": "Excellent engineering fit; distribution and customer discovery are key risks.",
-      "risks": ["Building without validated demand creates sunk time and no distribution.", "Support, security and churn may overwhelm part-time capacity."],
-      "scores": {"demand":"2/5 until validated","competition":"3/5—niche-dependent","startup_ease":"2/5","speed_to_cash":"2/5","recurring_revenue":"5/5 potential","founder_fit":"4/5"},
-      "verdict": "Defer until paid service work reveals the same problem across multiple buyers."
+      "name": "Micro-SaaS for a narrow compliance/admin task",
+      "description": "Pre-sell a tiny tool that removes a repeated reporting, evidence collection or handoff task in one regulated or specialist niche.",
+      "why_now": "No specific pain-point or competitor evidence was verified in live sources this run. Build only after paid discovery; this is slower and riskier than services for immediate cash.",
+      "buyer": "A narrowly defined UK professional niche with a repeated, costly manual process.",
+      "startup_cost": "£300–£1,500 for hosting, domain, essential software and initial legal/privacy review, assuming founder-built product.",
+      "speed_to_revenue": "Typically 4–12+ weeks and highly uncertain; pre-sales can shorten validation, not delivery risk.",
+      "recurring_revenue": "High in principle through subscriptions, contingent on retention and ongoing value.",
+      "founder_fit": "Excellent technically; weaker fit for immediate cash flow until distribution is proven.",
+      "risks": [
+        "Building before validating willingness to pay wastes scarce time and budget.",
+        "Compliance obligations, support burden and incumbent alternatives may erode economics."
+      ],
+      "scores": {
+        "demand": "2/5",
+        "competition": "2/5",
+        "startup_ease": "2/5",
+        "speed_to_cash": "1/5",
+        "recurring_revenue": "5/5",
+        "founder_fit": "5/5"
+      },
+      "verdict": "Do not start with code: interview buyers, request paid commitment, then build the smallest repeatable workflow."
     }
   ],
   "best_pick": {
-    "name": "Missed-enquiry recovery for one local-service niche",
-    "why_it_wins": "It offers a concrete, testable result with low startup cost and a path from paid setup to recurring support, without a speculative software build. Broad business counts are not evidence of buying intent, so first validate through paid pilots.",
-    "validation_plan": ["Interview 10 owners in one niche about missed enquiries, response times, existing follow-up and recent lost bookings.", "Offer a fixed-scope paid pilot to two prospects; continue only if at least one pays and the workflow is safely deliverable using existing tools."],
-    "first_offer": "A fixed-scope 14-day pilot capturing enquiries, sending an approved acknowledgement, alerting the owner and reporting outcomes; agree data handling, consent and limits before activation.",
-    "mvp": "One intake channel, one acknowledgement, one owner alert, a basic lead log and weekly review; no custom SaaS.",
-    "customer_types": ["Owner-operated trades dependent on quote requests", "Appointment-based local services receiving out-of-hours enquiries"],
-    "do_today": "Select one niche and contact 10 local operators for discovery; do not build until a buyer agrees to a paid pilot."
+    "name": "SME cyber-hygiene and incident-readiness retainer",
+    "why_it_wins": "Strongest verified live signal among the ideas: an official UK survey finds a substantial number of businesses reporting attacks. A bounded readiness service can be sold before building software and converted into repeat checks; demand and pricing remain unproven.",
+    "validation_plan": [
+      "Contact 15 local firms in one low-regulation niche; ask how they handle backups, MFA, phishing and incident escalation, and whether they would pay for a fixed review.",
+      "Offer three paid pilot reviews with explicit scope and exclusions; proceed to a retainer only if at least two buyers pay and delivery stays within the agreed hours."
+    ],
+    "first_offer": "£250 fixed-fee, 90-minute cyber-hygiene and incident-readiness review with prioritised action list and 30-day follow-up; state clearly it is not a penetration test, audit or certification.",
+    "mvp": "Manual checklist-led review, secure notes, action report template and optional monthly follow-up; no custom software initially.",
+    "customer_types": [
+      "Small professional-services firms",
+      "Local agencies and service businesses"
+    ],
+    "do_today": "Draft the one-page scope and exclusions, identify 15 prospects, and book discovery calls; do not buy tooling or claim certifications before validating."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
-    "constraints": {"budget_gbp": 2000, "time_model": "part-time", "team_size": "solo_or_duo", "cashflow_priority": "immediate", "recurring_revenue": true, "tech_preferred": true},
+    "constraints": {
+      "budget_gbp": 2000,
+      "time_model": "part-time",
+      "team_size": "solo_or_duo",
+      "cashflow_priority": "immediate",
+      "recurring_revenue": true,
+      "tech_preferred": true
+    },
     "status": "ok"
   }
 }
