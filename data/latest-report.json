@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-25T08:00:00Z",
+  "generated_at": "2026-11-26T08:00:49Z",
   "summary": {
-    "headline": "Sell measurable workflow fixes to UK microbusinesses before building another SaaS.",
-    "best_opportunity": "Productized lead-response and booking automation for one local-service niche.",
-    "why_now": "The UK has 5.64 million small businesses (99.18% of the business population), while current search results surface UK AI adoption research and visible offers around missed-call recovery. The market is large, but specific willingness to pay must be validated directly."
+    "headline": "Sell practical, fixed-scope security and workflow fixes; do not build speculative SaaS first.",
+    "best_opportunity": "Productized cyber-hygiene readiness review for small firms.",
+    "why_now": "GOV.UK's 2025 Cyber Security Breaches Survey reports 43% of businesses experienced a breach or attack in the prior 12 months (about 612,000). Business Population Estimates 2025 counts 5.64 million UK small businesses. These show exposure and market size, not willingness to pay for this offer."
   },
   "top_opportunities": [
     {
@@ -73,13 +73,13 @@
     }
   ],
   "best_pick": {
-    "name": "Local-service lead-response automation",
-    "why_it_wins": "It couples a visible, concrete operational problem with a fast, low-cost paid service and a natural monthly support option. It avoids the long build-and-distribution cycle of SaaS; demand and pricing still need direct validation.",
-    "validation_plan": ["Choose one niche and interview 10 owners about enquiry volume, missed calls, current follow-up and the value of booked work; record actual answers, not assumed pain.", "Offer a paid 14-day pilot to three qualified businesses; success means at least one pays and agrees a measurable baseline and follow-up review."],
-    "first_offer": "£250 setup pilot for missed-enquiry capture, prompt text-back and booking handoff, plus optional £79/month monitoring after pilot; illustrative prices to test, not market-verified rates.",
-    "mvp": "A business-owned phone/SMS workflow or web-form trigger, approved message templates, booking link, minimal lead log and weekly outcome report. Keep a human in the loop; obtain consent and check provider and data-protection requirements.",
-    "customer_types": ["Independent trades and home-service operators", "Driving instructors or other appointment-led local businesses"],
-    "do_today": "Make a one-page demo using synthetic enquiries, select a single niche, and contact 10 local owners with a short discovery request—do not buy ads or build a full platform yet."
+    "name": "SME cyber-hygiene and evidence-readiness setup",
+    "why_it_wins": "It addresses a documented, consequential business risk and can be sold as a bounded service without first building software. GOV.UK's Cyber Security Breaches Survey 2025 reports 43% of businesses experienced a breach or attack in the prior year (about 612,000). This supports problem relevance, not guaranteed buyer demand. Only proceed within proven competence and a defensible scope.",
+    "validation_plan": ["Choose one local niche and speak with 10 owners about their MFA, backups, access reviews, and incident preparations; ask what they already pay for and what would prompt action.", "Offer a fixed-scope, paid pilot to three suitable firms; record conversion, delivery hours, objections, and interest in follow-up before expanding."],
+    "first_offer": "A fixed-fee, non-invasive cyber-hygiene review with a prioritised action plan; define scope and exclusions, and do not claim certification or guaranteed security.",
+    "mvp": "A documented checklist, intake form, secure evidence-handling procedure, report template, and simple booking page. No custom software initially.",
+    "customer_types": ["Small accountancy or professional-services firms", "Local service businesses with no dedicated IT/security employee"],
+    "do_today": "Select a niche, draft a safe scope and checklist, then contact 10 owners for discovery; do not advertise assurance until competence and insurance are confirmed."
   },
   "meta": {
     "audience": "UK-based solo software engineer",
